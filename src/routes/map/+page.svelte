@@ -13,9 +13,25 @@
     const countries = t.feature(worlddata as any, (worlddata as any).objects.countries);
 
     onMount(()=>{
-        let svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
+        let svg = d3.select('body')
+            .append('svg')
+            .attr('width', width)
+            .attr('height', height)
+            .attr('fill', '#FBDDA4')
+            .attr('stroke','#A49478')
+
         const g = svg.append('g');
 
-        g.selectAll('path').data(countries.features).enter().append('path').attr('class', 'countries').attr('d', path as any);
+        g.selectAll('path').data(countries.features).enter()
+            .append('path')
+            .attr('class', 'countries')
+            .attr('d', path as any)
+            .classed('countries');
+
+        console.log(document.getElementsByClassName('countries'))
     })
 </script>
+
+<svelte:head>
+    <title>World Dumpling Index</title>
+</svelte:head>
