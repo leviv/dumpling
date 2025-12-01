@@ -10,15 +10,25 @@
 	const projection = d3.geoMercator().translate([width / 2, height / 1.4]);
 	const countries = t.feature(worlddata as any, (worlddata as any).objects.countries);
 
-	let mouseOver = function (this: any, d: any) {
-		d3.selectAll('.country').transition().duration(200).style('opacity', 0.5);
-		d3.select(this).transition().duration(200).style('opacity', 1).style('stroke', 'black');
-		console.log(d);
-	};
+	export let selectedCountry: string;
 
-	let mouseLeave = function (this: any, d: any) {
+	let mouseClick = function (event: any, d: any) {
+		// Animate all other countries to the default state
 		d3.selectAll('.country').transition().duration(200).style('opacity', 0.8);
-		d3.select(this).transition().duration(200).style('stroke', 'transparent');
+		d3.selectAll('.country').transition().duration(200).style('stroke', 'transparent');
+
+		// Highlight the selected country
+		d3.select(event.currentTarget)
+			.transition()
+			.duration(200)
+			.style('opacity', 1)
+			.style('stroke', 'black');
+
+		// Get the country name
+		const countryName = d.properties?.name;
+
+		// Pass the selected country name to the parent component
+		selectedCountry = countryName;
 	};
 
 	onMount(() => {
@@ -38,20 +48,16 @@
 			.append('path')
 			.attr('d', d3.geoPath().projection(projection))
 			.style('stroke', 'transparent')
-			.attr('class', function (d: any) {
-				console.log(d.properties.name);
-				return 'country';
-			})
+			.attr('class', 'country')
 			.style('opacity', 0.8)
-			.on('mouseover', mouseOver)
-			.on('mouseleave', mouseLeave);
+			.on('click', mouseClick);
 	});
 </script>
 
 <div id="map"></div>
 
 <style>
-	.countries {
+	:global(.country) {
 		stroke-width: 0.5;
 	}
 </style>

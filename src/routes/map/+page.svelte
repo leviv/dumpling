@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Map from '../../components/Map.svelte';
 	import Sidebar from '../../components/Sidebar.svelte';
+
+	let selectedCountry: string = '';
 </script>
 
 <svelte:head>
@@ -8,8 +10,8 @@
 </svelte:head>
 
 <div class="container">
-	<Sidebar />
-	<Map />
+	<Sidebar {selectedCountry} />
+	<Map bind:selectedCountry />
 </div>
 
 <style>
