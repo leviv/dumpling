@@ -12,7 +12,7 @@
 
 	export let selectedCountry: string;
 
-	let mouseClick = function (event: any, d: any) {
+	function mouseClick(event: any, d: any) {
 		// Animate all other countries to the default state
 		d3.selectAll('.country').transition().duration(200).style('opacity', 0.8);
 		d3.selectAll('.country').transition().duration(200).style('stroke', 'transparent');
@@ -29,14 +29,14 @@
 
 		// Pass the selected country name to the parent component
 		selectedCountry = countryName;
-	};
+	}
 
 	onMount(() => {
 		let svg = d3
 			.select('#map')
 			.append('svg')
-			.attr('width', width)
-			.attr('height', height)
+			.attr('width', '100%')
+			.attr('height', '100%')
 			.attr('fill', '#FBDDA4')
 			.attr('stroke', '#A49478');
 
@@ -59,5 +59,10 @@
 <style>
 	:global(.country) {
 		stroke-width: 0.5;
+	}
+
+	#map {
+		width: 100%;
+		height: 100%;
 	}
 </style>

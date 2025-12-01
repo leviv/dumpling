@@ -16,8 +16,12 @@
 <style>
 	.container {
 		background: #dcd485;
-		width: 250px;
+		width: 350px;
 		display: flex;
 		flex-direction: column;
+		padding: 50px;
+		height: 100%;
+		overflow: scroll;
+		gap: 5px;
 	}
 </style>
