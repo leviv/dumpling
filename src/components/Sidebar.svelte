@@ -2,7 +2,16 @@
 	import Card from './Card.svelte';
 </script>
 
-<h1>Sidebar</h1>
+<div class="container">
+	<h1>Sidebar</h1>
 
-<Card />
-<Card />
+	<Card />
+	<Card />
+</div>
+
+<style>
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+</style>

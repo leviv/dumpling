@@ -23,7 +23,7 @@
 
 	onMount(() => {
 		let svg = d3
-			.select('body')
+			.select('#map')
 			.append('svg')
 			.attr('width', width)
 			.attr('height', height)
@@ -48,9 +48,7 @@
 	});
 </script>
 
-<svelte:head>
-	<title>World Dumpling Index</title>
-</svelte:head>
+<div id="map"></div>
 
 <style>
 	.countries {
