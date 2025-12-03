@@ -12,6 +12,23 @@
 
 	export let selectedCountry: string;
 
+	let zoomLevel = 1;
+	let g: d3.Selection<SVGGElement, unknown, null, undefined>;
+
+	// Panning and zooming functionality
+	const zoom = d3
+		.zoom()
+		.on('zoom', function (event) {
+			g.attr('transform', event.transform);
+			zoomLevel = event.transform.k;
+		})
+		.on('start', function () {
+			d3.select(this).classed('dragging', true);
+		})
+		.on('end', function () {
+			d3.select(this).classed('dragging', false);
+		});
+
 	function mouseClick(event: any, d: any) {
 		// Animate all other countries to the default state
 		d3.selectAll('.country').transition().duration(200).style('opacity', 0.8);
@@ -32,7 +49,7 @@
 	}
 
 	onMount(() => {
-		let svg = d3
+		const chart = d3
 			.select('#map')
 			.append('svg')
 			.attr('width', '100%')
@@ -40,7 +57,8 @@
 			.attr('fill', '#FBDDA4')
 			.attr('stroke', '#A49478');
 
-		const g = svg.append('g');
+		g = chart.append('g');
+		const svg = d3.select('svg');
 
 		g.selectAll('path')
 			.data(countries.features)
@@ -51,6 +69,9 @@
 			.attr('class', 'country')
 			.style('opacity', 0.8)
 			.on('click', mouseClick);
+
+		const initialTransform = d3.zoomIdentity.translate(0, 90);
+		svg.call(zoom).call(zoom.transform, initialTransform);
 	});
 </script>
 
@@ -59,6 +80,10 @@
 <style>
 	:global(.country) {
 		stroke-width: 0.5;
+	}
+
+	:global(.dragging) {
+		cursor: all-scroll;
 	}
 
 	#map {
