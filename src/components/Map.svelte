@@ -8,12 +8,12 @@
 	const height = 600;
 
 	const projection = d3.geoMercator().translate([width / 2, height / 1.4]);
-	const countries = t.feature(worlddata as any, (worlddata as any).objects.countries);
+	const countries = t.feature(worlddata as any, (worlddata as any).objects.countries) as any;
 
 	export let selectedCountry: string;
 
 	let zoomLevel = 1;
-	let g: d3.Selection<SVGGElement, unknown, null, undefined>;
+	let g: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
 
 	// Panning and zooming functionality
 	const zoom = d3
@@ -58,13 +58,13 @@
 			.attr('stroke', '#A49478');
 
 		g = chart.append('g');
-		const svg = d3.select('svg');
+		const svg = d3.select('svg') as any;
 
 		g.selectAll('path')
 			.data(countries.features)
 			.enter()
 			.append('path')
-			.attr('d', d3.geoPath().projection(projection))
+			.attr('d', d3.geoPath().projection(projection) as any)
 			.style('stroke', 'transparent')
 			.attr('class', 'country')
 			.style('opacity', 0.8)
