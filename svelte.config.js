@@ -15,5 +15,14 @@ export default {
       // Make config.kit.paths.base to match the current repo name
       base: process.argv.includes("dev") ? "" : process.env.BASE_PATH,
     },
+    prerender: {
+      handleHttpError: ({ path, referrer, message }) => {
+        // Ignore errors for paths that don't start with base
+        if (path && !path.startsWith(process.env.BASE_PATH || '')) {
+          return;
+        }
+        throw new Error(message);
+      }
+    }
   },
 };

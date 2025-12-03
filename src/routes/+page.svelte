@@ -2,13 +2,14 @@
     import box from '$lib/assets/tempbox.png';
     import boxgif from '$lib/assets/boxopening.gif';
     import { goto } from '$app/navigation';
+    import { base } from '$app/paths';
 
     let myimg = box;
 
     function changeImg(){
         myimg = boxgif;
         setTimeout(()=>{
-            goto('/map');
+            goto(`${base}/map`);
         }, 2000)
     }
 </script>
@@ -17,7 +18,7 @@
  <div id="landingstuff">
     <h1>World Dumpling Index</h1>
     <img id="box" alt="box with world dumpling index on it" src={myimg} on:click={changeImg}>
-    <a href="/map">Click to Enter</a>
+    <a href="{base}/map">Click to Enter</a>
  </div>
 
 <style>
