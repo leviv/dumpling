@@ -5,9 +5,9 @@
 </script>
 
 <div class="container">
-	<h1>Sidebar</h1>
+	<h1>World Dumpling Index</h1>
 
-	<p>selectedCountry: {selectedCountry}</p>
+	<p>Selected Country: {selectedCountry}</p>
 
 	<Card />
 	<Card />
