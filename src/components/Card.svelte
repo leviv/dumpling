@@ -1,10 +1,18 @@
+<script lang="ts">
+	export let dumpling: {
+		name: string;
+		tags: string[];
+	};
+</script>
+
 <div class="container">
 	<img src="./index_card.jpg" alt="Index card" />
 	<div class="content">
 		<ul>
-			<li>Country: Wonderland</li>
-			<li>Dumpling Index: 85</li>
-			<li>Favorite Dumpling: Magic Puff</li>
+			<li>{dumpling.name}</li>
+			{#each dumpling.tags as tag}
+				<li>{tag}</li>
+			{/each}
 		</ul>
 	</div>
 </div>

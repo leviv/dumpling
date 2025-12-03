@@ -1,250 +1,2937 @@
 [
-  {"country": "Albania", "dumplings": [{"name": "mantia", "tags": ["bake", "nonveg", "savory"]}]},
-  {"country": "Åland Islands", "dumplings": [{"name": "", "tags": ["", " "]}]},
-  {"country": "Algeria", "dumplings": [{"name": "tikourbabine", "tags": ["boil", "veg", "soup", "savory"]}]},
-  {"country": "American Samoa", "dumplings": [{"name": "keke pua'a", "tags": ["steam", "nonveg", "savory"]}]},
-  {"country": "Andorra", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Angola", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Anguilla", "dumplings": [{"name": "conkie", "tags": ["boil", "veg", "sweet"]}]},
-  {"country": "Antarctica", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Antigua and Barbuda", "dumplings": [{"name": "duncana", "tags": ["roast", "veg", "sweet"]}]},
-  {"country": "Argentina", "dumplings": [{"name": "empanada", "tags": ["baked","savory", "nonveg"]}]},
-  {"country": "Armenia", "dumplings": [{"name": "", "tags": ["sini manti", "baked", "nonveg", "savory"]}]},
-  {"country": "Aruba", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Australia", "dumplings": [{"name": "dim sim", "tags": ["steam", "fry", "nonveg", "savory"]}]},
-  {"country": "Austria", "dumplings": [{"name": "eiernockerl", "tags": ["boil", "savory", "veg"]}]},
-  {"country": "Azerbaijan", "dumplings": [{"name": "dushbara", "tags": ["boil", "soup", "nonveg", "savory"]}]},
-  {"country": "Bahamas (the)", "dumplings": [{"name": "peas and dumpling soup", "tags": ["boil", "soup", "nonveg", "savory"]}]},
-  {"country": "Bahrain", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Bangladesh", "dumplings": [{"name": "mera pitha", "tags": ["steam", "veg", "sweet"]}]},
-  {"country": "Barbados", "dumplings": [{"name": "bajan conkie", "tags": ["steam", "sweet", "veg"]}]},
-  {"country": "Belarus", "dumplings": [{"name": "kletski", "tags": ["boil", "savory", "veg"]}]},
-  {"country": "Belgium", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Belize", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Benin", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Bermuda", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Bhutan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Bolivia (Plurinational State of)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Bonaire, Sint Eustatius and Saba", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Bosnia and Herzegovina", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Botswana", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Bouvet Island", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Brazil", "dumplings": [{"name": "coxinha", "tags": ["fry", "nonveg", "savory"]}]},
-  {"country": "British Indian Ocean Territory (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Brunei Darussalam", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Bulgaria", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Burkina Faso", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Burundi", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Cabo Verde", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Cambodia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Cameroon", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Canada", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Cayman Islands (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Central African Republic (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Chad", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Chile", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "China", "dumplings": [{"name": "xiaolongbao", "tags": ["steam", "nonveg", "savory"]}, {"name": "ang ku kueh", "tags": ["steam", "veg", "sweet"]}]},
-  {"country": "Christmas Island", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Cocos (Keeling) Islands (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Colombia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Comoros (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Congo (the Democratic Republic of the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Congo (the)", "dumplings": "G"},
-  {"country": "Cook Islands (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Costa Rica", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Croatia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Cuba", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Curaçao", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Cyprus", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Czechia", "dumplings": [{"name": "knedlíky", "tags": ["boil", "veg", "savory"]}]},
-  {"country": "Côte d'Ivoire", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Denmark", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Djibouti", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Dominica", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Dominican Republic (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Ecuador", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Egypt", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "El Salvador", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Equatorial Guinea", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Eritrea", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Estonia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Eswatini", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Ethiopia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Falkland Islands (the) [Malvinas]", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Faroe Islands (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Fiji", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Finland", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "France", "dumplings": [{"name": "raviole du dauphiné", "tags": ["boil", "veg", "savory"]}]},
-  {"country": "French Guiana", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "French Polynesia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "French Southern Territories (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Gabon", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Gambia (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Georgia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Germany", "dumplings": [{"name": "kartoffelklöse", "tags": ["boil", "nonveg", "savory"]}]},
-  {"country": "Ghana", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Gibraltar", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Greece", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Greenland", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Grenada", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Guadeloupe", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Guam", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Guatemala", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Guernsey", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Guinea", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Guinea-Bissau", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Guyana", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Haiti", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Heard Island and McDonald Islands", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Holy See (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Honduras", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Hong Kong", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Hungary", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Iceland", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "India", "dumplings": [{"name": "ada", "tags": ["steam", "sweet", "veg"]}]},
-  {"country": "Indonesia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Iran (Islamic Republic of)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Iraq", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Ireland", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Isle of Man", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Israel", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Italy", "dumplings": [{"name": "gnocchi", "tags": ["boil", "veg", "savory"]}]},
-  {"country": "Jamaica", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Japan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Jersey", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Jordan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Kazakhstan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Kenya", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Kiribati", "dumplings": "I"},
-  {"country": "Korea (the Democratic People's Republic of)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Korea (the Republic of)", "dumplings": [{"name": "mandu", "tags": ["boil", "panfry", "steam", "savory", "nonveg"]}]},
-  {"country": "Kuwait", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Kyrgyzstan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Lao People's Democratic Republic (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Latvia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Lebanon", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Lesotho", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Liberia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Libya", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Liechtenstein", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Lithuania", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Luxembourg", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Macao", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Madagascar", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Malawi", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Malaysia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Maldives", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Mali", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Malta", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Marshall Islands (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Martinique", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Mauritania", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Mauritius", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Mayotte", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Mexico", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Micronesia (Federated States of)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Moldova (the Republic of)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Monaco", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Mongolia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Montenegro", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Montserrat", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Morocco", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Mozambique", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Myanmar", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Namibia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Nauru", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Nepal", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Netherlands (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "New Caledonia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "New Zealand", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Nicaragua", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Niger (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Nigeria", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Niue", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Norfolk Island", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Northern Mariana Islands (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Norway", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Oman", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Pakistan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Palau", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Palestine, State of", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Panama", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Papua New Guinea", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Paraguay", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Peru", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Philippines (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Pitcairn", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Poland", "dumplings": [{"name": "pierogi", "tags": ["boil", "veg", "savory", "sweet"]}]},
-  {"country": "Portugal", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Puerto Rico", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Qatar", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Republic of North Macedonia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Romania", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Russian Federation (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Rwanda", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Réunion", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Saint Barthélemy", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Saint Helena, Ascension and Tristan da Cunha", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Saint Kitts and Nevis", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Saint Lucia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Saint Martin (French part)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Saint Pierre and Miquelon", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Saint Vincent and the Grenadines", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Samoa", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "San Marino", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Sao Tome and Principe", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Saudi Arabia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Senegal", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Serbia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Seychelles", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Sierra Leone", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Singapore", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Sint Maarten (Dutch part)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Slovakia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Slovenia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Solomon Islands", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Somalia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "South Africa", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "South Georgia and the South Sandwich Islands", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "South Sudan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Spain", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Sri Lanka", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Sudan (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Suricountry", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Svalbard and Jan Mayen", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Sweden", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Switzerland", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Syrian Arab Republic", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Taiwan (Province of China)", "dumplings": [{"name": "ba-wan", "tags": ["steam", "nonveg", "savory"]}]},
-  {"country": "Tajikistan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Tanzania, United Republic of", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Thailand", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Timor-Leste", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Togo", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Tokelau", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Tonga", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Trinidad and Tobago", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Tunisia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Turkey", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Turkmenistan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Turks and Caicos Islands (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Tuvalu", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Uganda", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Ukraine", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "United Arab Emirates (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "United Kingdom of Great Britain and Northern Ireland (the)", "dumplings": [{"name": "suet dumplings", "tags": ["boil", "nonveg", "savory"]}]},
-  {"country": "United States Minor Outlying Islands (the)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "United States of America (the)", "dumplings": [{"name": "apple dumpling", "tags": ["bake", "sweet", "veg"]}]},
-  {"country": "Uruguay", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Uzbekistan", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Vanuatu", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Venezuela (Bolivarian Republic of)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Viet Nam", "dumplings": [{"name": "bánh chưng", "tags": ["steam", "nonveg", "savory"]}]},
-  {"country": "Virgin Islands (British)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Virgin Islands (U.S.)", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Wallis and Futuna", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Western Sahara", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Yemen", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Zambia", "dumplings": [{"name": "", "tags": [" ", " "]}]},
-  {"country": "Zimbabwe", "dumplings": [{"name": "", "tags": [" ", " "]}]}
+  {
+    "country": "Afghanistan",
+    "dumplings": [
+      {
+        "name": "Afghanistan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Åland",
+    "dumplings": [
+      {
+        "name": "Åland Islands dumpling",
+        "tags": [
+          "",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Albania",
+    "dumplings": [
+      {
+        "name": "mantia",
+        "tags": [
+          "bake",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Algeria",
+    "dumplings": [
+      {
+        "name": "tikourbabine",
+        "tags": [
+          "boil",
+          "veg",
+          "soup",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "American Samoa",
+    "dumplings": [
+      {
+        "name": "keke pua'a",
+        "tags": [
+          "steam",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Andorra",
+    "dumplings": [
+      {
+        "name": "Andorra dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Angola",
+    "dumplings": [
+      {
+        "name": "Angola dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Anguilla",
+    "dumplings": [
+      {
+        "name": "conkie",
+        "tags": [
+          "boil",
+          "veg",
+          "sweet"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Antarctica",
+    "dumplings": [
+      {
+        "name": "Antarctica dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Antigua and Barb.",
+    "dumplings": [
+      {
+        "name": "duncana",
+        "tags": [
+          "roast",
+          "veg",
+          "sweet"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Argentina",
+    "dumplings": [
+      {
+        "name": "empanada",
+        "tags": [
+          "baked",
+          "savory",
+          "nonveg"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Armenia",
+    "dumplings": [
+      {
+        "name": "Armenia dumpling",
+        "tags": [
+          "sini manti",
+          "baked",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Aruba",
+    "dumplings": [
+      {
+        "name": "Aruba dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Ashmore and Cartier Is.",
+    "dumplings": [
+      {
+        "name": "Ashmore and Cartier Is. dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Australia",
+    "dumplings": [
+      {
+        "name": "dim sim",
+        "tags": [
+          "steam",
+          "fry",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Austria",
+    "dumplings": [
+      {
+        "name": "eiernockerl",
+        "tags": [
+          "boil",
+          "savory",
+          "veg"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Azerbaijan",
+    "dumplings": [
+      {
+        "name": "dushbara",
+        "tags": [
+          "boil",
+          "soup",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Bahamas",
+    "dumplings": [
+      {
+        "name": "peas and dumpling soup",
+        "tags": [
+          "boil",
+          "soup",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Bahrain",
+    "dumplings": [
+      {
+        "name": "Bahrain dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Bangladesh",
+    "dumplings": [
+      {
+        "name": "mera pitha",
+        "tags": [
+          "steam",
+          "veg",
+          "sweet"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Barbados",
+    "dumplings": [
+      {
+        "name": "bajan conkie",
+        "tags": [
+          "steam",
+          "sweet",
+          "veg"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Belarus",
+    "dumplings": [
+      {
+        "name": "kletski",
+        "tags": [
+          "boil",
+          "savory",
+          "veg"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Belgium",
+    "dumplings": [
+      {
+        "name": "Belgium dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Belize",
+    "dumplings": [
+      {
+        "name": "Belize dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Benin",
+    "dumplings": [
+      {
+        "name": "Benin dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Bermuda",
+    "dumplings": [
+      {
+        "name": "Bermuda dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Bhutan",
+    "dumplings": [
+      {
+        "name": "Bhutan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Bolivia",
+    "dumplings": [
+      {
+        "name": "Bolivia (Plurinational State of) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Bosnia and Herz.",
+    "dumplings": [
+      {
+        "name": "Bosnia and Herzegovina dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Botswana",
+    "dumplings": [
+      {
+        "name": "Botswana dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Br. Indian Ocean Ter.",
+    "dumplings": [
+      {
+        "name": "British Indian Ocean Territory (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Brazil",
+    "dumplings": [
+      {
+        "name": "coxinha",
+        "tags": [
+          "fry",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "British Virgin Is.",
+    "dumplings": [
+      {
+        "name": "Virgin Islands (British) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Brunei",
+    "dumplings": [
+      {
+        "name": "Brunei Darussalam dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Bulgaria",
+    "dumplings": [
+      {
+        "name": "Bulgaria dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Burkina Faso",
+    "dumplings": [
+      {
+        "name": "Burkina Faso dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Burundi",
+    "dumplings": [
+      {
+        "name": "Burundi dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Cabo Verde",
+    "dumplings": [
+      {
+        "name": "Cabo Verde dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Cambodia",
+    "dumplings": [
+      {
+        "name": "Cambodia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Cameroon",
+    "dumplings": [
+      {
+        "name": "Cameroon dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Canada",
+    "dumplings": [
+      {
+        "name": "Canada dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Cayman Is.",
+    "dumplings": [
+      {
+        "name": "Cayman Islands (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Central African Rep.",
+    "dumplings": [
+      {
+        "name": "Central African Republic (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Chad",
+    "dumplings": [
+      {
+        "name": "Chad dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Chile",
+    "dumplings": [
+      {
+        "name": "Chile dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "China",
+    "dumplings": [
+      {
+        "name": "xiaolongbao",
+        "tags": [
+          "steam",
+          "nonveg",
+          "savory"
+        ]
+      },
+      {
+        "name": "ang ku kueh",
+        "tags": [
+          "steam",
+          "veg",
+          "sweet"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Colombia",
+    "dumplings": [
+      {
+        "name": "Colombia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Comoros",
+    "dumplings": [
+      {
+        "name": "Comoros (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Congo",
+    "dumplings": [
+      {
+        "name": "Congo (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Cook Is.",
+    "dumplings": [
+      {
+        "name": "Cook Islands (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Costa Rica",
+    "dumplings": [
+      {
+        "name": "Costa Rica dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Côte d'Ivoire",
+    "dumplings": [
+      {
+        "name": "Côte d'Ivoire dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Croatia",
+    "dumplings": [
+      {
+        "name": "Croatia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Cuba",
+    "dumplings": [
+      {
+        "name": "Cuba dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Curaçao",
+    "dumplings": [
+      {
+        "name": "Curaçao dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Cyprus",
+    "dumplings": [
+      {
+        "name": "Cyprus dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Czechia",
+    "dumplings": [
+      {
+        "name": "knedlíky",
+        "tags": [
+          "boil",
+          "veg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Dem. Rep. Congo",
+    "dumplings": [
+      {
+        "name": "Congo (the Democratic Republic of the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Denmark",
+    "dumplings": [
+      {
+        "name": "Denmark dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Djibouti",
+    "dumplings": [
+      {
+        "name": "Djibouti dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Dominica",
+    "dumplings": [
+      {
+        "name": "Dominica dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Dominican Rep.",
+    "dumplings": [
+      {
+        "name": "Dominican Republic (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Ecuador",
+    "dumplings": [
+      {
+        "name": "Ecuador dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Egypt",
+    "dumplings": [
+      {
+        "name": "Egypt dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "El Salvador",
+    "dumplings": [
+      {
+        "name": "El Salvador dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Eq. Guinea",
+    "dumplings": [
+      {
+        "name": "Equatorial Guinea dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Eritrea",
+    "dumplings": [
+      {
+        "name": "Eritrea dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Estonia",
+    "dumplings": [
+      {
+        "name": "Estonia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "eSwatini",
+    "dumplings": [
+      {
+        "name": "Eswatini dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Ethiopia",
+    "dumplings": [
+      {
+        "name": "Ethiopia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Faeroe Is.",
+    "dumplings": [
+      {
+        "name": "Faroe Islands (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Falkland Is.",
+    "dumplings": [
+      {
+        "name": "Falkland Islands (the) [Malvinas] dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Fiji",
+    "dumplings": [
+      {
+        "name": "Fiji dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Finland",
+    "dumplings": [
+      {
+        "name": "Finland dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Fr. Polynesia",
+    "dumplings": [
+      {
+        "name": "French Polynesia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Fr. S. Antarctic Lands",
+    "dumplings": [
+      {
+        "name": "French Southern Territories (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "France",
+    "dumplings": [
+      {
+        "name": "raviole du dauphiné",
+        "tags": [
+          "boil",
+          "veg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Gabon",
+    "dumplings": [
+      {
+        "name": "Gabon dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Gambia",
+    "dumplings": [
+      {
+        "name": "Gambia (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Georgia",
+    "dumplings": [
+      {
+        "name": "Georgia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Germany",
+    "dumplings": [
+      {
+        "name": "kartoffelklöse",
+        "tags": [
+          "boil",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Ghana",
+    "dumplings": [
+      {
+        "name": "Ghana dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Greece",
+    "dumplings": [
+      {
+        "name": "Greece dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Greenland",
+    "dumplings": [
+      {
+        "name": "Greenland dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Grenada",
+    "dumplings": [
+      {
+        "name": "Grenada dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Guam",
+    "dumplings": [
+      {
+        "name": "Guam dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Guatemala",
+    "dumplings": [
+      {
+        "name": "Guatemala dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Guernsey",
+    "dumplings": [
+      {
+        "name": "Guernsey dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Guinea",
+    "dumplings": [
+      {
+        "name": "Guinea dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Guinea-Bissau",
+    "dumplings": [
+      {
+        "name": "Guinea-Bissau dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Guyana",
+    "dumplings": [
+      {
+        "name": "Guyana dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Haiti",
+    "dumplings": [
+      {
+        "name": "Haiti dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Heard I. and McDonald Is.",
+    "dumplings": [
+      {
+        "name": "Heard Island and McDonald Islands dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Honduras",
+    "dumplings": [
+      {
+        "name": "Honduras dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Hong Kong",
+    "dumplings": [
+      {
+        "name": "Hong Kong dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Hungary",
+    "dumplings": [
+      {
+        "name": "Hungary dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Iceland",
+    "dumplings": [
+      {
+        "name": "Iceland dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "India",
+    "dumplings": [
+      {
+        "name": "ada",
+        "tags": [
+          "steam",
+          "sweet",
+          "veg"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Indian Ocean Ter.",
+    "dumplings": [
+      {
+        "name": "Indian Ocean Ter. dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Indonesia",
+    "dumplings": [
+      {
+        "name": "Indonesia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Iran",
+    "dumplings": [
+      {
+        "name": "Iran (Islamic Republic of) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Iraq",
+    "dumplings": [
+      {
+        "name": "Iraq dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Ireland",
+    "dumplings": [
+      {
+        "name": "Ireland dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Isle of Man",
+    "dumplings": [
+      {
+        "name": "Isle of Man dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Israel",
+    "dumplings": [
+      {
+        "name": "Israel dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "dumplings": [
+      {
+        "name": "gnocchi",
+        "tags": [
+          "boil",
+          "veg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Jamaica",
+    "dumplings": [
+      {
+        "name": "Jamaica dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "dumplings": [
+      {
+        "name": "Japan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Jersey",
+    "dumplings": [
+      {
+        "name": "Jersey dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Jordan",
+    "dumplings": [
+      {
+        "name": "Jordan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Kazakhstan",
+    "dumplings": [
+      {
+        "name": "Kazakhstan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "dumplings": [
+      {
+        "name": "Kenya dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Kiribati",
+    "dumplings": [
+      {
+        "name": "Kiribati dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Kosovo",
+    "dumplings": [
+      {
+        "name": "Kosovo dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Kuwait",
+    "dumplings": [
+      {
+        "name": "Kuwait dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Kyrgyzstan",
+    "dumplings": [
+      {
+        "name": "Kyrgyzstan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Laos",
+    "dumplings": [
+      {
+        "name": "Lao People's Democratic Republic (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Latvia",
+    "dumplings": [
+      {
+        "name": "Latvia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Lebanon",
+    "dumplings": [
+      {
+        "name": "Lebanon dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Lesotho",
+    "dumplings": [
+      {
+        "name": "Lesotho dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Liberia",
+    "dumplings": [
+      {
+        "name": "Liberia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Libya",
+    "dumplings": [
+      {
+        "name": "Libya dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Liechtenstein",
+    "dumplings": [
+      {
+        "name": "Liechtenstein dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Lithuania",
+    "dumplings": [
+      {
+        "name": "Lithuania dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Luxembourg",
+    "dumplings": [
+      {
+        "name": "Luxembourg dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Macao",
+    "dumplings": [
+      {
+        "name": "Macao dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Macedonia",
+    "dumplings": [
+      {
+        "name": "Republic of North Macedonia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Madagascar",
+    "dumplings": [
+      {
+        "name": "Madagascar dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Malawi",
+    "dumplings": [
+      {
+        "name": "Malawi dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Malaysia",
+    "dumplings": [
+      {
+        "name": "Malaysia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Maldives",
+    "dumplings": [
+      {
+        "name": "Maldives dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Mali",
+    "dumplings": [
+      {
+        "name": "Mali dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Malta",
+    "dumplings": [
+      {
+        "name": "Malta dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Marshall Is.",
+    "dumplings": [
+      {
+        "name": "Marshall Islands (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Mauritania",
+    "dumplings": [
+      {
+        "name": "Mauritania dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Mauritius",
+    "dumplings": [
+      {
+        "name": "Mauritius dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Mexico",
+    "dumplings": [
+      {
+        "name": "Mexico dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Micronesia",
+    "dumplings": [
+      {
+        "name": "Micronesia (Federated States of) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Moldova",
+    "dumplings": [
+      {
+        "name": "Moldova (the Republic of) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Monaco",
+    "dumplings": [
+      {
+        "name": "Monaco dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Mongolia",
+    "dumplings": [
+      {
+        "name": "Mongolia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Montenegro",
+    "dumplings": [
+      {
+        "name": "Montenegro dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Montserrat",
+    "dumplings": [
+      {
+        "name": "Montserrat dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Morocco",
+    "dumplings": [
+      {
+        "name": "Morocco dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Mozambique",
+    "dumplings": [
+      {
+        "name": "Mozambique dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Myanmar",
+    "dumplings": [
+      {
+        "name": "Myanmar dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "N. Cyprus",
+    "dumplings": [
+      {
+        "name": "N. Cyprus dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "N. Mariana Is.",
+    "dumplings": [
+      {
+        "name": "Northern Mariana Islands (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Namibia",
+    "dumplings": [
+      {
+        "name": "Namibia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Nauru",
+    "dumplings": [
+      {
+        "name": "Nauru dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Nepal",
+    "dumplings": [
+      {
+        "name": "Nepal dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Netherlands",
+    "dumplings": [
+      {
+        "name": "Netherlands (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "New Caledonia",
+    "dumplings": [
+      {
+        "name": "New Caledonia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "New Zealand",
+    "dumplings": [
+      {
+        "name": "New Zealand dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Nicaragua",
+    "dumplings": [
+      {
+        "name": "Nicaragua dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Niger",
+    "dumplings": [
+      {
+        "name": "Niger (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Nigeria",
+    "dumplings": [
+      {
+        "name": "Nigeria dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Niue",
+    "dumplings": [
+      {
+        "name": "Niue dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Norfolk Island",
+    "dumplings": [
+      {
+        "name": "Norfolk Island dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "North Korea",
+    "dumplings": [
+      {
+        "name": "Korea (the Democratic People's Republic of) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Norway",
+    "dumplings": [
+      {
+        "name": "Norway dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Oman",
+    "dumplings": [
+      {
+        "name": "Oman dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Pakistan",
+    "dumplings": [
+      {
+        "name": "Pakistan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Palau",
+    "dumplings": [
+      {
+        "name": "Palau dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Palestine",
+    "dumplings": [
+      {
+        "name": "Palestine, State of dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Panama",
+    "dumplings": [
+      {
+        "name": "Panama dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Papua New Guinea",
+    "dumplings": [
+      {
+        "name": "Papua New Guinea dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Paraguay",
+    "dumplings": [
+      {
+        "name": "Paraguay dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Peru",
+    "dumplings": [
+      {
+        "name": "Peru dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Philippines",
+    "dumplings": [
+      {
+        "name": "Philippines (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Pitcairn Is.",
+    "dumplings": [
+      {
+        "name": "Pitcairn dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Poland",
+    "dumplings": [
+      {
+        "name": "pierogi",
+        "tags": [
+          "boil",
+          "veg",
+          "savory",
+          "sweet"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Portugal",
+    "dumplings": [
+      {
+        "name": "Portugal dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Puerto Rico",
+    "dumplings": [
+      {
+        "name": "Puerto Rico dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Qatar",
+    "dumplings": [
+      {
+        "name": "Qatar dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Romania",
+    "dumplings": [
+      {
+        "name": "Romania dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Russia",
+    "dumplings": [
+      {
+        "name": "Russian Federation (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Rwanda",
+    "dumplings": [
+      {
+        "name": "Rwanda dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "S. Geo. and the Is.",
+    "dumplings": [
+      {
+        "name": "South Georgia and the South Sandwich Islands dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "S. Sudan",
+    "dumplings": [
+      {
+        "name": "South Sudan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Saint Helena",
+    "dumplings": [
+      {
+        "name": "Saint Helena, Ascension and Tristan da Cunha dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Saint Lucia",
+    "dumplings": [
+      {
+        "name": "Saint Lucia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Samoa",
+    "dumplings": [
+      {
+        "name": "Samoa dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "San Marino",
+    "dumplings": [
+      {
+        "name": "San Marino dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "São Tomé and Principe",
+    "dumplings": [
+      {
+        "name": "Sao Tome and Principe dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Saudi Arabia",
+    "dumplings": [
+      {
+        "name": "Saudi Arabia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Senegal",
+    "dumplings": [
+      {
+        "name": "Senegal dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Serbia",
+    "dumplings": [
+      {
+        "name": "Serbia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Seychelles",
+    "dumplings": [
+      {
+        "name": "Seychelles dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Siachen Glacier",
+    "dumplings": [
+      {
+        "name": "Siachen Glacier dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Sierra Leone",
+    "dumplings": [
+      {
+        "name": "Sierra Leone dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Singapore",
+    "dumplings": [
+      {
+        "name": "Singapore dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Sint Maarten",
+    "dumplings": [
+      {
+        "name": "Sint Maarten (Dutch part) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Slovakia",
+    "dumplings": [
+      {
+        "name": "Slovakia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Slovenia",
+    "dumplings": [
+      {
+        "name": "Slovenia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Solomon Is.",
+    "dumplings": [
+      {
+        "name": "Solomon Islands dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Somalia",
+    "dumplings": [
+      {
+        "name": "Somalia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Somaliland",
+    "dumplings": [
+      {
+        "name": "Somaliland dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "South Africa",
+    "dumplings": [
+      {
+        "name": "South Africa dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "South Korea",
+    "dumplings": [
+      {
+        "name": "mandu",
+        "tags": [
+          "boil",
+          "panfry",
+          "steam",
+          "savory",
+          "nonveg"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "dumplings": [
+      {
+        "name": "Spain dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Sri Lanka",
+    "dumplings": [
+      {
+        "name": "Sri Lanka dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "St-Barthélemy",
+    "dumplings": [
+      {
+        "name": "Saint Barthélemy dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "St-Martin",
+    "dumplings": [
+      {
+        "name": "Saint Martin (French part) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "St. Kitts and Nevis",
+    "dumplings": [
+      {
+        "name": "Saint Kitts and Nevis dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "St. Pierre and Miquelon",
+    "dumplings": [
+      {
+        "name": "Saint Pierre and Miquelon dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "St. Vin. and Gren.",
+    "dumplings": [
+      {
+        "name": "Saint Vincent and the Grenadines dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Sudan",
+    "dumplings": [
+      {
+        "name": "Sudan (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Suriname",
+    "dumplings": [
+      {
+        "name": "Suriname dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Sweden",
+    "dumplings": [
+      {
+        "name": "Sweden dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "dumplings": [
+      {
+        "name": "Switzerland dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Syria",
+    "dumplings": [
+      {
+        "name": "Syrian Arab Republic dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Taiwan",
+    "dumplings": [
+      {
+        "name": "ba-wan",
+        "tags": [
+          "steam",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Tajikistan",
+    "dumplings": [
+      {
+        "name": "Tajikistan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "dumplings": [
+      {
+        "name": "Tanzania, United Republic of dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Thailand",
+    "dumplings": [
+      {
+        "name": "Thailand dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Timor-Leste",
+    "dumplings": [
+      {
+        "name": "Timor-Leste dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Togo",
+    "dumplings": [
+      {
+        "name": "Togo dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Tonga",
+    "dumplings": [
+      {
+        "name": "Tonga dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "dumplings": [
+      {
+        "name": "Trinidad and Tobago dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Tunisia",
+    "dumplings": [
+      {
+        "name": "Tunisia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Turkey",
+    "dumplings": [
+      {
+        "name": "Turkey dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Turkmenistan",
+    "dumplings": [
+      {
+        "name": "Turkmenistan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Turks and Caicos Is.",
+    "dumplings": [
+      {
+        "name": "Turks and Caicos Islands (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "U.S. Virgin Is.",
+    "dumplings": [
+      {
+        "name": "Virgin Islands (U.S.) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "dumplings": [
+      {
+        "name": "Uganda dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Ukraine",
+    "dumplings": [
+      {
+        "name": "Ukraine dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "United Arab Emirates",
+    "dumplings": [
+      {
+        "name": "United Arab Emirates (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "United Kingdom",
+    "dumplings": [
+      {
+        "name": "suet dumplings",
+        "tags": [
+          "boil",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "United States of America",
+    "dumplings": [
+      {
+        "name": "apple dumpling",
+        "tags": [
+          "bake",
+          "sweet",
+          "veg"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Uruguay",
+    "dumplings": [
+      {
+        "name": "Uruguay dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Uzbekistan",
+    "dumplings": [
+      {
+        "name": "Uzbekistan dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Vanuatu",
+    "dumplings": [
+      {
+        "name": "Vanuatu dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Vatican",
+    "dumplings": [
+      {
+        "name": "Holy See (the) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Venezuela",
+    "dumplings": [
+      {
+        "name": "Venezuela (Bolivarian Republic of) dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Vietnam",
+    "dumplings": [
+      {
+        "name": "bánh chưng",
+        "tags": [
+          "steam",
+          "nonveg",
+          "savory"
+        ]
+      }
+    ]
+  },
+  {
+    "country": "W. Sahara",
+    "dumplings": [
+      {
+        "name": "Western Sahara dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Wallis and Futuna Is.",
+    "dumplings": [
+      {
+        "name": "Wallis and Futuna dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Yemen",
+    "dumplings": [
+      {
+        "name": "Yemen dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Zambia",
+    "dumplings": [
+      {
+        "name": "Zambia dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  },
+  {
+    "country": "Zimbabwe",
+    "dumplings": [
+      {
+        "name": "Zimbabwe dumpling",
+        "tags": [
+          " ",
+          " "
+        ]
+      }
+    ]
+  }
 ]

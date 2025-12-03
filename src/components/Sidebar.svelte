@@ -1,7 +1,11 @@
 <script lang="ts">
 	import Card from './Card.svelte';
+	import dumplings from '$lib/dumplings.json';
 
 	export let selectedCountry: string;
+
+	$: dumplingInfo = dumplings.find((d) => d.country === selectedCountry);
+	console.log(dumplingInfo);
 </script>
 
 <div class="container">
@@ -9,8 +13,9 @@
 
 	<p>Selected Country: {selectedCountry}</p>
 
-	<Card />
-	<Card />
+	{#each dumplingInfo?.dumplings as dumpling}
+		<Card {dumpling} />
+	{/each}
 </div>
 
 <style>
