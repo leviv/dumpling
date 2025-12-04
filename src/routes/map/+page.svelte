@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Map from '../../components/Map.svelte';
 	import Sidebar from '../../components/Sidebar.svelte';
+	import Disclaimer from '../../components/Disclaimer.svelte';
 
 	let selectedCountry: string = '';
 </script>
@@ -13,6 +14,7 @@
 	<Sidebar {selectedCountry} />
 	<Map bind:selectedCountry />
 </div>
+<Disclaimer/>
 
 <style>
 	:global(body) {
