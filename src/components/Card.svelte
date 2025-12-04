@@ -1,6 +1,7 @@
 <script lang="ts">
 	export let dumpling: {
 		name: string;
+		desc: string;
 		tags: string[];
 	};
 </script>
@@ -9,7 +10,8 @@
 	<img src="./index_card.jpg" alt="Index card" />
 	<div class="content">
 		<ul>
-			<li>{dumpling.name}</li>
+			<h3>{dumpling.name}</h3>
+			<p>{dumpling.desc}</p>
 			{#each dumpling.tags as tag}
 				<li>{tag}</li>
 			{/each}
@@ -18,6 +20,10 @@
 </div>
 
 <style>
+	li{
+		margin-left:20px;
+	}
+
 	.container {
 		position: relative;
 		width: calc(497px * 0.6);

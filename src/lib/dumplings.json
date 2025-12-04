@@ -3,10 +3,21 @@
     "country": "Afghanistan",
     "dumplings": [
       {
-        "name": "Afghanistan dumpling",
+        "name": "Mantu",
+        "desc": "A thin dough filled with beef or lamb mixed in onions and spices.",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
+      },
+      {
+        "name": "Aushak",
+        "desc": "Dumplings filled with chives, served with a (frequently meaty) tomato sauce, and topped with yogurt and dried mint.",
+        "tags": [
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -15,10 +26,11 @@
     "country": "Åland",
     "dumplings": [
       {
-        "name": "Åland Islands dumpling",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "tags": [
           "",
-          " "
+          ""
         ]
       }
     ]
@@ -27,11 +39,12 @@
     "country": "Albania",
     "dumplings": [
       {
-        "name": "mantia",
+        "name": "Mantia",
+        "desc": " ",
         "tags": [
           "bake",
-          "nonveg",
-          "savory"
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -40,12 +53,13 @@
     "country": "Algeria",
     "dumplings": [
       {
-        "name": "tikourbabine",
+        "name": "Tikourbabine",
+        "desc": " ",
         "tags": [
-          "boil",
-          "veg",
+          "Boiled",
+          "Vegetarian",
           "soup",
-          "savory"
+          "Savory"
         ]
       }
     ]
@@ -55,10 +69,11 @@
     "dumplings": [
       {
         "name": "keke pua'a",
+        "desc": " ",
         "tags": [
-          "steam",
-          "nonveg",
-          "savory"
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -68,6 +83,7 @@
     "dumplings": [
       {
         "name": "Andorra dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -80,6 +96,7 @@
     "dumplings": [
       {
         "name": "Angola dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -92,10 +109,11 @@
     "dumplings": [
       {
         "name": "conkie",
+        "desc": " ",
         "tags": [
-          "boil",
-          "veg",
-          "sweet"
+          "Boiled",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -105,6 +123,7 @@
     "dumplings": [
       {
         "name": "Antarctica dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -117,10 +136,11 @@
     "dumplings": [
       {
         "name": "duncana",
+        "desc": " ",
         "tags": [
           "roast",
-          "veg",
-          "sweet"
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -130,10 +150,11 @@
     "dumplings": [
       {
         "name": "empanada",
+        "desc": " ",
         "tags": [
           "baked",
-          "savory",
-          "nonveg"
+          "Savory",
+          "Traditionally Non-Vegetarian"
         ]
       }
     ]
@@ -143,11 +164,12 @@
     "dumplings": [
       {
         "name": "Armenia dumpling",
+        "desc": " ",
         "tags": [
           "sini manti",
           "baked",
-          "nonveg",
-          "savory"
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -157,6 +179,7 @@
     "dumplings": [
       {
         "name": "Aruba dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -169,6 +192,7 @@
     "dumplings": [
       {
         "name": "Ashmore and Cartier Is. dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -181,11 +205,12 @@
     "dumplings": [
       {
         "name": "dim sim",
+        "desc": " ",
         "tags": [
-          "steam",
+          "Steamed",
           "fry",
-          "nonveg",
-          "savory"
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -195,10 +220,11 @@
     "dumplings": [
       {
         "name": "eiernockerl",
+        "desc": " ",
         "tags": [
-          "boil",
-          "savory",
-          "veg"
+          "Boiled",
+          "Savory",
+          "Vegetarian"
         ]
       }
     ]
@@ -208,11 +234,12 @@
     "dumplings": [
       {
         "name": "dushbara",
+        "desc": " ",
         "tags": [
-          "boil",
+          "Boiled",
           "soup",
-          "nonveg",
-          "savory"
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -222,11 +249,12 @@
     "dumplings": [
       {
         "name": "peas and dumpling soup",
+        "desc": " ",
         "tags": [
-          "boil",
+          "Boiled",
           "soup",
-          "nonveg",
-          "savory"
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -236,6 +264,7 @@
     "dumplings": [
       {
         "name": "Bahrain dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -248,10 +277,11 @@
     "dumplings": [
       {
         "name": "mera pitha",
+        "desc": " ",
         "tags": [
-          "steam",
-          "veg",
-          "sweet"
+          "Steamed",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -261,10 +291,11 @@
     "dumplings": [
       {
         "name": "bajan conkie",
+        "desc": " ",
         "tags": [
-          "steam",
-          "sweet",
-          "veg"
+          "Steamed",
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -274,10 +305,11 @@
     "dumplings": [
       {
         "name": "kletski",
+        "desc": " ",
         "tags": [
-          "boil",
-          "savory",
-          "veg"
+          "Boiled",
+          "Savory",
+          "Vegetarian"
         ]
       }
     ]
@@ -287,6 +319,7 @@
     "dumplings": [
       {
         "name": "Belgium dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -299,6 +332,7 @@
     "dumplings": [
       {
         "name": "Belize dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -311,6 +345,7 @@
     "dumplings": [
       {
         "name": "Benin dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -323,6 +358,7 @@
     "dumplings": [
       {
         "name": "Bermuda dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -335,6 +371,7 @@
     "dumplings": [
       {
         "name": "Bhutan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -347,6 +384,7 @@
     "dumplings": [
       {
         "name": "Bolivia (Plurinational State of) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -359,6 +397,7 @@
     "dumplings": [
       {
         "name": "Bosnia and Herzegovina dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -371,6 +410,7 @@
     "dumplings": [
       {
         "name": "Botswana dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -383,6 +423,7 @@
     "dumplings": [
       {
         "name": "British Indian Ocean Territory (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -395,10 +436,11 @@
     "dumplings": [
       {
         "name": "coxinha",
+        "desc": " ",
         "tags": [
           "fry",
-          "nonveg",
-          "savory"
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -408,6 +450,7 @@
     "dumplings": [
       {
         "name": "Virgin Islands (British) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -420,6 +463,7 @@
     "dumplings": [
       {
         "name": "Brunei Darussalam dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -432,6 +476,7 @@
     "dumplings": [
       {
         "name": "Bulgaria dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -444,6 +489,7 @@
     "dumplings": [
       {
         "name": "Burkina Faso dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -456,6 +502,7 @@
     "dumplings": [
       {
         "name": "Burundi dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -468,6 +515,7 @@
     "dumplings": [
       {
         "name": "Cabo Verde dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -480,6 +528,7 @@
     "dumplings": [
       {
         "name": "Cambodia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -492,6 +541,7 @@
     "dumplings": [
       {
         "name": "Cameroon dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -504,6 +554,7 @@
     "dumplings": [
       {
         "name": "Canada dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -516,6 +567,7 @@
     "dumplings": [
       {
         "name": "Cayman Islands (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -528,6 +580,7 @@
     "dumplings": [
       {
         "name": "Central African Republic (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -540,6 +593,7 @@
     "dumplings": [
       {
         "name": "Chad dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -552,6 +606,7 @@
     "dumplings": [
       {
         "name": "Chile dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -564,18 +619,20 @@
     "dumplings": [
       {
         "name": "xiaolongbao",
+        "desc": " ",
         "tags": [
-          "steam",
-          "nonveg",
-          "savory"
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       },
       {
         "name": "ang ku kueh",
+        "desc": " ",
         "tags": [
-          "steam",
-          "veg",
-          "sweet"
+          "Steamed",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -585,6 +642,7 @@
     "dumplings": [
       {
         "name": "Colombia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -597,6 +655,7 @@
     "dumplings": [
       {
         "name": "Comoros (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -609,6 +668,7 @@
     "dumplings": [
       {
         "name": "Congo (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -621,6 +681,7 @@
     "dumplings": [
       {
         "name": "Cook Islands (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -633,6 +694,7 @@
     "dumplings": [
       {
         "name": "Costa Rica dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -645,6 +707,7 @@
     "dumplings": [
       {
         "name": "Côte d'Ivoire dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -657,6 +720,7 @@
     "dumplings": [
       {
         "name": "Croatia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -669,6 +733,7 @@
     "dumplings": [
       {
         "name": "Cuba dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -681,6 +746,7 @@
     "dumplings": [
       {
         "name": "Curaçao dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -693,6 +759,7 @@
     "dumplings": [
       {
         "name": "Cyprus dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -705,10 +772,11 @@
     "dumplings": [
       {
         "name": "knedlíky",
+        "desc": " ",
         "tags": [
-          "boil",
-          "veg",
-          "savory"
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -718,6 +786,7 @@
     "dumplings": [
       {
         "name": "Congo (the Democratic Republic of the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -730,6 +799,7 @@
     "dumplings": [
       {
         "name": "Denmark dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -742,6 +812,7 @@
     "dumplings": [
       {
         "name": "Djibouti dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -754,6 +825,7 @@
     "dumplings": [
       {
         "name": "Dominica dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -766,6 +838,7 @@
     "dumplings": [
       {
         "name": "Dominican Republic (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -778,6 +851,7 @@
     "dumplings": [
       {
         "name": "Ecuador dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -790,6 +864,7 @@
     "dumplings": [
       {
         "name": "Egypt dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -802,6 +877,7 @@
     "dumplings": [
       {
         "name": "El Salvador dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -814,6 +890,7 @@
     "dumplings": [
       {
         "name": "Equatorial Guinea dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -826,6 +903,7 @@
     "dumplings": [
       {
         "name": "Eritrea dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -838,6 +916,7 @@
     "dumplings": [
       {
         "name": "Estonia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -850,6 +929,7 @@
     "dumplings": [
       {
         "name": "Eswatini dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -862,6 +942,7 @@
     "dumplings": [
       {
         "name": "Ethiopia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -874,6 +955,7 @@
     "dumplings": [
       {
         "name": "Faroe Islands (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -886,6 +968,7 @@
     "dumplings": [
       {
         "name": "Falkland Islands (the) [Malvinas] dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -898,6 +981,7 @@
     "dumplings": [
       {
         "name": "Fiji dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -910,6 +994,7 @@
     "dumplings": [
       {
         "name": "Finland dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -922,6 +1007,7 @@
     "dumplings": [
       {
         "name": "French Polynesia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -934,6 +1020,7 @@
     "dumplings": [
       {
         "name": "French Southern Territories (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -946,10 +1033,11 @@
     "dumplings": [
       {
         "name": "raviole du dauphiné",
+        "desc": " ",
         "tags": [
-          "boil",
-          "veg",
-          "savory"
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -959,6 +1047,7 @@
     "dumplings": [
       {
         "name": "Gabon dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -971,6 +1060,7 @@
     "dumplings": [
       {
         "name": "Gambia (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -983,6 +1073,7 @@
     "dumplings": [
       {
         "name": "Georgia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -995,10 +1086,11 @@
     "dumplings": [
       {
         "name": "kartoffelklöse",
+        "desc": " ",
         "tags": [
-          "boil",
-          "nonveg",
-          "savory"
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1008,6 +1100,7 @@
     "dumplings": [
       {
         "name": "Ghana dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1020,6 +1113,7 @@
     "dumplings": [
       {
         "name": "Greece dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1032,6 +1126,7 @@
     "dumplings": [
       {
         "name": "Greenland dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1044,6 +1139,7 @@
     "dumplings": [
       {
         "name": "Grenada dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1056,6 +1152,7 @@
     "dumplings": [
       {
         "name": "Guam dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1068,6 +1165,7 @@
     "dumplings": [
       {
         "name": "Guatemala dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1080,6 +1178,7 @@
     "dumplings": [
       {
         "name": "Guernsey dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1092,6 +1191,7 @@
     "dumplings": [
       {
         "name": "Guinea dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1104,6 +1204,7 @@
     "dumplings": [
       {
         "name": "Guinea-Bissau dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1116,6 +1217,7 @@
     "dumplings": [
       {
         "name": "Guyana dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1128,6 +1230,7 @@
     "dumplings": [
       {
         "name": "Haiti dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1140,6 +1243,7 @@
     "dumplings": [
       {
         "name": "Heard Island and McDonald Islands dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1152,6 +1256,7 @@
     "dumplings": [
       {
         "name": "Honduras dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1164,6 +1269,7 @@
     "dumplings": [
       {
         "name": "Hong Kong dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1176,6 +1282,7 @@
     "dumplings": [
       {
         "name": "Hungary dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1188,6 +1295,7 @@
     "dumplings": [
       {
         "name": "Iceland dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1200,10 +1308,11 @@
     "dumplings": [
       {
         "name": "ada",
+        "desc": " ",
         "tags": [
-          "steam",
-          "sweet",
-          "veg"
+          "Steamed",
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -1213,6 +1322,7 @@
     "dumplings": [
       {
         "name": "Indian Ocean Ter. dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1225,6 +1335,7 @@
     "dumplings": [
       {
         "name": "Indonesia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1237,6 +1348,7 @@
     "dumplings": [
       {
         "name": "Iran (Islamic Republic of) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1249,6 +1361,7 @@
     "dumplings": [
       {
         "name": "Iraq dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1261,6 +1374,7 @@
     "dumplings": [
       {
         "name": "Ireland dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1273,6 +1387,7 @@
     "dumplings": [
       {
         "name": "Isle of Man dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1285,6 +1400,7 @@
     "dumplings": [
       {
         "name": "Israel dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1297,10 +1413,11 @@
     "dumplings": [
       {
         "name": "gnocchi",
+        "desc": " ",
         "tags": [
-          "boil",
-          "veg",
-          "savory"
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1310,6 +1427,7 @@
     "dumplings": [
       {
         "name": "Jamaica dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1322,6 +1440,7 @@
     "dumplings": [
       {
         "name": "Japan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1334,6 +1453,7 @@
     "dumplings": [
       {
         "name": "Jersey dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1346,6 +1466,7 @@
     "dumplings": [
       {
         "name": "Jordan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1358,6 +1479,7 @@
     "dumplings": [
       {
         "name": "Kazakhstan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1370,6 +1492,7 @@
     "dumplings": [
       {
         "name": "Kenya dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1382,6 +1505,7 @@
     "dumplings": [
       {
         "name": "Kiribati dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1394,6 +1518,7 @@
     "dumplings": [
       {
         "name": "Kosovo dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1406,6 +1531,7 @@
     "dumplings": [
       {
         "name": "Kuwait dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1418,6 +1544,7 @@
     "dumplings": [
       {
         "name": "Kyrgyzstan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1430,6 +1557,7 @@
     "dumplings": [
       {
         "name": "Lao People's Democratic Republic (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1442,6 +1570,7 @@
     "dumplings": [
       {
         "name": "Latvia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1454,6 +1583,7 @@
     "dumplings": [
       {
         "name": "Lebanon dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1466,6 +1596,7 @@
     "dumplings": [
       {
         "name": "Lesotho dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1478,6 +1609,7 @@
     "dumplings": [
       {
         "name": "Liberia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1490,6 +1622,7 @@
     "dumplings": [
       {
         "name": "Libya dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1502,6 +1635,7 @@
     "dumplings": [
       {
         "name": "Liechtenstein dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1514,6 +1648,7 @@
     "dumplings": [
       {
         "name": "Lithuania dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1526,6 +1661,7 @@
     "dumplings": [
       {
         "name": "Luxembourg dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1538,6 +1674,7 @@
     "dumplings": [
       {
         "name": "Macao dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1550,6 +1687,7 @@
     "dumplings": [
       {
         "name": "Republic of North Macedonia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1562,6 +1700,7 @@
     "dumplings": [
       {
         "name": "Madagascar dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1574,6 +1713,7 @@
     "dumplings": [
       {
         "name": "Malawi dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1586,6 +1726,7 @@
     "dumplings": [
       {
         "name": "Malaysia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1598,6 +1739,7 @@
     "dumplings": [
       {
         "name": "Maldives dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1610,6 +1752,7 @@
     "dumplings": [
       {
         "name": "Mali dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1622,6 +1765,7 @@
     "dumplings": [
       {
         "name": "Malta dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1634,6 +1778,7 @@
     "dumplings": [
       {
         "name": "Marshall Islands (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1646,6 +1791,7 @@
     "dumplings": [
       {
         "name": "Mauritania dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1658,6 +1804,7 @@
     "dumplings": [
       {
         "name": "Mauritius dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1670,6 +1817,7 @@
     "dumplings": [
       {
         "name": "Mexico dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1682,6 +1830,7 @@
     "dumplings": [
       {
         "name": "Micronesia (Federated States of) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1694,6 +1843,7 @@
     "dumplings": [
       {
         "name": "Moldova (the Republic of) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1706,6 +1856,7 @@
     "dumplings": [
       {
         "name": "Monaco dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1718,6 +1869,7 @@
     "dumplings": [
       {
         "name": "Mongolia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1730,6 +1882,7 @@
     "dumplings": [
       {
         "name": "Montenegro dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1742,6 +1895,7 @@
     "dumplings": [
       {
         "name": "Montserrat dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1754,6 +1908,7 @@
     "dumplings": [
       {
         "name": "Morocco dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1766,6 +1921,7 @@
     "dumplings": [
       {
         "name": "Mozambique dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1778,6 +1934,7 @@
     "dumplings": [
       {
         "name": "Myanmar dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1790,6 +1947,7 @@
     "dumplings": [
       {
         "name": "N. Cyprus dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1802,6 +1960,7 @@
     "dumplings": [
       {
         "name": "Northern Mariana Islands (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1814,6 +1973,7 @@
     "dumplings": [
       {
         "name": "Namibia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1826,6 +1986,7 @@
     "dumplings": [
       {
         "name": "Nauru dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1838,6 +1999,7 @@
     "dumplings": [
       {
         "name": "Nepal dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1850,6 +2012,7 @@
     "dumplings": [
       {
         "name": "Netherlands (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1862,6 +2025,7 @@
     "dumplings": [
       {
         "name": "New Caledonia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1874,6 +2038,7 @@
     "dumplings": [
       {
         "name": "New Zealand dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1886,6 +2051,7 @@
     "dumplings": [
       {
         "name": "Nicaragua dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1898,6 +2064,7 @@
     "dumplings": [
       {
         "name": "Niger (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1910,6 +2077,7 @@
     "dumplings": [
       {
         "name": "Nigeria dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1922,6 +2090,7 @@
     "dumplings": [
       {
         "name": "Niue dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1934,6 +2103,7 @@
     "dumplings": [
       {
         "name": "Norfolk Island dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1946,6 +2116,7 @@
     "dumplings": [
       {
         "name": "Korea (the Democratic People's Republic of) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1958,6 +2129,7 @@
     "dumplings": [
       {
         "name": "Norway dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1970,6 +2142,7 @@
     "dumplings": [
       {
         "name": "Oman dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1982,6 +2155,7 @@
     "dumplings": [
       {
         "name": "Pakistan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -1994,6 +2168,7 @@
     "dumplings": [
       {
         "name": "Palau dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2006,6 +2181,7 @@
     "dumplings": [
       {
         "name": "Palestine, State of dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2018,6 +2194,7 @@
     "dumplings": [
       {
         "name": "Panama dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2030,6 +2207,7 @@
     "dumplings": [
       {
         "name": "Papua New Guinea dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2042,6 +2220,7 @@
     "dumplings": [
       {
         "name": "Paraguay dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2054,6 +2233,7 @@
     "dumplings": [
       {
         "name": "Peru dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2066,6 +2246,7 @@
     "dumplings": [
       {
         "name": "Philippines (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2078,6 +2259,7 @@
     "dumplings": [
       {
         "name": "Pitcairn dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2090,11 +2272,12 @@
     "dumplings": [
       {
         "name": "pierogi",
+        "desc": " ",
         "tags": [
-          "boil",
-          "veg",
-          "savory",
-          "sweet"
+          "Boiled",
+          "Vegetarian",
+          "Savory",
+          "Sweet"
         ]
       }
     ]
@@ -2104,6 +2287,7 @@
     "dumplings": [
       {
         "name": "Portugal dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2116,6 +2300,7 @@
     "dumplings": [
       {
         "name": "Puerto Rico dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2128,6 +2313,7 @@
     "dumplings": [
       {
         "name": "Qatar dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2140,6 +2326,7 @@
     "dumplings": [
       {
         "name": "Romania dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2152,6 +2339,7 @@
     "dumplings": [
       {
         "name": "Russian Federation (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2164,6 +2352,7 @@
     "dumplings": [
       {
         "name": "Rwanda dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2176,6 +2365,7 @@
     "dumplings": [
       {
         "name": "South Georgia and the South Sandwich Islands dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2188,6 +2378,7 @@
     "dumplings": [
       {
         "name": "South Sudan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2200,6 +2391,7 @@
     "dumplings": [
       {
         "name": "Saint Helena, Ascension and Tristan da Cunha dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2212,6 +2404,7 @@
     "dumplings": [
       {
         "name": "Saint Lucia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2224,6 +2417,7 @@
     "dumplings": [
       {
         "name": "Samoa dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2236,6 +2430,7 @@
     "dumplings": [
       {
         "name": "San Marino dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2248,6 +2443,7 @@
     "dumplings": [
       {
         "name": "Sao Tome and Principe dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2260,6 +2456,7 @@
     "dumplings": [
       {
         "name": "Saudi Arabia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2272,6 +2469,7 @@
     "dumplings": [
       {
         "name": "Senegal dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2284,6 +2482,7 @@
     "dumplings": [
       {
         "name": "Serbia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2296,6 +2495,7 @@
     "dumplings": [
       {
         "name": "Seychelles dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2308,6 +2508,7 @@
     "dumplings": [
       {
         "name": "Siachen Glacier dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2320,6 +2521,7 @@
     "dumplings": [
       {
         "name": "Sierra Leone dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2332,6 +2534,7 @@
     "dumplings": [
       {
         "name": "Singapore dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2344,6 +2547,7 @@
     "dumplings": [
       {
         "name": "Sint Maarten (Dutch part) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2356,6 +2560,7 @@
     "dumplings": [
       {
         "name": "Slovakia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2368,6 +2573,7 @@
     "dumplings": [
       {
         "name": "Slovenia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2380,6 +2586,7 @@
     "dumplings": [
       {
         "name": "Solomon Islands dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2392,6 +2599,7 @@
     "dumplings": [
       {
         "name": "Somalia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2404,6 +2612,7 @@
     "dumplings": [
       {
         "name": "Somaliland dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2416,6 +2625,7 @@
     "dumplings": [
       {
         "name": "South Africa dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2428,12 +2638,13 @@
     "dumplings": [
       {
         "name": "mandu",
+        "desc": " ",
         "tags": [
-          "boil",
+          "Boiled",
           "panfry",
-          "steam",
-          "savory",
-          "nonveg"
+          "Steamed",
+          "Savory",
+          "Traditionally Non-Vegetarian"
         ]
       }
     ]
@@ -2443,6 +2654,7 @@
     "dumplings": [
       {
         "name": "Spain dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2455,6 +2667,7 @@
     "dumplings": [
       {
         "name": "Sri Lanka dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2467,6 +2680,7 @@
     "dumplings": [
       {
         "name": "Saint Barthélemy dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2479,6 +2693,7 @@
     "dumplings": [
       {
         "name": "Saint Martin (French part) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2491,6 +2706,7 @@
     "dumplings": [
       {
         "name": "Saint Kitts and Nevis dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2503,6 +2719,7 @@
     "dumplings": [
       {
         "name": "Saint Pierre and Miquelon dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2515,6 +2732,7 @@
     "dumplings": [
       {
         "name": "Saint Vincent and the Grenadines dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2527,6 +2745,7 @@
     "dumplings": [
       {
         "name": "Sudan (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2539,6 +2758,7 @@
     "dumplings": [
       {
         "name": "Suriname dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2551,6 +2771,7 @@
     "dumplings": [
       {
         "name": "Sweden dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2563,6 +2784,7 @@
     "dumplings": [
       {
         "name": "Switzerland dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2575,6 +2797,7 @@
     "dumplings": [
       {
         "name": "Syrian Arab Republic dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2587,10 +2810,11 @@
     "dumplings": [
       {
         "name": "ba-wan",
+        "desc": " ",
         "tags": [
-          "steam",
-          "nonveg",
-          "savory"
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2600,6 +2824,7 @@
     "dumplings": [
       {
         "name": "Tajikistan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2612,6 +2837,7 @@
     "dumplings": [
       {
         "name": "Tanzania, United Republic of dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2624,6 +2850,7 @@
     "dumplings": [
       {
         "name": "Thailand dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2636,6 +2863,7 @@
     "dumplings": [
       {
         "name": "Timor-Leste dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2648,6 +2876,7 @@
     "dumplings": [
       {
         "name": "Togo dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2660,6 +2889,7 @@
     "dumplings": [
       {
         "name": "Tonga dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2672,6 +2902,7 @@
     "dumplings": [
       {
         "name": "Trinidad and Tobago dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2684,6 +2915,7 @@
     "dumplings": [
       {
         "name": "Tunisia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2696,6 +2928,7 @@
     "dumplings": [
       {
         "name": "Turkey dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2708,6 +2941,7 @@
     "dumplings": [
       {
         "name": "Turkmenistan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2720,6 +2954,7 @@
     "dumplings": [
       {
         "name": "Turks and Caicos Islands (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2732,6 +2967,7 @@
     "dumplings": [
       {
         "name": "Virgin Islands (U.S.) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2744,6 +2980,7 @@
     "dumplings": [
       {
         "name": "Uganda dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2756,6 +2993,7 @@
     "dumplings": [
       {
         "name": "Ukraine dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2768,6 +3006,7 @@
     "dumplings": [
       {
         "name": "United Arab Emirates (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2780,10 +3019,11 @@
     "dumplings": [
       {
         "name": "suet dumplings",
+        "desc": " ",
         "tags": [
-          "boil",
-          "nonveg",
-          "savory"
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2793,10 +3033,11 @@
     "dumplings": [
       {
         "name": "apple dumpling",
+        "desc": " ",
         "tags": [
           "bake",
-          "sweet",
-          "veg"
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -2806,6 +3047,7 @@
     "dumplings": [
       {
         "name": "Uruguay dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2818,6 +3060,7 @@
     "dumplings": [
       {
         "name": "Uzbekistan dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2830,6 +3073,7 @@
     "dumplings": [
       {
         "name": "Vanuatu dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2842,6 +3086,7 @@
     "dumplings": [
       {
         "name": "Holy See (the) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2854,6 +3099,7 @@
     "dumplings": [
       {
         "name": "Venezuela (Bolivarian Republic of) dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2866,10 +3112,11 @@
     "dumplings": [
       {
         "name": "bánh chưng",
+        "desc": " ",
         "tags": [
-          "steam",
-          "nonveg",
-          "savory"
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2879,6 +3126,7 @@
     "dumplings": [
       {
         "name": "Western Sahara dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2891,6 +3139,7 @@
     "dumplings": [
       {
         "name": "Wallis and Futuna dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2903,6 +3152,7 @@
     "dumplings": [
       {
         "name": "Yemen dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2915,6 +3165,7 @@
     "dumplings": [
       {
         "name": "Zambia dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
@@ -2927,6 +3178,7 @@
     "dumplings": [
       {
         "name": "Zimbabwe dumpling",
+        "desc": " ",
         "tags": [
           " ",
           " "
