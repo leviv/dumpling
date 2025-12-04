@@ -39,7 +39,8 @@
 			.transition()
 			.duration(200)
 			.style('opacity', 1)
-			.style('stroke', 'black');
+			.style('stroke', '#76664A')
+			.style('fill','#DCD485');
 
 		// Get the country name
 		const countryName = d.properties?.name;
@@ -65,7 +66,8 @@
 			.enter()
 			.append('path')
 			.attr('d', d3.geoPath().projection(projection) as any)
-			.style('stroke', 'transparent')
+			.style('stroke', '#A49478')
+			.style('stroke-opacity', 0.7)
 			.attr('class', 'country')
 			.style('opacity', 0.8)
 			.on('click', mouseClick);
