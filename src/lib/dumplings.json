@@ -96,11 +96,12 @@
     "country": "Angola",
     "dumplings": [
       {
-        "name": "Angola dumpling",
-        "desc": " ",
+        "name": "Funge ",
+        "desc": "A swallow made of cassava flour or cornmeal and okra whisked into boiling water",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -123,8 +124,8 @@
     "country": "Antarctica",
     "dumplings": [
       {
-        "name": "Antarctica dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "tags": [
           " ",
           " "
@@ -178,11 +179,12 @@
     "country": "Aruba",
     "dumplings": [
       {
-        "name": "Aruba dumpling",
-        "desc": " ",
+        "name": "Ayaca",
+        "desc": "Corn dough stuffed with a stew of beef, pork, or chicken and other ingredients such as raisins, capers, and olives boiled in a plantain or banana leaf",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -191,8 +193,8 @@
     "country": "Ashmore and Cartier Is.",
     "dumplings": [
       {
-        "name": "Ashmore and Cartier Is. dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "tags": [
           " ",
           " "
@@ -272,11 +274,12 @@
     "country": "Bahrain",
     "dumplings": [
       {
-        "name": "Bahrain dumpling",
-        "desc": " ",
+        "name": "Gaimat",
+        "desc": "Sweet fried yeast dumplings soaked in saffron syrup or honey or date molasses",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -369,11 +372,12 @@
     "country": "Belize",
     "dumplings": [
       {
-        "name": "Belize dumpling",
-        "desc": " ",
+        "name": "Belizean Meat Pie",
+        "desc": "A staple breakfast and snack in Belize consisting of a flaky pastry dough and ground beef, hot peppers, and spices",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -382,11 +386,12 @@
     "country": "Benin",
     "dumplings": [
       {
-        "name": "Benin dumpling",
-        "desc": " ",
+        "name": "Akara",
+        "desc": "A type of fritter made from cowpeas or beans formed into a ball then deep-fried in red palm oil",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -395,11 +400,12 @@
     "country": "Bermuda",
     "dumplings": [
       {
-        "name": "Bermuda dumpling",
-        "desc": " ",
+        "name": "Codfish Cakes",
+        "desc": "A pan-fried dish made of salted mashed cod, cooked potatoes, and fresh thyme and parsley",
         "tags": [
-          " ",
-          " "
+          "Pan-Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -520,11 +526,13 @@
     "country": "British Virgin Is.",
     "dumplings": [
       {
-        "name": "British Virgin Islands dumpling",
-        "desc": " ",
+        "name": "Pates",
+        "desc": "Fried pastries stuffed with spiced fillings such as beef, chicken, saltfish, or vegetables",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -533,11 +541,13 @@
     "country": "Brunei",
     "dumplings": [
       {
-        "name": "Brunei dumpling",
-        "desc": " ",
+        "name": "Pulut Panggang",
+        "desc": "Rice rolls stuffed with shrimp or beef, coconuts, pandan leaves, spices, and lemon grass steamed in a banana leaf",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Grilled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -546,11 +556,12 @@
     "country": "Bulgaria",
     "dumplings": [
       {
-        "name": "Bulgaria dumpling",
-        "desc": " ",
+        "name": "Mekitsa",
+        "desc": "A fried breakfast dish of kneaded dough made with yogurt often served with powdered icing sugar or jam",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -559,11 +570,12 @@
     "country": "Burkina Faso",
     "dumplings": [
       {
-        "name": "Burkina Faso dumpling",
-        "desc": " ",
+        "name": "Burkinabe Tô",
+        "desc": "A cooked mixture of water and millet, cornmeal, or sorghum formed into small balls which are served with sauces, soups, and stews",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -572,10 +584,10 @@
     "country": "Burundi",
     "dumplings": [
       {
-        "name": "Burundi dumpling",
-        "desc": " ",
+        "name": "Uburobe",
+        "desc": "A dish made by wrapping cassava flour in banana leaves then boiling until soft and tender",
         "tags": [
-          " ",
+          "",
           " "
         ]
       }
@@ -585,11 +597,12 @@
     "country": "Cabo Verde",
     "dumplings": [
       {
-        "name": "Cabo Verde dumpling",
-        "desc": " ",
+        "name": "Pastel",
+        "desc": "Fried pastries filled with savory tuna and deep fried until golden brown",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -635,6 +648,15 @@
     "country": "Canada",
     "dumplings": [
       {
+        "name": "Poutine Râpée",
+        "desc": "A dish that most commonly consists of a boiled potato dumpling with a pork filling prepared with a mixture of grated and mashed potato",
+        "tags": [
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
+      },
+      {
         "name": "Touton",
         "desc": "A dish from Newfoundland made with risen bread dough and are fried or baked utilizing pork fat",
         "tags": [
@@ -650,11 +672,12 @@
     "country": "Cayman Is.",
     "dumplings": [
       {
-        "name": "Cayman Islands (the) dumpling",
-        "desc": " ",
+        "name": "Conch Fritters",
+        "desc": "A popular dish made from conch meat infused with a blend of spices and fried",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -663,11 +686,12 @@
     "country": "Central African Rep.",
     "dumplings": [
       {
-        "name": "Central African Republic (the) dumpling",
-        "desc": " ",
+        "name": "Foutou",
+        "desc": "Pounded plantains (occasionally also using mashed yams) eaten like bread and served with stews, soups, and sauces",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -676,11 +700,12 @@
     "country": "Chad",
     "dumplings": [
       {
-        "name": "Chad dumpling",
-        "desc": " ",
+        "name": "Aiyash",
+        "desc": "Fried millet balls eaten by dipping into various sauces",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -689,11 +714,22 @@
     "country": "Chile",
     "dumplings": [
       {
-        "name": "Chile dumpling",
-        "desc": " ",
+        "name": "Chapalele",
+        "desc": "A dumpling made from boiled potatoes and wheat flour",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Vegetarian",
+          "Savory"
+        ]
+      },
+      {
+        "name": "Pantruca",
+        "desc": "A vegetable soup or beef stock soup featuring dumplings made with water, flour, and a bit of oil cut in irregular pieces",
+        "tags": [
+          "Boiled",
+          "Vegetarian",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -702,21 +738,64 @@
     "country": "China",
     "dumplings": [
       {
+        "name": "Ang Ku Kueh",
+        "desc": "A small round sweet dumpling with soft, sticky glutinous rice flour skin wrapped around a sweet central filling molded to resemble a tortoise shell and presented on a banana leaf",
+        "tags": [
+          "Steamed",
+          "Vegetarian",
+          "Sweet"
+        ]
+      },
+      {
+        "name": "Baozi",
+        "desc": "A yeast-leavened filled bun with many variations in fillings (meat or vegetarian) and preparations but are most often steamed",
+        "tags": [
+          "Steamed",
+          "Vegetarian",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
+      },
+      {
+        "name": "Guotie",
+        "desc": "A type of northern Chinese dumpling usually containing pork, cabbage, and scallions",
+        "tags": [
+          "Pan-Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
+      },
+      {
+        "name": "Jiaozi",
+        "desc": "A type of Chinese dumpling typically consisting of a ground meat or vegetable filling wrapped in a thinly rolled piece of dough. Its name varies depending on the cooking method",
+        "tags": [
+          "Boiled",
+          "Steamed",
+          "Pan-Fried",
+          "Fried",
+          "Baked",
+          "Vegetarian",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
+      },
+      {
+        "name": "Wonton",
+        "desc": "A thin dumpling shaped similarly to the Italian tortellino that is typically made with a meat or shrimp filling and boiled in a light broth or soup",
+        "tags": [
+          "Boiled",
+          "Soup",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
+      },
+      {
         "name": "Xiao Long Bao",
         "desc": "A steamed Chinese dumpling filled with pork and soup sealed inside a thin, delicate wrapper",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
           "Savory"
-        ]
-      },
-      {
-        "name": "Ang Ku Kueh",
-        "desc": " ",
-        "tags": [
-          "Steamed",
-          "Vegetarian",
-          "Sweet"
         ]
       }
     ]
@@ -725,11 +804,12 @@
     "country": "Colombia",
     "dumplings": [
       {
-        "name": "Colombia dumpling",
-        "desc": " ",
+        "name": "Buñuelos",
+        "desc": "Fried dough balls made with a mix of cheese, corn starch, and yuca flour",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -738,7 +818,7 @@
     "country": "Comoros",
     "dumplings": [
       {
-        "name": "Comoros (the) dumpling",
+        "name": "Comoros dumpling",
         "desc": " ",
         "tags": [
           " ",
@@ -751,11 +831,12 @@
     "country": "Congo",
     "dumplings": [
       {
-        "name": "Congo (the) dumpling",
-        "desc": " ",
+        "name": "Fufu",
+        "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews. A Congolese variant uses half cassava and half corn",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -764,11 +845,13 @@
     "country": "Cook Is.",
     "dumplings": [
       {
-        "name": "Cook Islands (the) dumpling",
-        "desc": " ",
+        "name": "Kinaki",
+        "desc": "A popular side dish made using fresh vegetables like kumara (sweet potatoes), taro, and arrowroot that are boiled or fried then salted for flavor",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -777,11 +860,12 @@
     "country": "Costa Rica",
     "dumplings": [
       {
-        "name": "Costa Rica dumpling",
-        "desc": " ",
+        "name": "Empanada con Queso",
+        "desc": "A corn flour empanada with crumbled Parmesan-like queso rallado added inside",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -790,11 +874,21 @@
     "country": "Côte d'Ivoire",
     "dumplings": [
       {
-        "name": "Côte d'Ivoire dumpling",
-        "desc": " ",
+        "name": "Ablo/Abolo",
+        "desc": "A bouncy, steamed rice flour cake popular in Western Africa",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Vegetarian",
+          "Sweet"
+        ]
+      },
+      {
+        "name": "Foutou",
+        "desc": "Pounded plantains (occasionally also using mashed yams) eaten like bread and served with stews, soups, and sauces",
+        "tags": [
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -803,11 +897,13 @@
     "country": "Croatia",
     "dumplings": [
       {
-        "name": "Croatia dumpling",
-        "desc": " ",
+        "name": "Štrukli",
+        "desc": "A simple 'pulled' pasta dish which depending on the type of filling can be either savory or sweet",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Vegetarian",
+          "Savory",
+          "Sweet"
         ]
       }
     ]
@@ -816,11 +912,12 @@
     "country": "Cuba",
     "dumplings": [
       {
-        "name": "Cuba dumpling",
-        "desc": " ",
+        "name": "Cuban Buñuelo",
+        "desc": "A fried dough fritter containing cassava and malanga that is traditionally twisted in a figure 8 and covered in an anise caramel",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -829,8 +926,8 @@
     "country": "Curaçao",
     "dumplings": [
       {
-        "name": "Curaçao dumpling",
-        "desc": " ",
+        "name": "Oliebollen",
+        "desc": "Fried dumplings topped with powdered sugar often containing raisins or currants",
         "tags": [
           " ",
           " "
@@ -842,11 +939,12 @@
     "country": "Cyprus",
     "dumplings": [
       {
-        "name": "Cyprus dumpling",
-        "desc": " ",
+        "name": "Ravioli",
+        "desc": "A pasta that contains halloumi cheese",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -870,11 +968,12 @@
     "country": "Dem. Rep. Congo",
     "dumplings": [
       {
-        "name": "Congo (the Democratic Republic of the) dumpling",
-        "desc": " ",
+        "name": "Fufu",
+        "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews. A Congolese variant uses half cassava and half corn",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -883,11 +982,12 @@
     "country": "Denmark",
     "dumplings": [
       {
-        "name": "Denmark dumpling",
-        "desc": " ",
+        "name": "Melboller",
+        "desc": "Soft, light and fluffy flour dumplings often added to a variety of soups",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -896,11 +996,13 @@
     "country": "Djibouti",
     "dumplings": [
       {
-        "name": "Djibouti dumpling",
-        "desc": " ",
+        "name": "Sambusa",
+        "desc": "A crispy fried triangular pastry filled with beef, chicken, or organic green lentils",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -909,11 +1011,12 @@
     "country": "Dominica",
     "dumplings": [
       {
-        "name": "Dominica dumpling",
-        "desc": " ",
+        "name": "Dominican Bakes",
+        "desc": "A fried bread served in a multitude of ways but often served with salt fish and steamed vegetables",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -922,11 +1025,12 @@
     "country": "Dominican Rep.",
     "dumplings": [
       {
-        "name": "Dominican Republic (the) dumpling",
-        "desc": " ",
+        "name": "Bollitos de Maiz",
+        "desc": "A thick dough with cornmeal boiled and often eaten with braised meats or seasoned tomato sauce",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -935,11 +1039,13 @@
     "country": "Ecuador",
     "dumplings": [
       {
-        "name": "Ecuador dumpling",
-        "desc": " ",
+        "name": "Bolón de Verde",
+        "desc": "Dumplings made from green plantains made into a masa or dough then stuffed with cheese, chorizo, or chicharrones",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -948,11 +1054,13 @@
     "country": "Egypt",
     "dumplings": [
       {
-        "name": "Egypt dumpling",
-        "desc": " ",
+        "name": "Qatayef/Atayef",
+        "desc": "A sweet dumpling filled with cream, cheese, or nuts shaped into a half moon shape and often eaten during Ramadan",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Baked",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -1157,11 +1265,12 @@
     "country": "Georgia",
     "dumplings": [
       {
-        "name": "Georgia dumpling",
-        "desc": " ",
+        "name": "Khinkali",
+        "desc": "A dumpling made of twisted knobs of dough stuffed with meat, fish or vegetables and spices",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1354,11 +1463,13 @@
     "country": "Hong Kong",
     "dumplings": [
       {
-        "name": "Hong Kong dumpling",
-        "desc": " ",
+        "name": "Cheung Fun",
+        "desc": "Steamed rice rolls made from a wide strip of shahe fen filled with shrimp, beef, vegetables, or other ingredients",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2340,11 +2451,12 @@
     "country": "Philippines",
     "dumplings": [
       {
-        "name": "Philippines (the) dumpling",
-        "desc": " ",
+        "name": "Siopao",
+        "desc": "A steamed bun made with yeast-leavened dough and a meat filling similar to Chinese bao",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2366,8 +2478,8 @@
     "country": "Poland",
     "dumplings": [
       {
-        "name": "pierogi",
-        "desc": " ",
+        "name": "Pierogi",
+        "desc": "Unleavened dough dumplings filled with various savory or sweet ingredients and cooked in boiling water",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -2381,11 +2493,12 @@
     "country": "Portugal",
     "dumplings": [
       {
-        "name": "Portugal dumpling",
-        "desc": " ",
+        "name": "Rissóis de Camarão",
+        "desc": "An appetizer of fried turnovers with a creamy shrimp filling in the center",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2732,14 +2845,24 @@
     "country": "South Korea",
     "dumplings": [
       {
-        "name": "mandu",
-        "desc": " ",
+        "name": "Mandu",
+        "desc": "The general term for dumplings in Korea with many varieties which are referred to by the cooking method or main ingredient + 'mandu'",
         "tags": [
           "Boiled",
-          "panFried",
+          "Pan-Fried",
           "Steamed",
           "Savory",
           "Traditionally Non-Vegetarian"
+        ]
+      },
+      {
+        "name": "Sujebi",
+        "desc": "A soup consisting of dough flakes roughly torn by hand with various vegetables",
+        "tags": [
+          "Boiled",
+          "Soup",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2865,11 +2988,21 @@
     "country": "Sweden",
     "dumplings": [
       {
-        "name": "Sweden dumpling",
-        "desc": " ",
+        "name": "Kroppkaka",
+        "desc": "A boiled potato dumpling most commonly filled with onions and meat",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
+      },
+      {
+        "name": "Palt",
+        "desc": "A meat-filled potato dumpling traditionally served with butter and lingonberry preserves",
+        "tags": [
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2904,8 +3037,8 @@
     "country": "Taiwan",
     "dumplings": [
       {
-        "name": "ba-wan",
-        "desc": " ",
+        "name": "Ba-Wan",
+        "desc": "A gelatinous and translucent dumpling made of starch and rice flour filled with meat and vegetables",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -2944,11 +3077,13 @@
     "country": "Thailand",
     "dumplings": [
       {
-        "name": "Thailand dumpling",
-        "desc": " ",
+        "name": "Cho Muang",
+        "desc": "A snack shaped like a flower and indigo coloring from the butterfly pea flower filled with either a salty or sweet filling",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory",
+          "Sweet"
         ]
       }
     ]
@@ -3022,11 +3157,12 @@
     "country": "Turkey",
     "dumplings": [
       {
-        "name": "Turkey dumpling",
-        "desc": " ",
+        "name": "Kayseri Manti",
+        "desc": "Tiny ground meat dumplings served with yoghurt, melted butter (typically flavored with spearmint or Aleppo pepper) and topped with dry mint and Aleppo pepper flakes",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3087,11 +3223,14 @@
     "country": "Ukraine",
     "dumplings": [
       {
-        "name": "Ukraine dumpling",
-        "desc": " ",
+        "name": "Varenyky",
+        "desc": "Dumplings made from an unleavened dough and filled with sweet or savory ingredients and served with sour cream and onions",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Vegetarian",
+          "Savory",
+          "Sweet"
         ]
       }
     ]
@@ -3128,11 +3267,21 @@
     "dumplings": [
       {
         "name": "Apple Dumpling",
-        "desc": " ",
+        "desc": "A baked or boiled pastry-wrapped apple",
         "tags": [
           "Baked",
           "Vegetarian",
           "Sweet"
+        ]
+      },
+      {
+        "name": "Chicken and Dumplings",
+        "desc": "A popular comfort food dish consisting of chicken and dumped dough cooked in the chicken broth",
+        "tags": [
+          "Boiled",
+          "Soup",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       },
       {
@@ -3215,10 +3364,19 @@
     "country": "Vietnam",
     "dumplings": [
       {
-        "name": "bánh chưng",
-        "desc": " ",
+        "name": "Bánh Chưng",
+        "desc": "A dish made from glutinous rice, mung beans, pork, and other ingredients",
         "tags": [
           "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
+      },
+      {
+        "name": "Bánh Tẻ",
+        "desc": "A variety of small steamed rice cakes made of rice flour and wrapped with lá dong leaves into long, thin cylindrical shapes",
+        "tags": [
+          "Boiled",
           "Traditionally Non-Vegetarian",
           "Savory"
         ]
