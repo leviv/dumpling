@@ -16,10 +16,11 @@
 <div id="landingstuff">
 	<h1>World Dumpling Index</h1>
 	<img id="box" alt="box with world dumpling index on it" src={myimg} on:click={changeImg} />
-	<a href="{base}/map">Click to Enter</a>
+	<p>Click the box to enter</p>
 </div>
 
 <style>
+
 	#box {
 		width: 100%;
 		margin-bottom: 20px;
