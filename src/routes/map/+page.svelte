@@ -2,6 +2,7 @@
 	import Map from '../../components/Map.svelte';
 	import Sidebar from '../../components/Sidebar.svelte';
 	import Disclaimer from '../../components/Disclaimer.svelte';
+	import About from '../../components/About.svelte';
 
 	let selectedCountry: string = '';
 </script>
@@ -15,11 +16,13 @@
 	<Map bind:selectedCountry />
 </div>
 <Disclaimer/>
+<About/>
 
 <style>
 	:global(body) {
 		margin: 0;
 		padding: 0;
+		color:#76664A;
 	}
 
 	.container {
