@@ -40,7 +40,7 @@
 			.duration(200)
 			.style('opacity', 1)
 			.style('stroke', '#A49478')
-			.style('fill','#DCD485');
+			.style('fill', '#DCD485');
 
 		// Get the country name
 		const countryName = d.properties?.name;
@@ -82,8 +82,8 @@
 <style>
 	:global(.country) {
 		stroke-width: 0.5;
-		stroke: #A49478;
-		stroke-opacity:1;
+		stroke: #a49478;
+		stroke-opacity: 1;
 	}
 
 	:global(.dragging) {

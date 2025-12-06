@@ -2252,12 +2252,13 @@
     "country": "Mexico",
     "dumplings": [
       {
-        "name": "Mexico dumpling",
-        "desc": " ",
+        "name": "Chochoyotes",
+        "desc": "Small, round dumplings made from corn masa and cooked in soups or stews",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2448,12 +2449,14 @@
     "country": "Nepal",
     "dumplings": [
       {
-        "name": "Nepal dumpling",
-        "desc": " ",
+        "name": "Momo",
+        "desc": "Round dumplings that are typically filled with meat or vegetables and steamed or pan-fried",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Pan-Fried",
+          "Savory",
+          "Traditionally Non-Vegetarian"
         ]
       }
     ]
@@ -2616,12 +2619,13 @@
     "country": "Pakistan",
     "dumplings": [
       {
-        "name": "Pakistan dumpling",
-        "desc": " ",
+        "name": "Mantu",
+        "desc": "Thin dough filled with beef or lamb and onions, steamed, and topped with yogurt and a tomato-based sauce",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2644,12 +2648,15 @@
     "country": "Palestine",
     "dumplings": [
       {
-        "name": "Palestine, State of dumpling",
-        "desc": " ",
+        "name": "Shish Barak",
+        "desc": "Meat-filled small dumplings cooked with a yogurt sauce",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Boiled",
+          "Soup",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2672,12 +2679,13 @@
     "country": "Papua New Guinea",
     "dumplings": [
       {
-        "name": "Papua New Guinea dumpling",
-        "desc": " ",
+        "name": "Saksak",
+        "desc": "Steamed sago pearls and bananas wrapped and steamed in banana leaves",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -2700,12 +2708,13 @@
     "country": "Peru",
     "dumplings": [
       {
-        "name": "Peru dumpling",
-        "desc": " ",
+        "name": "Papa rellena",
+        "desc": "Mashed potato dumplings stuffed with a savory filling of ground meat, onions, olives, and hard-boiled eggs, then deep-fried",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2729,8 +2738,8 @@
     "country": "Pitcairn Is.",
     "dumplings": [
       {
-        "name": "Pitcairn dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -2774,12 +2783,13 @@
     "country": "Puerto Rico",
     "dumplings": [
       {
-        "name": "Puerto Rico dumpling",
-        "desc": " ",
+        "name": "Domplines",
+        "desc": "Also known as Arepas, this dish consists of fried dough usually served stuffed with or alongside beans",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Savory",
+          "Vegetarian"
         ]
       }
     ]
@@ -2816,12 +2826,13 @@
     "country": "Russia",
     "dumplings": [
       {
-        "name": "Russian Federation (the) dumpling",
-        "desc": " ",
+        "name": "Pelmeni",
+        "desc": "Dumplings made of thin, unleavened dough filled with minced meat and spices, typically boiled and served with sour cream or butter",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2900,12 +2911,13 @@
     "country": "Samoa",
     "dumplings": [
       {
-        "name": "Samoa dumpling",
-        "desc": " ",
+        "name": "Paifala",
+        "desc": "This half-moon pie is a sweet dumpling filled with coconut and sugar wrapped in pastry dough and baked until golden brown",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -2942,12 +2954,13 @@
     "country": "Saudi Arabia",
     "dumplings": [
       {
-        "name": "Saudi Arabia dumpling",
-        "desc": " ",
-        "img": " ",
+        "name": "Manto",
+        "desc": "A thin dough filled with beef or lamb mixed in onions and spices.",
+        "img": "afghanistan0.png",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2970,12 +2983,13 @@
     "country": "Serbia",
     "dumplings": [
       {
-        "name": "Serbia dumpling",
-        "desc": " ",
+        "name": "Gomboce",
+        "desc": "Plum filled boiled dumpling with the dough consisting of potatos, eggs and flour",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -2998,8 +3012,8 @@
     "country": "Siachen Glacier",
     "dumplings": [
       {
-        "name": "Siachen Glacier dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -3040,8 +3054,8 @@
     "country": "Sint Maarten",
     "dumplings": [
       {
-        "name": "Sint Maarten (Dutch part) dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -3054,12 +3068,13 @@
     "country": "Slovakia",
     "dumplings": [
       {
-        "name": "Slovakia dumpling",
-        "desc": " ",
+        "name": "Bryndzové Halušky:",
+        "desc": "Potato dumplings smothered with sheep cheese and topped with fried bacon bits",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Savory",
+          "Traditionally Non-Vegetarian"
         ]
       }
     ]
@@ -3068,12 +3083,15 @@
     "country": "Slovenia",
     "dumplings": [
       {
-        "name": "Slovenia dumpling",
-        "desc": " ",
+        "name": "Štruklji",
+        "desc": "A rolled dumpling that can be sweet or savory, typically filled with cottage cheese, walnuts, or tarragon and boiled or baked",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Baked",
+          "Sweet",
+          "Savory",
+          "Vegetarian"
         ]
       }
     ]
@@ -3083,11 +3101,12 @@
     "dumplings": [
       {
         "name": "Solomon Islands dumpling",
-        "desc": " ",
-        "img": " ",
+        "desc": "Cassava Pudding",
+        "img": "A sweet cake made with grated cassava, sweet potato, and coconut milk, steamed in banana leaves.",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -3096,8 +3115,8 @@
     "country": "Somalia",
     "dumplings": [
       {
-        "name": "Somalia dumpling",
-        "desc": " ",
+        "name": "Sambuus",
+        "desc": "A fried or baked pastry filled with spiced meat or vegetables, similar to a samosa",
         "img": " ",
         "tags": [
           " ",
@@ -3110,8 +3129,8 @@
     "country": "Somaliland",
     "dumplings": [
       {
-        "name": "Somaliland dumpling",
-        "desc": " ",
+        "name": "Sambuus",
+        "desc": "A fried or baked pastry filled with spiced meat or vegetables, similar to a samosa",
         "img": " ",
         "tags": [
           " ",
@@ -3124,8 +3143,8 @@
     "country": "South Africa",
     "dumplings": [
       {
-        "name": "South Africa dumpling",
-        "desc": " ",
+        "name": "Dombolo",
+        "desc": "A traditional South African steamed bread dumpling, often served with stews or braais (barbecues).",
         "img": " ",
         "tags": [
           " ",
@@ -3166,12 +3185,13 @@
     "country": "Spain",
     "dumplings": [
       {
-        "name": "Spain dumpling",
-        "desc": " ",
+        "name": "Croquetas",
+        "desc": "Fried balls typically filled with ham and cheese.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Savory",
+          "Traditionally Non-Vegetarian"
         ]
       }
     ]
@@ -3180,12 +3200,13 @@
     "country": "Sri Lanka",
     "dumplings": [
       {
-        "name": "Sri Lanka dumpling",
-        "desc": " ",
+        "name": "Lavariya",
+        "desc": "Caramelized coconut encased in delicate string hoppers, known locally as Idiyappam",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -3194,8 +3215,8 @@
     "country": "St-Barthélemy",
     "dumplings": [
       {
-        "name": "Saint Barthélemy dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -3208,8 +3229,8 @@
     "country": "St-Martin",
     "dumplings": [
       {
-        "name": "Saint Martin (French part) dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -3222,8 +3243,8 @@
     "country": "St. Kitts and Nevis",
     "dumplings": [
       {
-        "name": "Saint Kitts and Nevis dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -3236,8 +3257,8 @@
     "country": "St. Pierre and Miquelon",
     "dumplings": [
       {
-        "name": "Saint Pierre and Miquelon dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -3250,12 +3271,13 @@
     "country": "St. Vin. and Gren.",
     "dumplings": [
       {
-        "name": "Saint Vincent and the Grenadines dumpling",
-        "desc": " ",
+        "name": "Ducana",
+        "desc": "Duncanas are made with sweet potato, coconut, spices and tannia, wrapped and boiled in banana leaves",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -3264,12 +3286,13 @@
     "country": "Sudan",
     "dumplings": [
       {
-        "name": "Sudan (the) dumpling",
-        "desc": " ",
+        "name": "Asida",
+        "desc": "A sorghum dumpling with a jelly-like consistency, typically served with a meat or vegetable stew",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3278,12 +3301,14 @@
     "country": "Suriname",
     "dumplings": [
       {
-        "name": "Suriname dumpling",
-        "desc": " ",
+        "name": "Bapao",
+        "desc": "Suriname food is a fusion of west African, Indian, Javanese, Chinese, Dutch, and Amerindian cuisines. Bapao is a steamed bun with fillings such as chicken, beef, or vegetables",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Savory",
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -3317,12 +3342,13 @@
     "country": "Switzerland",
     "dumplings": [
       {
-        "name": "Switzerland dumpling",
-        "desc": " ",
+        "name": "Capuns",
+        "desc": "Primarily found in east Switzerland, Capuns are bundles of Swiss chard leaves filled with a mixture of spiced meat and dough, then boiled and served with grated cheese",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3331,12 +3357,13 @@
     "country": "Syria",
     "dumplings": [
       {
-        "name": "Syrian Arab Republic dumpling",
-        "desc": " ",
+        "name": "Kibbeh",
+        "desc": "The national dish of Syria. This dish consists of well-spiced meat and veggies inside of a bulgur wheat and meat shell, which is then fried or baked",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3360,12 +3387,23 @@
     "country": "Tajikistan",
     "dumplings": [
       {
-        "name": "Tajikistan dumpling",
-        "desc": " ",
+        "name": "Sambusa",
+        "desc": "A breaded street food filled with meat (usually lamb) or vegetables and deep-fried",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
+      },
+      {
+        "name": "Manti",
+        "desc": "Steamed dumplings filled with ground meat.",
+        "img": " ",
+        "tags": [
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3374,12 +3412,13 @@
     "country": "Tanzania",
     "dumplings": [
       {
-        "name": "Tanzania, United Republic of dumpling",
-        "desc": " ",
+        "name": "Zanzibar Pizza",
+        "desc": "A crispy, fried dough pocket made with a thin dough filled with spiced meat and cheese, and cooked on a griddle",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
