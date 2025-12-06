@@ -2532,7 +2532,7 @@
     "country": "Nigeria",
     "dumplings": [
       {
-        "name": "Nigeria dumpling",
+        "name": "Moi Moi",
         "desc": " ",
         "img": " ",
         "tags": [
@@ -3404,12 +3404,13 @@
     "country": "Timor-Leste",
     "dumplings": [
       {
-        "name": "Timor-Leste dumpling",
-        "desc": " ",
+        "name": "Katupa",
+        "desc": "Compressed rice cakes wrapped in woven palm leaves, flavored with coconut milk and tumeric",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3418,12 +3419,13 @@
     "country": "Togo",
     "dumplings": [
       {
-        "name": "Togo dumpling",
-        "desc": " ",
+        "name": "Djenkoume",
+        "desc": "Cornmeal fritters served with stew or sauce.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Savory",
+          "Vegetarian"
         ]
       }
     ]
@@ -3432,12 +3434,13 @@
     "country": "Tonga",
     "dumplings": [
       {
-        "name": "Tonga dumpling",
-        "desc": " ",
+        "name": "Faikakai Topai",
+        "desc": "A sweet dumpling served with sweet coconut sauce",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -3446,12 +3449,13 @@
     "country": "Trinidad and Tobago",
     "dumplings": [
       {
-        "name": "Trinidad and Tobago dumpling",
-        "desc": " ",
+        "name": "Pastelles",
+        "desc": "A Christmas dish made with cornmeal dough stuffed with a savory filling, wrapped in banana leaves, and steamed",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Savory",
+          "Vegetarian"
         ]
       }
     ]
@@ -3460,12 +3464,13 @@
     "country": "Tunisia",
     "dumplings": [
       {
-        "name": "Tunisia dumpling",
-        "desc": " ",
+        "name": "Brick à l'Oeuf",
+        "desc": "Thin pastry sheets filled with egg and other ingredients such as tuna, capers, or cheese, then folded and fried until crispy",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Pan-Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3489,12 +3494,13 @@
     "country": "Turkmenistan",
     "dumplings": [
       {
-        "name": "Turkmenistan dumpling",
-        "desc": " ",
+        "name": "Gutap",
+        "desc": "A traditional Turkmen pastry filled with squash or pumpkin and cooked on a griddle",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Pan-Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3503,12 +3509,13 @@
     "country": "Turks and Caicos Is.",
     "dumplings": [
       {
-        "name": "Turks and Caicos Islands (the) dumpling",
-        "desc": " ",
+        "name": "Conch Fritters",
+        "desc": "Fried dumplings made with shellfish meat, flour, and seasonings",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3517,12 +3524,13 @@
     "country": "U.S. Virgin Is.",
     "dumplings": [
       {
-        "name": "Virgin Islands (U.S.) dumpling",
-        "desc": " ",
+        "name": "Conch Fritters",
+        "desc": "Fried dumplings made with shellfish meat, flour, and seasonings",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3531,12 +3539,13 @@
     "country": "Uganda",
     "dumplings": [
       {
-        "name": "Uganda dumpling",
-        "desc": " ",
+        "name": "Rolex",
+        "desc": "A popular street food made with an vegetable omelette rolled inside a chapati. The name comes from the term 'rolled eggs'",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Pan-Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3562,12 +3571,13 @@
     "country": "United Arab Emirates",
     "dumplings": [
       {
-        "name": "United Arab Emirates dumpling",
-        "desc": " ",
+        "name": "Ma'amoul",
+        "desc": "Shortbread cookies filled with dates, nuts such as pistachios or walnuts, or figs",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Sweet",
+          "Vegetarian"
         ]
       }
     ]
@@ -3577,7 +3587,7 @@
     "dumplings": [
       {
         "name": "Suet Dumplings",
-        "desc": " ",
+        "desc": "Dumplings made from animal fat, flour, and water, typically served in stews and casseroles",
         "img": " ",
         "tags": [
           "Boiled",
@@ -3627,12 +3637,13 @@
     "country": "Uruguay",
     "dumplings": [
       {
-        "name": "Uruguay dumpling",
-        "desc": " ",
+        "name": "Niños envueltos",
+        "desc": "Rice and meat wrapped in cabbage leaves or beef and cooked in a tomato-based sauce.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Savory",
+          "Traditionally Non-Vegetarian"
         ]
       }
     ]
@@ -3641,12 +3652,13 @@
     "country": "Uzbekistan",
     "dumplings": [
       {
-        "name": "Uzbekistan dumpling",
-        "desc": " ",
+        "name": "Manti",
+        "desc": "Steamed dumplings filled with ground meat.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3655,12 +3667,13 @@
     "country": "Vanuatu",
     "dumplings": [
       {
-        "name": "Vanuatu dumpling",
-        "desc": " ",
+        "name": "Lap Lap",
+        "desc": "The national dish of Vanuatu. Grated veggies wrapped in banana leaves and baked in an underground oven.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Savory",
+          "Vegetarian"
         ]
       }
     ]
@@ -3669,8 +3682,8 @@
     "country": "Vatican",
     "dumplings": [
       {
-        "name": "Holy See (the) dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -3683,12 +3696,13 @@
     "country": "Venezuela",
     "dumplings": [
       {
-        "name": "Venezuela (Bolivarian Republic of) dumpling",
-        "desc": " ",
+        "name": "Bollos Pelones",
+        "desc": "Corn dough stuffed with meat and veggies, usually served with a tomato-based sauce.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Savory",
+          "Traditionally Non-Vegetarian"
         ]
       }
     ]
@@ -3722,8 +3736,8 @@
     "country": "W. Sahara",
     "dumplings": [
       {
-        "name": "Western Sahara dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -3736,8 +3750,8 @@
     "country": "Wallis and Futuna Is.",
     "dumplings": [
       {
-        "name": "Wallis and Futuna dumpling",
-        "desc": " ",
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": " ",
         "tags": [
           " ",
@@ -3750,12 +3764,13 @@
     "country": "Yemen",
     "dumplings": [
       {
-        "name": "Yemen dumpling",
-        "desc": " ",
+        "name": "Martabak",
+        "desc": "A stuffed pancake or pan-fried bread commonly found in the Arabian Peninsula.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Pan-Fried",
+          "Savory",
+          "Traditionally Non-Vegetarian"
         ]
       }
     ]
@@ -3764,12 +3779,13 @@
     "country": "Zambia",
     "dumplings": [
       {
-        "name": "Zambia dumpling",
-        "desc": " ",
+        "name": "Goulabjamoun",
+        "desc": "Deep-fried sweet potato balls covered in flour and cinammon. Likely introduced to Zambia via India railway workers during British colonial rule.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -3778,12 +3794,13 @@
     "country": "Zimbabwe",
     "dumplings": [
       {
-        "name": "Zimbabwe dumpling",
-        "desc": " ",
+        "name": "Sadza",
+        "desc": "One of the most common dishes in Zimbabwe. Made from cornmeal and usually served as an accompaniment to meat and vegetable dishes.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
