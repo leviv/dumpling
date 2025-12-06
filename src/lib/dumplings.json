@@ -910,14 +910,11 @@
     "country": "Cook Is.",
     "dumplings": [
       {
-        "name": "Kinaki",
-        "desc": "A popular side dish made using fresh vegetables like kumara (sweet potatoes), taro, and arrowroot that are boiled or fried then salted for flavor",
+        "name": "",
+        "desc": "",
         "img": " ",
         "tags": [
-          "Boiled",
-          "Fried",
-          "Vegetarian",
-          "Savory"
+          ""
         ]
       }
     ]
