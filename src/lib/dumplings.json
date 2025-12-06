@@ -2035,12 +2035,13 @@
     "country": "Libya",
     "dumplings": [
       {
-        "name": "Libya dumpling",
-        "desc": " ",
-        "img": " ",
+        "name": "Sfenj",
+        "desc": "A light spongy ring of dough fried in oil and eaten sprinkled with sugar or soaked in honey or date molasses",
+        "img": "frieddough.png",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -2049,12 +2050,13 @@
     "country": "Liechtenstein",
     "dumplings": [
       {
-        "name": "Liechtenstein dumpling",
-        "desc": " ",
+        "name": "Käsknöpfle",
+        "desc": "A dish comprised of soft dumplings mixed with cheese, baked, and commonly served with apple sauce",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2063,12 +2065,13 @@
     "country": "Lithuania",
     "dumplings": [
       {
-        "name": "Lithuania dumpling",
-        "desc": " ",
+        "name": "Cepelinai",
+        "desc": "Potato dumplings stuffed with ground meat, dry curd cheese, liver, or mushrooms",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2077,12 +2080,13 @@
     "country": "Luxembourg",
     "dumplings": [
       {
-        "name": "Luxembourg dumpling",
-        "desc": " ",
+        "name": "Kniddelen",
+        "desc": "Soft boiled flour dumplings served with a rich buttery sauce and bacon",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2091,12 +2095,13 @@
     "country": "Macao",
     "dumplings": [
       {
-        "name": "Macao dumpling",
-        "desc": " ",
+        "name": "Macanese Pastel de Nata",
+        "desc": "A variation of Portuguese egg tarts that use puff pastry and feature carmelised tops",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -2105,12 +2110,13 @@
     "country": "Macedonia",
     "dumplings": [
       {
-        "name": "Republic of North Macedonia dumpling",
-        "desc": " ",
+        "name": "Tulumba",
+        "desc": "A deep-fried dessert of unleavened choux pastry dough soaked in syrup",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -2119,12 +2125,13 @@
     "country": "Madagascar",
     "dumplings": [
       {
-        "name": "Madagascar dumpling",
-        "desc": " ",
+        "name": "Menakely",
+        "desc": "A crispy fritter served at breakfast with coffee ",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -2133,12 +2140,13 @@
     "country": "Malawi",
     "dumplings": [
       {
-        "name": "Malawi dumpling",
-        "desc": " ",
+        "name": "Nsima",
+        "desc": "A dish made from maize flour and water and eaten as a side dish",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2147,12 +2155,12 @@
     "country": "Malaysia",
     "dumplings": [
       {
-        "name": "Malaysia dumpling",
-        "desc": " ",
+        "name": "Nyonya Chang",
+        "desc": "Glutinous rice dumplings with a patch of blue rice colored from butterfly pea flower juice and filled with strong Malay spices and wrapped in pandan leaves",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          ""
         ]
       }
     ]
@@ -2161,12 +2169,13 @@
     "country": "Maldives",
     "dumplings": [
       {
-        "name": "Maldives dumpling",
-        "desc": " ",
+        "name": "Gulha",
+        "desc": "Fried small ball-shaped dumplings stuffed with a mixture of tuna, finely chopped onion, grated cocont, and chili",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2175,12 +2184,13 @@
     "country": "Mali",
     "dumplings": [
       {
-        "name": "Mali dumpling",
-        "desc": " ",
-        "img": " ",
+        "name": "Fufu",
+        "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews.",
+        "img": "fufu.png",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2189,12 +2199,13 @@
     "country": "Malta",
     "dumplings": [
       {
-        "name": "Malta dumpling",
-        "desc": " ",
+        "name": "Ravjul Malti",
+        "desc": "A Maltese take on ravioli using flour mixed with semolina flour and filled with cheese (frequently Maltese cheese) and parsley",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2203,13 +2214,9 @@
     "country": "Marshall Is.",
     "dumplings": [
       {
-        "name": "Marshall Islands (the) dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+       "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
