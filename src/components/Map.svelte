@@ -32,14 +32,14 @@
 	function mouseClick(event: any, d: any) {
 		// Animate all other countries to the default state
 		d3.selectAll('.country').transition().duration(200).style('opacity', 0.8);
-		d3.selectAll('.country').transition().duration(200).style('stroke', 'transparent');
+		d3.selectAll('.country').transition().duration(200).style('stroke', '#A49478');
 
 		// Highlight the selected country
 		d3.select(event.currentTarget)
 			.transition()
 			.duration(200)
 			.style('opacity', 1)
-			.style('stroke', '#76664A')
+			.style('stroke', '#A49478')
 			.style('fill','#DCD485');
 
 		// Get the country name
@@ -82,6 +82,8 @@
 <style>
 	:global(.country) {
 		stroke-width: 0.5;
+		stroke: #A49478;
+		stroke-opacity:1;
 	}
 
 	:global(.dragging) {
