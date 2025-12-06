@@ -30,11 +30,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          "",
-          ""
-        ]
+        "img": " "
       }
     ]
   },
@@ -135,11 +131,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": " "
       }
     ]
   },
@@ -209,11 +201,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": " "
       }
     ]
   },
@@ -1040,7 +1028,7 @@
     "dumplings": [
       {
         "name": "Fufu",
-        "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews. A Congolese variant uses half cassava and half corn",
+        "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews.",
         "img": "fufu.png",
         "tags": [
           "Boiled",
@@ -1147,12 +1135,14 @@
     "country": "El Salvador",
     "dumplings": [
       {
-        "name": "El Salvador dumpling",
-        "desc": " ",
+        "name": "Pupusa",
+        "desc": "A thick griddle cake made with cornmeal or rice flour and stuffed with one or more ingredients",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Grilled",
+          "Traditionally Non-Vegetarian",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1161,12 +1151,13 @@
     "country": "Eq. Guinea",
     "dumplings": [
       {
-        "name": "Equatorial Guinea dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
+       "name": "Fufu",
+       "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews.",
+       "img": " ",
+       "tags": [
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1175,12 +1166,13 @@
     "country": "Eritrea",
     "dumplings": [
       {
-        "name": "Eritrea dumpling",
-        "desc": " ",
+        "name": "Tihlo",
+        "desc": "A dish consisting of barley dough balls covered with meat and berbere-based sauce",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Soup",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1189,12 +1181,14 @@
     "country": "Estonia",
     "dumplings": [
       {
-        "name": "Estonia dumpling",
-        "desc": " ",
+        "name": "Piruka",
+        "desc": "A savory pastry or stuffed bun with a flaky crush filled with meat or veggies",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Traditionally Non-Vegetarian",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1203,12 +1197,14 @@
     "country": "eSwatini",
     "dumplings": [
       {
-        "name": "Eswatini dumpling",
-        "desc": " ",
+        "name": "Sinkhwa Sembila",
+        "desc": "A corn bread traditionally steamed in corn leaves but now often baked to feature a crispier crust",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Baked",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1217,12 +1213,14 @@
     "country": "Ethiopia",
     "dumplings": [
       {
-        "name": "Ethiopia dumpling",
-        "desc": " ",
-        "img": " ",
+        "name": "Sambusa",
+        "desc": "A crispy fried triangular pastry filled with beef, chicken, or organic green lentils",
+        "img": "sambusa.png",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1231,13 +1229,9 @@
     "country": "Faeroe Is.",
     "dumplings": [
       {
-        "name": "Faroe Islands (the) dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
@@ -1245,13 +1239,9 @@
     "country": "Falkland Is.",
     "dumplings": [
       {
-        "name": "Falkland Islands (the) [Malvinas] dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
@@ -1259,12 +1249,13 @@
     "country": "Fiji",
     "dumplings": [
       {
-        "name": "Fiji dumpling",
-        "desc": " ",
+        "name": "Topoi",
+        "desc": "A dumpling made with wheat flour, coconut milk or cream, and sugar",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -1288,12 +1279,13 @@
     "country": "Fr. Polynesia",
     "dumplings": [
       {
-        "name": "French Polynesia dumpling",
-        "desc": " ",
-        "img": " ",
+        "name": "Firi Firi",
+        "desc": "A coconut milk doughnut usually shaped like a figure 8 often eaten for breakfast",
+        "img": "cuba0.png",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -1302,12 +1294,13 @@
     "country": "Fr. S. Antarctic Lands",
     "dumplings": [
       {
-        "name": "French Southern Territories (the) dumpling",
-        "desc": " ",
+        "name": "TAAF Buns",
+        "desc": "A sweet bun popular for its ease of cooking and small list of ingredients",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -1331,12 +1324,13 @@
     "country": "Gabon",
     "dumplings": [
       {
-        "name": "Gabon dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
+       "name": "Fufu",
+       "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews.",
+       "img": " ",
+       "tags": [
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1345,12 +1339,13 @@
     "country": "Gambia",
     "dumplings": [
       {
-        "name": "Gambia (the) dumpling",
-        "desc": " ",
+        "name": "Fufu",
+        "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews.",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1390,12 +1385,13 @@
     "country": "Ghana",
     "dumplings": [
       {
-        "name": "Ghana dumpling",
-        "desc": " ",
+        "name": "Kenkey",
+        "desc": "A swallow food similar to sourdough dumplings usually served with soup or stew",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1429,13 +1425,9 @@
     "country": "Greenland",
     "dumplings": [
       {
-        "name": "Greenland dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
@@ -1459,13 +1451,9 @@
     "country": "Guam",
     "dumplings": [
       {
-        "name": "Guam dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
@@ -1488,12 +1476,13 @@
     "country": "Guernsey",
     "dumplings": [
       {
-        "name": "Guernsey dumpling",
-        "desc": " ",
+        "name": "Guernsey Gâche",
+        "desc": "A yeast bread studded with candied orange peel and sultanas and served with butter and jam or with cheese",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -1502,12 +1491,13 @@
     "country": "Guinea",
     "dumplings": [
       {
-        "name": "Guinea dumpling",
-        "desc": " ",
+        "name": "Fou Fou",
+        "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1516,13 +1506,9 @@
     "country": "Guinea-Bissau",
     "dumplings": [
       {
-        "name": "Guinea-Bissau dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+       "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
@@ -1530,12 +1516,13 @@
     "country": "Guyana",
     "dumplings": [
       {
-        "name": "Guyana dumpling",
-        "desc": " ",
+        "name": "Pholourie",
+        "desc": "An Indo-Carribbean snack food consisting of fried, spliced split pea and flour dough balls served with a chutney",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1544,12 +1531,13 @@
     "country": "Haiti",
     "dumplings": [
       {
-        "name": "Haiti dumpling",
-        "desc": " ",
+        "name": "Doumbrey",
+        "desc": "Elongated flour dumplings that are rolled and boiled in water before being added to stews and soups",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1558,13 +1546,9 @@
     "country": "Heard I. and McDonald Is.",
     "dumplings": [
       {
-        "name": "Heard Island and McDonald Islands dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
@@ -1680,12 +1664,13 @@
     "country": "Indian Ocean Ter.",
     "dumplings": [
       {
-        "name": "Indian Ocean Ter. dumpling",
-        "desc": " ",
-        "img": " ",
+        "name": "Mouf",
+        "desc": "A dessert made with coconut milk, rice, and sugar boiled while wrapped in a banana leaf",
+        "img": "ricecake.png",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -1756,13 +1741,9 @@
     "country": "Isle of Man",
     "dumplings": [
       {
-        "name": "Isle of Man dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
@@ -1852,12 +1833,13 @@
     "country": "Jersey",
     "dumplings": [
       {
-        "name": "Jersey dumpling",
-        "desc": " ",
+        "name": "Les Mèrvelles dé Jèrri",
+        "desc": "A fried twisted doughnut similar to a beignet",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -1912,12 +1894,13 @@
     "country": "Kiribati",
     "dumplings": [
       {
-        "name": "Kiribati dumpling",
-        "desc": " ",
+        "name": "Buatoro",
+        "desc": "A moist, rich cake made from grated pumpkin or taro cooked while wrapped in banana leaves to lock in moisture",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -1926,12 +1909,13 @@
     "country": "Kosovo",
     "dumplings": [
       {
-        "name": "Kosovo dumpling",
-        "desc": " ",
+        "name": "Sarma",
+        "desc": "Minced meat wrapped in cabbage or vine leaves",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -1940,12 +1924,15 @@
     "country": "Kuwait",
     "dumplings": [
       {
-        "name": "Kuwait dumpling",
-        "desc": " ",
+        "name": "Gabout",
+        "desc": "A dish featuring flour dumplings stuffed with meat or vegetables simmered in a rich stew",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Soup",
+          "Vegetarian",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2017,12 +2004,14 @@
     "country": "Lesotho",
     "dumplings": [
       {
-        "name": "Lesotho dumpling",
-        "desc": " ",
+        "name": "Makoenya",
+        "desc": "Also known as fat cakes, balls of dough are shaped and fried to be served as a side dish or enjoyed on their own",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory",
+          "Sweet"
         ]
       }
     ]
@@ -2031,12 +2020,13 @@
     "country": "Liberia",
     "dumplings": [
       {
-        "name": "Liberia dumpling",
-        "desc": " ",
+        "name": "Dumboy",
+        "desc": "Considered Liberia's national dish, boiled cassava is pounded into a dough and shaped into balls and eaten wiht pepper soup",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
