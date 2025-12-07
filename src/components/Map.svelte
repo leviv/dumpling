@@ -21,11 +21,18 @@
 	let roughSVG: rough.RoughSVG<SVGSVGElement>;
 	let debugGUI: gui;
 	const debugSettings = {
+		bowing: 1,
+		curveStepCount: 9,
+		curveFitting: 0.95,
 		fill: '#FBDDA4',
 		fillStyle: 'hachure',
+		fillWeight: 0.5,
 		stroke: '#A49478',
 		strokeWidth: 1,
-		roughness: 0.5
+		hachureAngle: -41,
+		hachureGap: 8,
+		roughness: 0.5,
+		simplification: 0
 	};
 
 	// Panning and zooming functionality
@@ -44,32 +51,31 @@
 
 	// Reset all country styles to default
 	function resetCountryStyles(resetSelected: boolean = true) {
-		const selector = resetSelected ? '.country' : '.country:not(.selected)';
-
 		if (resetSelected) {
 			// Deselect any previously selected country
 			d3.selectAll('.country').classed('selected', false);
+			d3.selectAll('.country-highlight').remove();
 		}
-
-		// Animate countries to the default state
-		d3.selectAll(selector)
-			.transition()
-			.duration(200)
-			.style('fill', '#FBDDA4')
-			.style('stroke', '#A49478');
 	}
 
 	// Handle country click events
 	function mouseClick(event: any, d: any) {
 		resetCountryStyles();
 
-		// Highlight the selected country
-		d3.select(event.currentTarget)
-			.classed('selected', true)
-			.transition()
-			.duration(200)
+		// Mark the selected country
+		const element = d3.select(event.currentTarget);
+		element.classed('selected', true);
+
+		// Add highlight overlay
+		const pathData = element.attr('d');
+		g.append('path')
+			.attr('d', pathData)
+			.attr('class', 'country-highlight')
+			.style('fill', '#DCD485')
 			.style('stroke', 'red')
-			.style('fill', '#DCD485');
+			.style('stroke-width', 2)
+			.style('fill-opacity', 0.6)
+			.style('pointer-events', 'none');
 
 		zoomToCountry(event, d);
 
@@ -112,16 +118,23 @@
 
 	// Highlight country on mouseover
 	function mouseOver(event: any, d: any) {
-		d3.select(event.currentTarget)
-			.transition()
-			.duration(200)
+		const element = d3.select(event.currentTarget);
+		if (element.classed('selected')) return; // Don't hover over selected
+
+		const pathData = element.attr('d');
+		g.append('path')
+			.attr('d', pathData)
+			.attr('class', 'country-hover')
+			.style('fill', '#F29F7B')
 			.style('stroke', 'red')
-			.style('fill', '#DCD485');
+			.style('stroke-width', 1.5)
+			.style('fill-opacity', 0.4)
+			.style('pointer-events', 'none');
 	}
 
 	// Reset country styles on mouseout
 	function mouseOut(event: any, d: any) {
-		resetCountryStyles(false);
+		d3.selectAll('.country-hover').remove();
 	}
 
 	function roughDrawCountry() {
@@ -131,13 +144,21 @@
 		// Draw rough versions for each country
 		paths.each(function (this: SVGPathElement, d: any) {
 			const pathData = d3.select(this).attr('d');
+
 			if (pathData) {
 				const roughPath = roughSVG.path(pathData, {
+					bowing: debugSettings.bowing,
+					curveStepCount: debugSettings.curveStepCount,
+					curveFitting: debugSettings.curveFitting,
 					fill: debugSettings.fill,
 					fillStyle: debugSettings.fillStyle,
+					fillWeight: debugSettings.fillWeight,
 					stroke: debugSettings.stroke,
 					strokeWidth: debugSettings.strokeWidth,
-					roughness: debugSettings.roughness
+					hachureAngle: debugSettings.hachureAngle,
+					hachureGap: debugSettings.hachureGap,
+					roughness: debugSettings.roughness,
+					simplification: debugSettings.simplification
 				});
 				roughPath.setAttribute('class', 'rough-country');
 				roughPath.style.pointerEvents = 'none';
@@ -149,6 +170,12 @@
 	function createDebugGUI() {
 		debugGUI = new gui();
 		const mapFolder = debugGUI.addFolder('Map Settings');
+		mapFolder.add(debugSettings, 'bowing', 0, 10);
+		mapFolder
+			.add(debugSettings, 'curveStepCount', 1, 20)
+			.step(1)
+			.onChange(() => roughDrawCountry());
+		mapFolder.add(debugSettings, 'curveFitting', 0.1, 1).onChange(() => roughDrawCountry());
 		mapFolder.addColor(debugSettings, 'fill').onChange(() => roughDrawCountry());
 		mapFolder
 			.add(debugSettings, 'fillStyle', [
@@ -160,9 +187,13 @@
 				'sunburst'
 			])
 			.onChange(() => roughDrawCountry());
+		mapFolder.add(debugSettings, 'fillWeight', 0, 5).onChange(() => roughDrawCountry());
 		mapFolder.addColor(debugSettings, 'stroke').onChange(() => roughDrawCountry());
 		mapFolder.add(debugSettings, 'strokeWidth', 0.1, 5).onChange(() => roughDrawCountry());
+		mapFolder.add(debugSettings, 'hachureAngle', -360, 360).onChange(() => roughDrawCountry());
+		mapFolder.add(debugSettings, 'hachureGap', 0, 20).onChange(() => roughDrawCountry());
 		mapFolder.add(debugSettings, 'roughness', 0, 5).onChange(() => roughDrawCountry());
+		mapFolder.add(debugSettings, 'simplification', 0, 1).onChange(() => roughDrawCountry());
 		mapFolder.open();
 
 		return debugGUI;
