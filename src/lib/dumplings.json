@@ -4,7 +4,7 @@
     "dumplings": [
       {
         "name": "Mantu",
-        "desc": "A thin dough filled with beef or lamb mixed in onions and spices.",
+        "desc": "A thin dough filled with beef or lamb mixed in onions and spices",
         "img": "afghanistan0.png",
         "tags": [
           "Steamed",
@@ -14,7 +14,7 @@
       },
       {
         "name": "Aushak",
-        "desc": "Dumplings filled with chives, served with a (frequently meaty) tomato sauce, and topped with yogurt and dried mint.",
+        "desc": "Dumplings filled with chives, served with a meaty tomato sauce",
         "img": "afghanistan1.png",
         "tags": [
           "Steamed",
@@ -115,7 +115,7 @@
     "dumplings": [
       {
         "name": "Conkie",
-        "desc": "A dumpling made from ground corn and flour, grated coconut, spices, and pumpkin mixed into a dough which is boiled or steamed wrapped in banana leaves",
+        "desc": "A dumpling made from ground corn, grated coconut, and pumpkin mixed into a dough wrapped in banana leaves",
         "img": "conkie.png",
         "tags": [
           "Boiled",
@@ -140,7 +140,7 @@
     "dumplings": [
       {
         "name": "Duncana",
-        "desc": "A dish made from sweet potatoes, coconut, and connamon formed into dumplings and wrapped in banana leaves",
+        "desc": "A dish made from sweet potatoes, coconut, and cinnamon wrapped in banana leaves",
         "img": "antigua0.png",
         "tags": [
           "Roasted",
@@ -155,7 +155,7 @@
     "dumplings": [
       {
         "name": "Empanada Mendocinas",
-        "desc": "Baked empanadas filled with beef, onions, paprika, hot pepper powder, cumin, oregano, hard-boiled egg, and olives from the Mendoza region of Argentina",
+        "desc": "Baked empanadas from the Mendoza region of Argentina",
         "img": "empanada.png",
         "tags": [
           "Baked",
@@ -185,7 +185,7 @@
     "dumplings": [
       {
         "name": "Ayaca",
-        "desc": "Corn dough stuffed with a stew of beef, pork, or chicken and other ingredients such as raisins, capers, and olives boiled in a plantain or banana leaf",
+        "desc": "Corn dough stuffed with a stew of meat and other ingredients boiled in a plantain or banana leaf",
         "img": "aruba0.png",
         "tags": [
           "Boiled",
@@ -267,7 +267,7 @@
     "dumplings": [
       {
         "name": "Peas and Dumpling Soup",
-        "desc": "A soup consisting of piegon peas, meats like ham/ribs/conch, root vegetables, coconut milk, tomato sauce, and dumplings",
+        "desc": "A soup consisting of piegon peas, meats, root vegetables, coconut milk, tomato sauce, and dumplings",
         "img": "bahamas0.png",
         "tags": [
           "Boiled",
@@ -298,7 +298,7 @@
     "dumplings": [
       {
         "name": "Bori",
-        "desc": "A dried lentil dumpling made from a paste of urad dal (black gram) and masoor dal (split red lentil) traditionally sun-dried",
+        "desc": "A dried lentil dumpling made from a paste of urad dal and masoor dal traditionally sun-dried",
         "img": "bangladesh0.png",
         "tags": [
           "Steamed",
@@ -334,7 +334,7 @@
     "dumplings": [
       {
         "name": "Bajan Conkie",
-        "desc": "A sweet cornmeal-based food item including coconut, sweet potato, raisins, and pumpkins cooked by steaming in banana leaves",
+        "desc": "A sweet cornmeal-based food item including coconut, sweet potato, raisins, and pumpkins steamed in banana leaves",
         "img": "conkie.png",
         "tags": [
           "Steamed",
@@ -349,7 +349,7 @@
     "dumplings": [
       {
         "name": "Kletski",
-        "desc": "Belarusian potato dumplings, occasionally filled with minced meat, and enjoyed with butter, sour cream, or in a soup",
+        "desc": "Potato dumplings filled with minced meat and enjoyed with butter, sour cream, or in a soup",
         "img": "belarus0.png",
         "tags": [
           "Boiled",
@@ -364,7 +364,7 @@
     "dumplings": [
       {
         "name": "Garnaalkroketten",
-        "desc": "Croquettes with a thick and creamy bechamel filling mixed with grey shrimp served with a slice of lemon and fried parsley",
+        "desc": "Croquettes with a thick and creamy bechamel filling mixed with shrimp",
         "img": "belgium0.png",
         "tags": [
           "Fried",
@@ -389,7 +389,7 @@
     "dumplings": [
       {
         "name": "Belizean Meat Pie",
-        "desc": "A staple breakfast and snack in Belize consisting of a flaky pastry dough and ground beef, hot peppers, and spices",
+        "desc": "A flaky pastry dough and ground beef, hot peppers, and spices",
         "img": "meatpie.png",
         "tags": [
           "Baked",
@@ -444,7 +444,7 @@
       },
       {
         "name": "Hoentey",
-        "desc": "A buckwheat dumpling usually stuffed with spinach or turnip leaves, amaranth seeds, and cottage cheese",
+        "desc": "A buckwheat dumpling stuffed with spinach or turnip leaves, amaranth seeds, and cottage cheese",
         "img": "buckwheatdumpling.png",
         "tags": [
           "Steamed",
@@ -474,7 +474,7 @@
     "dumplings": [
       {
         "name": "Klepe",
-        "desc": "Meat-filled dumplings often compared to ravioli and served in a hot soup broth or garlic and yogurt sauce",
+        "desc": "Meat-filled dumplings served in a hot soup broth or garlic and yogurt sauce",
         "img": "klepe.png",
         "tags": [
           "Boiled",
@@ -530,7 +530,7 @@
       },
       {
         "name": "Coxinha",
-        "desc": "A fried snack consisting of chopped or shredded chicken meat covered in dough and molded into a shape of a teardrop",
+        "desc": "A fried snack consisting of shredded chicken meat covered in dough and molded into a shape of a teardrop",
         "img": "brasil1.png",
         "tags": [
           "Fried",
@@ -571,7 +571,7 @@
     "dumplings": [
       {
         "name": "Pulut Panggang",
-        "desc": "Rice rolls stuffed with shrimp or beef, coconuts, pandan leaves, spices, and lemon grass steamed in a banana leaf",
+        "desc": "Rice rolls stuffed with shrimp or beef, coconuts, spices, and lemon grass steamed in a banana leaf",
         "img": "brunei0.png",
         "tags": [
           "Steamed",
@@ -602,7 +602,7 @@
     "dumplings": [
       {
         "name": "Burkinabe Tô",
-        "desc": "A cooked mixture of water and millet, cornmeal, or sorghum formed into small balls which are served with sauces, soups, and stews",
+        "desc": "A mixture of water and millet, cornmeal, or sorghum formed into small balls and served with sauces, soups, and stews",
         "img": "burkinafaso0.png",
         "tags": [
           "Boiled",
@@ -671,7 +671,7 @@
     "dumplings": [
       {
         "name": "Kwacoco",
-        "desc": "Grated cocoyams wrapped and steamed in banana leaves and occasionally mixed with other ingredients such as spinach or smoked fish",
+        "desc": "Grated cocoyams wrapped and steamed in banana leaves and occasionally mixed with other ingredients",
         "img": "cameroon0.png",
         "tags": [
           "Steamed",
@@ -686,7 +686,7 @@
     "dumplings": [
       {
         "name": "Poutine Râpée",
-        "desc": "A dish that most commonly consists of a boiled potato dumpling with a pork filling prepared with a mixture of grated and mashed potato",
+        "desc": "A boiled potato dumpling with a pork filling prepared with a mixture of grated and mashed potato",
         "img": "canada0.png",
         "tags": [
           "Boiled",
@@ -727,7 +727,7 @@
     "dumplings": [
       {
         "name": "Foutou",
-        "desc": "Pounded plantains (occasionally also using mashed yams) eaten like bread and served with stews, soups, and sauces",
+        "desc": "Pounded plantains eaten like bread and served with stews, soups, and sauces",
         "img": "foutou.png",
         "tags": [
           "Boiled",
@@ -767,7 +767,7 @@
       },
       {
         "name": "Pantruca",
-        "desc": "A vegetable soup or beef stock soup featuring dumplings made with water, flour, and a bit of oil cut in irregular pieces",
+        "desc": "A vegetable soup or beef stock featuring dumplings made with water, flour, and a bit of oil cut in irregular pieces",
         "img": "chile1.png",
         "tags": [
           "Boiled",
@@ -783,7 +783,7 @@
     "dumplings": [
       {
         "name": "Ang Ku Kueh",
-        "desc": "A small round sweet dumpling with soft, sticky glutinous rice flour skin wrapped around a sweet central filling molded to resemble a tortoise shell and presented on a banana leaf",
+        "desc": "Sticky rice flour with a sweet filling and molded to resemble a tortoise shell and presented on a banana leaf",
         "img": "china0.png",
         "tags": [
           "Steamed",
@@ -793,7 +793,7 @@
       },
       {
         "name": "Baozi",
-        "desc": "A yeast-leavened filled bun with many variations in fillings (meat or vegetarian) and preparations but are most often steamed",
+        "desc": "A yeast-leavened bun with a variety of fillings (meat or vegetarian) and preparations but are most often steamed",
         "img": "meatbao.png",
         "tags": [
           "Steamed",
@@ -814,14 +814,10 @@
       },
       {
         "name": "Jiaozi",
-        "desc": "A type of Chinese dumpling typically consisting of a ground meat or vegetable filling wrapped in a thinly rolled piece of dough. Its name varies depending on the cooking method",
+        "desc": "A ground meat or vegetable filling wrapped in a thinly rolled piece of dough. Its name varies depending on the cooking method",
         "img": "boileddumpling.png",
         "tags": [
-          "Boiled",
-          "Steamed",
-          "Pan-Fried",
-          "Fried",
-          "Baked",
+          "Varied Cooking Methods",
           "Vegetarian",
           "Traditionally Non-Vegetarian",
           "Savory"
@@ -829,7 +825,7 @@
       },
       {
         "name": "Wonton",
-        "desc": "A thin dumpling shaped similarly to the Italian tortellino that is typically made with a meat or shrimp filling and boiled in a light broth or soup",
+        "desc": "A thin dumpling that is typically made with a meat or shrimp filling and boiled in a light broth or soup",
         "img": "wonton.png",
         "tags": [
           "Boiled",
@@ -869,13 +865,9 @@
     "country": "Comoros",
     "dumplings": [
       {
-        "name": "Comoros dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
@@ -898,12 +890,9 @@
     "country": "Cook Is.",
     "dumplings": [
       {
-        "name": "",
-        "desc": "",
-        "img": " ",
-        "tags": [
-          ""
-        ]
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": " "
       }
     ]
   },
@@ -1104,7 +1093,7 @@
     "dumplings": [
       {
         "name": "Bolón de Verde",
-        "desc": "Dumplings made from green plantains made into a masa or dough then stuffed with cheese, chorizo, or chicharrones",
+        "desc": "Dumplings made from green plantains made into a masa then stuffed with cheese, chorizo, or chicharrones",
         "img": "ecuador0.png",
         "tags": [
           "Fried",
@@ -1120,7 +1109,7 @@
     "dumplings": [
       {
         "name": "Qatayef/Atayef",
-        "desc": "A sweet dumpling filled with cream, cheese, or nuts shaped into a half moon shape and often eaten during Ramadan",
+        "desc": "A sweet dumpling filled with cream, cheese, or nuts shaped into a half moon shape",
         "img": "egypt0.png",
         "tags": [
           "Fried",
@@ -1264,8 +1253,8 @@
     "country": "Finland",
     "dumplings": [
       {
-        "name": "Mykyrokka",
-        "desc": "A soup featuring myky (palm sized dumplings made from blood and barley flour), potatoes, onions, fatty meat, and offal",
+        "name": "Myky",
+        "desc": "A palm sized dumplings made from blood and barley flour",
         "img": " ",
         "tags": [
           "Boiled",
@@ -1310,7 +1299,7 @@
     "dumplings": [
       {
         "name": "Raviole du Dauphiné",
-        "desc": "A regional specialty similar to tiny ravioli consisting of two layers of pasta and a filling of comté or French Emmental cheese",
+        "desc": "Tiny ravioli consisting of two layers of pasta and a filling of comté or French Emmental cheese",
         "img": " ",
         "tags": [
           "Boiled",
@@ -1462,7 +1451,7 @@
     "dumplings": [
       {
         "name": "Chuchito",
-        "desc": "A variation of the tamale made with a firmer corn dough and often mixed with recado rojo and meat filling",
+        "desc": "A variation of the tamale made with a firmer corn dough and mixed with recado rojo and meat filling",
         "img": " ",
         "tags": [
           "Steamed",
@@ -1477,7 +1466,7 @@
     "dumplings": [
       {
         "name": "Guernsey Gâche",
-        "desc": "A yeast bread studded with candied orange peel and sultanas and served with butter and jam or with cheese",
+        "desc": "A yeast bread studded with candied orange peel and sultanas",
         "img": " ",
         "tags": [
           "Baked",
@@ -1517,7 +1506,7 @@
     "dumplings": [
       {
         "name": "Pholourie",
-        "desc": "An Indo-Carribbean snack food consisting of fried, spliced split pea and flour dough balls served with a chutney",
+        "desc": "A fried, spliced split pea and flour dough balls served with a chutney",
         "img": " ",
         "tags": [
           "Fried",
@@ -1532,7 +1521,7 @@
     "dumplings": [
       {
         "name": "Doumbrey",
-        "desc": "Elongated flour dumplings that are rolled and boiled in water before being added to stews and soups",
+        "desc": "Elongated flour dumplings that are rolled and added to stews and soups",
         "img": " ",
         "tags": [
           "Boiled",
@@ -1573,7 +1562,7 @@
     "dumplings": [
       {
         "name": "Cheung Fun",
-        "desc": "Steamed rice rolls made from a wide strip of shahe fen filled with shrimp, beef, vegetables, or other ingredients",
+        "desc": "Steamed rice rolls made from a wide strip of shahe fen filled with shrimp, beef, or vegetables",
         "img": " ",
         "tags": [
           "Steamed",
@@ -1584,7 +1573,7 @@
       },
       {
         "name": "Wonton",
-        "desc": "A thin dumpling shaped similarly to the Italian tortellino that is typically made with a meat or shrimp filling and boiled in a light broth or soup",
+        "desc": "A thin dumpling typically made with a meat or shrimp filling and boiled in a light broth or soup",
         "img": "wonton.png",
         "tags": [
           "Boiled",
@@ -1630,7 +1619,7 @@
     "dumplings": [
       {
         "name": "Ada",
-        "desc": "A sweet consisting of rice parcels encased in a dough made of rice flour with sweet fillings steamed in a banana leaf",
+        "desc": "Rice parcels encased in a dough made of rice flour with sweet fillings steamed in a banana leaf",
         "img": " ",
         "tags": [
           "Steamed",
@@ -1640,7 +1629,7 @@
       },
       {
         "name": "Paddu",
-        "desc": "A dish made by steaming batter made of black lentils and rice using a special pan or mould to achieve its round shape",
+        "desc": "Steamed batter made of black lentils and rice using a special pan or mould to achieve a round shape",
         "img": " ",
         "tags": [
           "Steamed",
@@ -1695,7 +1684,7 @@
     "dumplings": [
       {
         "name": "Manti",
-        "desc": "A small, savory dumpling featuring a spiced ground meat wrapped in dough and served boiled or baked with a garlic yogurt sauce",
+        "desc": "Spiced ground meat wrapped in dough and served boiled or baked with a garlic yogurt sauce",
         "img": " ",
         "tags": [
           "Baked",
@@ -1781,7 +1770,7 @@
     "dumplings": [
       {
         "name": "Jamaican Dumplings",
-        "desc": "A simple side dish cooked a variety of ways and paired with different main meals such as jerk chicken and ackee",
+        "desc": "A simple side dish paired with different main meals such as jerk chicken and ackee",
         "img": " ",
         "tags": [
           "Boiled",
@@ -1810,9 +1799,7 @@
         "desc": "A sweet dumpling made from rice flour similar to mochi and commonly served on a skewer and can be prepared in a variety of ways",
         "img": " ",
         "tags": [
-          "Steamed",
-          "Boiled",
-          "Grilled",
+          "Varied Cooking Methods",
           "Vegetarian",
           "Sweet"
         ]
@@ -1864,7 +1851,7 @@
     "dumplings": [
       {
         "name": "Manti",
-        "desc": "A dumpling normally filled with minced lamb, spiced with black pepper, and sometimes with the addition of chopped pumpkin or squash",
+        "desc": "A dumpling normally filled with minced lamb, spiced with black pepper, and sometimes with chopped pumpkin or squash",
         "img": " ",
         "tags": [
           "Steamed",
@@ -1942,7 +1929,7 @@
     "dumplings": [
       {
         "name": "Oromo",
-        "desc": "A dish made by rolling out a pasta dough and covering in a filling of minced meat or vegetables and rolling it up like a Swiss roll",
+        "desc": "A dish made with pasta dough and a filling of minced meat or vegetables and rolling it up like a Swiss roll",
         "img": " ",
         "tags": [
           "Steamed",
@@ -2156,11 +2143,12 @@
     "dumplings": [
       {
         "name": "Nyonya Chang",
-        "desc": "Glutinous rice dumplings with a patch of blue rice colored from butterfly pea flower juice and filled with strong Malay spices and wrapped in pandan leaves",
+        "desc": "Glutinous rice dumplings with a patch of blue rice and filled with strong Malay spices and wrapped in pandan leaves",
         "img": " ",
         "tags": [
           "Steamed",
-          ""
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2200,7 +2188,7 @@
     "dumplings": [
       {
         "name": "Ravjul Malti",
-        "desc": "A Maltese take on ravioli using flour mixed with semolina flour and filled with cheese (frequently Maltese cheese) and parsley",
+        "desc": "A ravioli using flour mixed with semolina and filled with cheese (frequently Maltese cheese) and parsley",
         "img": " ",
         "tags": [
           "Boiled",
@@ -2224,12 +2212,13 @@
     "country": "Mauritania",
     "dumplings": [
       {
-        "name": "Mauritania dumpling",
-        "desc": " ",
+        "name": "Boulette Poisson",
+        "desc": "Balls of minced fish mixed with spices and served with stews",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2238,12 +2227,13 @@
     "country": "Mauritius",
     "dumplings": [
       {
-        "name": "Mauritius dumpling",
-        "desc": " ",
+        "name": "Gato Patate",
+        "desc": "A half-moon shaped fried sweet potato pastry stuffed with coconut and cardamom",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -2267,12 +2257,13 @@
     "country": "Micronesia",
     "dumplings": [
       {
-        "name": "Micronesia (Federated States of) dumpling",
-        "desc": " ",
+        "name": "Pihlohlo Mwehng",
+        "desc": "Taro root formed into oblong-shapes and added to coconut sap syrup",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Boiled",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -2281,12 +2272,13 @@
     "country": "Moldova",
     "dumplings": [
       {
-        "name": "Moldova (the Republic of) dumpling",
-        "desc": " ",
+        "name": "Sarmale",
+        "desc": "Stuffed cabbage rolls with minced meat",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2295,12 +2287,13 @@
     "country": "Monaco",
     "dumplings": [
       {
-        "name": "Monaco dumpling",
-        "desc": " ",
+        "name": "Barbajuan",
+        "desc": "A fried ravioli stuffed with Swiss chard, rice, and ricotta",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2309,12 +2302,13 @@
     "country": "Mongolia",
     "dumplings": [
       {
-        "name": "Mongolia dumpling",
-        "desc": " ",
+        "name": "Buuz",
+        "desc": "A steamed dumpling filled with meat",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2323,12 +2317,13 @@
     "country": "Montenegro",
     "dumplings": [
       {
-        "name": "Montenegro dumpling",
-        "desc": " ",
+        "name": "Priganice",
+        "desc": "Fluffy fried dough balls often served with honey, cheese, or jam",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -2337,12 +2332,13 @@
     "country": "Montserrat",
     "dumplings": [
       {
-        "name": "Montserrat dumpling",
-        "desc": " ",
+        "name": "Eggplant Fritters",
+        "desc": "Mashed eggplant with pepper, garlic, scallions, and seasonings fried in oil",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2351,12 +2347,13 @@
     "country": "Morocco",
     "dumplings": [
       {
-        "name": "Morocco dumpling",
-        "desc": " ",
+        "name": "Kaab el Ghzal",
+        "desc": "Crescent-shaped cookies filled with almond paste and aromatized with orange blossoms water",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Baked",
+          "Vegetarian",
+          "Sweet"
         ]
       }
     ]
@@ -2365,12 +2362,13 @@
     "country": "Mozambique",
     "dumplings": [
       {
-        "name": "Mozambique dumpling",
-        "desc": " ",
+        "name": "Chamussas",
+        "desc": "Triangular crispy pastries inspired by the Indian samosa",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -2379,12 +2377,13 @@
     "country": "Myanmar",
     "dumplings": [
       {
-        "name": "Myanmar dumpling",
-        "desc": " ",
+        "name": "A-Kyaw",
+        "desc": "Burmese fritters that are generally savory and use beans and pulses",
         "img": " ",
         "tags": [
-          " ",
-          " "
+          "Fried",
+          "Vegetarian",
+          "Savory"
         ]
       }
     ]
@@ -3158,12 +3157,10 @@
     "dumplings": [
       {
         "name": "Mandu",
-        "desc": "The general term for dumplings in Korea with many varieties which are referred to by the cooking method or main ingredient + 'mandu'",
+        "desc": "The general term for dumplings in Korea with many varieties. Its name changes with cooking method",
         "img": " ",
         "tags": [
-          "Boiled",
-          "Pan-Fried",
-          "Steamed",
+          "Varied Cooking Methods",
           "Savory",
           "Traditionally Non-Vegetarian"
         ]
