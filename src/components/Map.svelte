@@ -3,6 +3,7 @@
 	import worlddata from '$lib/countries-50m.json';
 	import * as d3 from 'd3';
 	import * as t from 'topojson-client';
+	import gui from 'lil-gui';
 
 	const width = 900;
 	const height = 600;
@@ -14,6 +15,7 @@
 
 	let zoomLevel = 1;
 	let g: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
+	let svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>;
 
 	// Panning and zooming functionality
 	const zoom = d3
@@ -29,18 +31,29 @@
 			d3.select(this).classed('dragging', false);
 		});
 
-	function mouseClick(event: any, d: any) {
+	// Reset all country styles to default
+	function resetCountryStyles() {
 		// Animate all other countries to the default state
-		d3.selectAll('.country').transition().duration(200).style('opacity', 0.8);
-		d3.selectAll('.country').transition().duration(200).style('stroke', '#A49478');
+		d3.selectAll('.country')
+			.transition()
+			.duration(200)
+			.style('fill', '#FBDDA4')
+			.style('stroke', '#A49478');
+	}
+
+	// Handle country click events
+	function mouseClick(event: any, d: any) {
+		resetCountryStyles();
 
 		// Highlight the selected country
 		d3.select(event.currentTarget)
 			.transition()
 			.duration(200)
 			.style('opacity', 1)
-			.style('stroke', '#A49478')
+			.style('stroke', 'red')
 			.style('fill', '#DCD485');
+
+		zoomToCountry(event, d);
 
 		// Get the country name
 		const countryName = d.properties?.name;
@@ -49,28 +62,63 @@
 		selectedCountry = countryName;
 	}
 
+	// Zoom into the selected country based on the country bounding box
+	function zoomToCountry(event: any, d: any) {
+		const pathGenerator = d3.geoPath().projection(projection);
+		const [[x0, y0], [x1, y1]] = pathGenerator.bounds(d);
+		event.stopPropagation();
+		svg
+			.transition()
+			.duration(750)
+			.call(
+				zoom.transform,
+				d3.zoomIdentity
+					.translate(width / 2, height / 2)
+					.scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
+					.translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
+				d3.pointer(event, svg.node())
+			);
+	}
+
+	// Reset the map zoom when we click on the map background
+	function resetZoom() {
+		svg
+			.transition()
+			.duration(750)
+			.call(
+				zoom.transform,
+				d3.zoomIdentity,
+				d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
+			);
+	}
+
+	// Highlight country on mouseover
+	function mouseOver(event: any, d: any) {
+		d3.select(event.currentTarget).transition().duration(200).style('fill', '#F29F7B');
+	}
+
+	// Reset country styles on mouseout
+	function mouseOut(event: any, d: any) {
+		resetCountryStyles();
+	}
+
 	onMount(() => {
-		const chart = d3
-			.select('#map')
-			.append('svg')
-			.attr('width', '100%')
-			.attr('height', '100%')
-			.attr('fill', '#FBDDA4')
-			.attr('stroke', '#A49478');
+		const chart = d3.select('#map').append('svg').attr('width', '100%').attr('height', '100%');
 
 		g = chart.append('g');
-		const svg = d3.select('svg') as any;
+		svg = d3.select('svg').on('click', resetZoom);
 
 		g.selectAll('path')
 			.data(countries.features)
 			.enter()
 			.append('path')
 			.attr('d', d3.geoPath().projection(projection) as any)
-			.style('stroke', '#A49478')
-			.style('stroke-opacity', 0.7)
 			.attr('class', 'country')
-			.style('opacity', 0.8)
-			.on('click', mouseClick);
+			.on('click', mouseClick)
+			.on('mouseover', mouseOver)
+			.on('mouseout', mouseOut);
+
+		resetCountryStyles();
 
 		const initialTransform = d3.zoomIdentity.translate(0, 90);
 		svg.call(zoom).call(zoom.transform, initialTransform);
