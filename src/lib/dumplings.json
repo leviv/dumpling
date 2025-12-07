@@ -1126,7 +1126,7 @@
       {
         "name": "Pupusa",
         "desc": "A thick griddle cake made with cornmeal or rice flour and stuffed with one or more ingredients",
-        "img": " ",
+        "img": "pupusa.png",
         "tags": [
           "Grilled",
           "Traditionally Non-Vegetarian",
@@ -1157,7 +1157,7 @@
       {
         "name": "Tihlo",
         "desc": "A dish consisting of barley dough balls covered with meat and berbere-based sauce",
-        "img": " ",
+        "img": "eritrea0.png",
         "tags": [
           "Soup",
           "Traditionally Non-Vegetarian",
@@ -1172,7 +1172,7 @@
       {
         "name": "Piruka",
         "desc": "A savory pastry or stuffed bun with a flaky crush filled with meat or veggies",
-        "img": " ",
+        "img": "bakedbuns.png",
         "tags": [
           "Baked",
           "Traditionally Non-Vegetarian",
@@ -1188,7 +1188,7 @@
       {
         "name": "Sinkhwa Sembila",
         "desc": "A corn bread traditionally steamed in corn leaves but now often baked to feature a crispier crust",
-        "img": " ",
+        "img": "eswatini0.png",
         "tags": [
           "Steamed",
           "Baked",
@@ -1240,7 +1240,7 @@
       {
         "name": "Topoi",
         "desc": "A dumpling made with wheat flour, coconut milk or cream, and sugar",
-        "img": " ",
+        "img": "fiji0.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -1255,7 +1255,7 @@
       {
         "name": "Myky",
         "desc": "A palm sized dumplings made from blood and barley flour",
-        "img": " ",
+        "img": "finland0.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -1285,7 +1285,7 @@
       {
         "name": "TAAF Buns",
         "desc": "A sweet bun popular for its ease of cooking and small list of ingredients",
-        "img": " ",
+        "img": "bread.png",
         "tags": [
           "Baked",
           "Vegetarian",
@@ -1300,7 +1300,7 @@
       {
         "name": "Raviole du Dauphiné",
         "desc": "Tiny ravioli consisting of two layers of pasta and a filling of comté or French Emmental cheese",
-        "img": " ",
+        "img": "tinyravioli.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -1345,7 +1345,7 @@
       {
         "name": "Khinkali",
         "desc": "A dumpling made of twisted knobs of dough stuffed with meat, fish or vegetables and spices",
-        "img": " ",
+        "img": "georgia0.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -1360,7 +1360,7 @@
       {
         "name": "Kartoffelklöse",
         "desc": "A type of potato dumpling often containing a crouton, ham, or sauerkraut filling",
-        "img": " ",
+        "img": "potatodumpling.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -1376,7 +1376,7 @@
       {
         "name": "Kenkey",
         "desc": "A swallow food steamed in white corn and usually served with soup or stew",
-        "img": " ",
+        "img": "kenkey.png",
         "tags": [
           "Steamed",
           "Vegetarian",
@@ -1426,7 +1426,7 @@
       {
         "name": "Brown Down",
         "desc": "A Grenadian version of the one-pot meal chicken and dumplings",
-        "img": " ",
+        "img": "grenada0.png",
         "tags": [
           "Boiled",
           "Soup",
@@ -1452,7 +1452,7 @@
       {
         "name": "Chuchito",
         "desc": "A variation of the tamale made with a firmer corn dough and mixed with recado rojo and meat filling",
-        "img": " ",
+        "img": "chuchito.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -1517,7 +1517,7 @@
       {
         "name": "Doumbrey",
         "desc": "Elongated flour dumplings that are rolled and added to stews and soups",
-        "img": " ",
+        "img": "doumbrey.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -1542,7 +1542,7 @@
       {
         "name": "Sopa de Capirotadas",
         "desc": "A light yet hearty soup made with a cumin-spiced broth and tender cheese dumplings",
-        "img": " ",
+        "img": "honduras0.png",
         "tags": [
           "Boiled",
           "Soup",
@@ -1558,7 +1558,7 @@
       {
         "name": "Cheung Fun",
         "desc": "Steamed rice rolls made from a wide strip of shahe fen filled with shrimp, beef, or vegetables",
-        "img": " ",
+        "img": "cheungfun.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -1585,7 +1585,7 @@
       {
         "name": "Nokedli",
         "desc": "A dish consisting of boiled dumplings that are sometimes enhanced with thyme and whole milk",
-        "img": " ",
+        "img": "hungary0.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -1600,7 +1600,7 @@
       {
         "name": "Kleinur",
         "desc": "A fried pastry shaped like twisted trapezoids and eaten plain or with sprinkled sugar",
-        "img": " ",
+        "img": "iceland.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -1615,7 +1615,7 @@
       {
         "name": "Ada",
         "desc": "Rice parcels encased in a dough made of rice flour with sweet fillings steamed in a banana leaf",
-        "img": " ",
+        "img": "india0.png",
         "tags": [
           "Steamed",
           "Sweet",
@@ -1625,7 +1625,7 @@
       {
         "name": "Paddu",
         "desc": "Steamed batter made of black lentils and rice using a special pan or mould to achieve a round shape",
-        "img": " ",
+        "img": "india1.png",
         "tags": [
           "Steamed",
           "Vegetarian",
@@ -1635,7 +1635,7 @@
       {
         "name": "Samosa",
         "desc": "A fried pastry with a savory filling that mostly consists of vegetables and are shaped in a triangular form",
-        "img": " ",
+        "img": "samosa.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -1680,7 +1680,7 @@
       {
         "name": "Manti",
         "desc": "Spiced ground meat wrapped in dough and served boiled or baked with a garlic yogurt sauce",
-        "img": " ",
+        "img": "iran0.png",
         "tags": [
           "Baked",
           "Boiled",
@@ -1711,7 +1711,7 @@
       {
         "name": "Irish Stew with Herb Dumplings",
         "desc": "A stew made with the stout Guinness, chunks of beef, root vegetables, and herb dumplings",
-        "img": " ",
+        "img": "ireland0.png",
         "tags": [
           "Boiled",
           "Soup",
@@ -1751,7 +1751,7 @@
       {
         "name": "Gnocchi",
         "desc": "Small rolls of soft chewy dough and often composed of a combination of flour, potato, egg, and salt",
-        "img": " ",
+        "img": "gnocchi.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -1766,7 +1766,7 @@
       {
         "name": "Jamaican Dumplings",
         "desc": "A simple side dish paired with different main meals such as jerk chicken and ackee",
-        "img": " ",
+        "img": "doumbrey.png",
         "tags": [
           "Boiled",
           "Fried",
@@ -1777,7 +1777,7 @@
       {
         "name": "Jamaican Patty",
         "desc": "A semicircular pastry containing various fillings and spices baked in a flaky shell often tinted golden yellow",
-        "img": "",
+        "img": "beefpatty.png",
         "tags": [
           "Baked",
           "Traditionally Non-Vegetarian",
@@ -1792,7 +1792,7 @@
       {
         "name": "Dango",
         "desc": "A sweet dumpling made from rice flour similar to mochi and commonly served on a skewer and can be prepared in a variety of ways",
-        "img": " ",
+        "img": "dango.png",
         "tags": [
           "Varied Cooking Methods",
           "Vegetarian",
@@ -1817,7 +1817,7 @@
       {
         "name": "Les Mèrvelles dé Jèrri",
         "desc": "A fried twisted doughnut similar to a beignet",
-        "img": " ",
+        "img": "twisteddonut.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -1832,7 +1832,7 @@
       {
         "name": "Falafel",
         "desc": "A deep-fried ball made from ground fava beans, chickpeas, or both",
-        "img": " ",
+        "img": "falafel.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -1847,7 +1847,7 @@
       {
         "name": "Manti",
         "desc": "A dumpling normally filled with minced lamb, spiced with black pepper, and sometimes with chopped pumpkin or squash",
-        "img": " ",
+        "img": "kazakhstan0.png",
         "tags": [
           "Steamed",
           "Boiled",
@@ -1878,7 +1878,7 @@
       {
         "name": "Buatoro",
         "desc": "A moist, rich cake made from grated pumpkin or taro cooked while wrapped in banana leaves to lock in moisture",
-        "img": " ",
+        "img": "kiribati0.png",
         "tags": [
           "Baked",
           "Vegetarian",
@@ -1893,7 +1893,7 @@
       {
         "name": "Sarma",
         "desc": "Minced meat wrapped in cabbage or vine leaves",
-        "img": " ",
+        "img": "cabbagewrap.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -1908,7 +1908,7 @@
       {
         "name": "Gabout",
         "desc": "A dish featuring flour dumplings stuffed with meat or vegetables simmered in a rich stew",
-        "img": " ",
+        "img": "kuwait.png",
         "tags": [
           "Boiled",
           "Soup",
@@ -1925,7 +1925,7 @@
       {
         "name": "Oromo",
         "desc": "A dish made with pasta dough and a filling of minced meat or vegetables and rolling it up like a Swiss roll",
-        "img": " ",
+        "img": "kyrgyzstan.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -1941,7 +1941,7 @@
       {
         "name": "Sakoo Yat Sai",
         "desc": "Pork and peanut-filled tapioca pearl dumplings eaten with fresh herbs, a sprinkle of fried garlic, and wrapped in lettuce",
-        "img": " ",
+        "img": "laos0.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -1956,7 +1956,7 @@
       {
         "name": "Piragi",
         "desc": "Oblong or crescent-shaped baked bread rolls or pastries filled with bacon and onions",
-        "img": " ",
+        "img": "bakedbuns.png",
         "tags": [
           "Baked",
           "Traditionally Non-Vegetarian",
@@ -1971,7 +1971,7 @@
       {
         "name": "Shish Barak",
         "desc": "Meat-filled small dumplings cooked with a yogurt sauce",
-        "img": " ",
+        "img": "lebanon0.png",
         "tags": [
           "Baked",
           "Boiled",
@@ -1988,7 +1988,7 @@
       {
         "name": "Makoenya",
         "desc": "Also known as fat cakes, balls of dough are shaped and fried to be served as a side dish or enjoyed on their own",
-        "img": " ",
+        "img": "fritter.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -2004,7 +2004,7 @@
       {
         "name": "Dumboy",
         "desc": "Considered Liberia's national dish, boiled cassava is pounded into a dough and shaped into balls and eaten wiht pepper soup",
-        "img": " ",
+        "img": "fufu.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -2034,7 +2034,7 @@
       {
         "name": "Käsknöpfle",
         "desc": "A dish comprised of soft dumplings mixed with cheese, baked, and commonly served with apple sauce",
-        "img": " ",
+        "img": "liechtenstein.png",
         "tags": [
           "Baked",
           "Vegetarian",
@@ -2049,7 +2049,7 @@
       {
         "name": "Cepelinai",
         "desc": "Potato dumplings stuffed with ground meat, dry curd cheese, liver, or mushrooms",
-        "img": " ",
+        "img": "lithuania.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -2064,7 +2064,7 @@
       {
         "name": "Kniddelen",
         "desc": "Soft boiled flour dumplings served with a rich buttery sauce and bacon",
-        "img": " ",
+        "img": "luxembourg.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -2079,7 +2079,7 @@
       {
         "name": "Macanese Pastel de Nata",
         "desc": "A variation of Portuguese egg tarts that use puff pastry and feature carmelised tops",
-        "img": " ",
+        "img": "eggtart.png",
         "tags": [
           "Baked",
           "Vegetarian",
@@ -2094,7 +2094,7 @@
       {
         "name": "Tulumba",
         "desc": "A deep-fried dessert of unleavened choux pastry dough soaked in syrup",
-        "img": " ",
+        "img": "macedonia.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -2109,7 +2109,7 @@
       {
         "name": "Menakely",
         "desc": "A crispy fritter served at breakfast with coffee ",
-        "img": " ",
+        "img": "donut.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -2124,7 +2124,7 @@
       {
         "name": "Nsima",
         "desc": "A dish made from maize flour and water and eaten as a side dish",
-        "img": " ",
+        "img": "malawi.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -2139,7 +2139,7 @@
       {
         "name": "Nyonya Chang",
         "desc": "Glutinous rice dumplings with a patch of blue rice and filled with strong Malay spices and wrapped in pandan leaves",
-        "img": " ",
+        "img": "malaysia.png",
         "tags": [
           "Steamed",
           "Vegetarian",
@@ -2154,7 +2154,7 @@
       {
         "name": "Gulha",
         "desc": "Fried small ball-shaped dumplings stuffed with a mixture of tuna, finely chopped onion, grated cocont, and chili",
-        "img": " ",
+        "img": "roundbunuelo.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -2184,7 +2184,7 @@
       {
         "name": "Ravjul Malti",
         "desc": "A ravioli using flour mixed with semolina and filled with cheese (frequently Maltese cheese) and parsley",
-        "img": " ",
+        "img": "malta.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -2209,7 +2209,7 @@
       {
         "name": "Boulette Poisson",
         "desc": "Balls of minced fish mixed with spices and served with stews",
-        "img": " ",
+        "img": "fishball.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -2224,7 +2224,7 @@
       {
         "name": "Gato Patate",
         "desc": "A half-moon shaped fried sweet potato pastry stuffed with coconut and cardamom",
-        "img": " ",
+        "img": "friedhalfmoon.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -2239,7 +2239,7 @@
       {
         "name": "Chochoyotes",
         "desc": "Small, round dumplings made from corn masa and cooked in soups or stews",
-        "img": " ",
+        "img": "mexico.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -2254,7 +2254,7 @@
       {
         "name": "Pihlohlo Mwehng",
         "desc": "Taro root formed into oblong-shapes and added to coconut sap syrup",
-        "img": " ",
+        "img": "micronesia.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -2269,7 +2269,7 @@
       {
         "name": "Sarmale",
         "desc": "Stuffed cabbage rolls with minced meat",
-        "img": " ",
+        "img": "cabbagewrap.png",
         "tags": [
           "Baked",
           "Traditionally Non-Vegetarian",
@@ -2284,7 +2284,7 @@
       {
         "name": "Barbajuan",
         "desc": "A fried ravioli stuffed with Swiss chard, rice, and ricotta",
-        "img": " ",
+        "img": "friedravioli.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -2299,7 +2299,7 @@
       {
         "name": "Buuz",
         "desc": "A steamed dumpling filled with meat",
-        "img": " ",
+        "img": "meatbao.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -2314,7 +2314,7 @@
       {
         "name": "Priganice",
         "desc": "Fluffy fried dough balls often served with honey, cheese, or jam",
-        "img": " ",
+        "img": "roundbunuelo.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -2329,7 +2329,7 @@
       {
         "name": "Eggplant Fritters",
         "desc": "Mashed eggplant with pepper, garlic, scallions, and seasonings fried in oil",
-        "img": " ",
+        "img": "fritter.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -2344,7 +2344,7 @@
       {
         "name": "Kaab el Ghzal",
         "desc": "Crescent-shaped cookies filled with almond paste and aromatized with orange blossoms water",
-        "img": " ",
+        "img": "morocco.png",
         "tags": [
           "Baked",
           "Vegetarian",
@@ -2359,7 +2359,7 @@
       {
         "name": "Chamussas",
         "desc": "Triangular crispy pastries inspired by the Indian samosa",
-        "img": " ",
+        "img": "samosa.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -2374,7 +2374,7 @@
       {
         "name": "A-Kyaw",
         "desc": "Burmese fritters that are generally savory and use beans and pulses",
-        "img": " ",
+        "img": "myanmar.png",
         "tags": [
           "Fried",
           "Vegetarian",
