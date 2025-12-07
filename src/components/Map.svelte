@@ -18,14 +18,14 @@
 	// Panning and zooming functionality
 	const zoom = d3
 		.zoom()
-		.on('zoom', function (event) {
+		.on('zoom', function (event: any) {
 			g.attr('transform', event.transform);
 			zoomLevel = event.transform.k;
 		})
-		.on('start', function () {
+		.on('start', function (this: SVGSVGElement) {
 			d3.select(this).classed('dragging', true);
 		})
-		.on('end', function () {
+		.on('end', function (this: SVGSVGElement) {
 			d3.select(this).classed('dragging', false);
 		});
 
