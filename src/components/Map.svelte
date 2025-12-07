@@ -16,6 +16,7 @@
 
 	let zoomLevel = 1;
 	let g: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
+	let backgroundG: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
 	let svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>;
 	let paths: d3.Selection<SVGPathElement, unknown, HTMLElement, any>;
 	let roughSVG: rough.RoughSVG<SVGSVGElement>;
@@ -32,6 +33,20 @@
 		hachureAngle: -41,
 		hachureGap: 8,
 		roughness: 0.5,
+		simplification: 0
+	};
+	const backgroundSettings = {
+		bowing: 1,
+		curveStepCount: 9,
+		curveFitting: 0.95,
+		fill: '#E8F4F8',
+		fillStyle: 'cross-hatch',
+		fillWeight: 0.5,
+		stroke: '#B0C4DE',
+		strokeWidth: 1,
+		hachureAngle: 45,
+		hachureGap: 10,
+		roughness: 1,
 		simplification: 0
 	};
 
@@ -140,12 +155,23 @@
 	function roughDrawCountry() {
 		// Clear the existing rough paths
 		d3.selectAll('.rough-country').remove();
+		d3.selectAll('.country-bg').remove();
 
 		// Draw rough versions for each country
 		paths.each(function (this: SVGPathElement, d: any) {
 			const pathData = d3.select(this).attr('d');
 
 			if (pathData) {
+				// Draw white background first
+				const whiteBg = g
+					.append('path')
+					.attr('d', pathData)
+					.attr('class', 'country-bg')
+					.style('fill', 'white')
+					.style('stroke', 'none')
+					.style('pointer-events', 'none');
+
+				// Draw rough country on top
 				const roughPath = roughSVG.path(pathData, {
 					bowing: debugSettings.bowing,
 					curveStepCount: debugSettings.curveStepCount,
@@ -167,10 +193,42 @@
 		});
 	}
 
+	function roughDrawBackground() {
+		// Clear existing background
+		d3.selectAll('.rough-background').remove();
+
+		// Draw rectangle covering entire SVG
+		const bbox = svg.node()?.getBoundingClientRect();
+		if (bbox) {
+			const rectPath = `M 0 0 L ${bbox.width} 0 L ${bbox.width} ${bbox.height} L 0 ${bbox.height} Z`;
+
+			const roughBg = roughSVG.path(rectPath, {
+				bowing: backgroundSettings.bowing,
+				curveStepCount: backgroundSettings.curveStepCount,
+				curveFitting: backgroundSettings.curveFitting,
+				fill: backgroundSettings.fill,
+				fillStyle: backgroundSettings.fillStyle,
+				fillWeight: backgroundSettings.fillWeight,
+				stroke: backgroundSettings.stroke,
+				strokeWidth: backgroundSettings.strokeWidth,
+				hachureAngle: backgroundSettings.hachureAngle,
+				hachureGap: backgroundSettings.hachureGap,
+				roughness: backgroundSettings.roughness,
+				simplification: backgroundSettings.simplification
+			});
+			roughBg.setAttribute('class', 'rough-background');
+			roughBg.style.pointerEvents = 'none';
+			backgroundG.node()?.appendChild(roughBg);
+		}
+	}
+
+	// Create debug GUI that floats on the top right of the map
 	function createDebugGUI() {
 		debugGUI = new gui();
-		const mapFolder = debugGUI.addFolder('Map Settings');
-		mapFolder.add(debugSettings, 'bowing', 0, 10);
+
+		// Map/Countries folder
+		const mapFolder = debugGUI.addFolder('Map Countries');
+		mapFolder.add(debugSettings, 'bowing', 0, 10).onChange(() => roughDrawCountry());
 		mapFolder
 			.add(debugSettings, 'curveStepCount', 1, 20)
 			.step(1)
@@ -196,17 +254,55 @@
 		mapFolder.add(debugSettings, 'simplification', 0, 1).onChange(() => roughDrawCountry());
 		mapFolder.open();
 
+		// Background folder
+		const bgFolder = debugGUI.addFolder('Map Background');
+		bgFolder.add(backgroundSettings, 'bowing', 0, 10).onChange(() => roughDrawBackground());
+		bgFolder
+			.add(backgroundSettings, 'curveStepCount', 1, 20)
+			.step(1)
+			.onChange(() => roughDrawBackground());
+		bgFolder.add(backgroundSettings, 'curveFitting', 0.1, 1).onChange(() => roughDrawBackground());
+		bgFolder.addColor(backgroundSettings, 'fill').onChange(() => roughDrawBackground());
+		bgFolder
+			.add(backgroundSettings, 'fillStyle', [
+				'hachure',
+				'solid',
+				'zigzag',
+				'cross-hatch',
+				'dots',
+				'sunburst'
+			])
+			.onChange(() => roughDrawBackground());
+		bgFolder.add(backgroundSettings, 'fillWeight', 0, 5).onChange(() => roughDrawBackground());
+		bgFolder.addColor(backgroundSettings, 'stroke').onChange(() => roughDrawBackground());
+		bgFolder.add(backgroundSettings, 'strokeWidth', 0.1, 5).onChange(() => roughDrawBackground());
+		bgFolder
+			.add(backgroundSettings, 'hachureAngle', -360, 360)
+			.onChange(() => roughDrawBackground());
+		bgFolder.add(backgroundSettings, 'hachureGap', 0, 20).onChange(() => roughDrawBackground());
+		bgFolder.add(backgroundSettings, 'roughness', 0, 5).onChange(() => roughDrawBackground());
+		bgFolder.add(backgroundSettings, 'simplification', 0, 1).onChange(() => roughDrawBackground());
+		bgFolder.open();
+
 		return debugGUI;
 	}
 
 	onMount(() => {
 		const chart = d3.select('#map').append('svg').attr('width', '100%').attr('height', '100%');
+
+		// Create background group (bottom layer)
+		backgroundG = chart.append('g').attr('class', 'background-layer');
+
+		// Create countries group (top layer)
 		g = chart.append('g');
+
 		svg = d3.select('svg').on('click', resetZoom);
 		roughSVG = rough.svg(svg.node());
 		const pathGenerator = d3.geoPath().projection(projection);
-
 		debugGUI = createDebugGUI();
+
+		// Draw background first
+		roughDrawBackground();
 
 		// Create invisible paths for interaction
 		paths = g
