@@ -32,9 +32,16 @@
 		});
 
 	// Reset all country styles to default
-	function resetCountryStyles() {
-		// Animate all other countries to the default state
-		d3.selectAll('.country')
+	function resetCountryStyles(resetSelected: boolean = true) {
+		const selector = resetSelected ? '.country' : '.country:not(.selected)';
+
+		if (resetSelected) {
+			// Deselect any previously selected country
+			d3.selectAll('.country').classed('selected', false);
+		}
+
+		// Animate countries to the default state
+		d3.selectAll(selector)
 			.transition()
 			.duration(200)
 			.style('fill', '#FBDDA4')
@@ -47,9 +54,9 @@
 
 		// Highlight the selected country
 		d3.select(event.currentTarget)
+			.classed('selected', true)
 			.transition()
 			.duration(200)
-			.style('opacity', 1)
 			.style('stroke', 'red')
 			.style('fill', '#DCD485');
 
@@ -94,12 +101,16 @@
 
 	// Highlight country on mouseover
 	function mouseOver(event: any, d: any) {
-		d3.select(event.currentTarget).transition().duration(200).style('fill', '#F29F7B');
+		d3.select(event.currentTarget)
+			.transition()
+			.duration(200)
+			.style('stroke', 'red')
+			.style('fill', '#DCD485');
 	}
 
 	// Reset country styles on mouseout
 	function mouseOut(event: any, d: any) {
-		resetCountryStyles();
+		resetCountryStyles(false);
 	}
 
 	onMount(() => {
@@ -112,6 +123,7 @@
 			.data(countries.features)
 			.enter()
 			.append('path')
+			.style('cursor', 'pointer')
 			.attr('d', d3.geoPath().projection(projection) as any)
 			.attr('class', 'country')
 			.on('click', mouseClick)
