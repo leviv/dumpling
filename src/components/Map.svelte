@@ -4,6 +4,7 @@
 	import * as d3 from 'd3';
 	import * as t from 'topojson-client';
 	import gui from 'lil-gui';
+	import rough from 'roughjs';
 
 	const width = 900;
 	const height = 600;
@@ -16,6 +17,16 @@
 	let zoomLevel = 1;
 	let g: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
 	let svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>;
+	let paths: d3.Selection<SVGPathElement, unknown, HTMLElement, any>;
+	let roughSVG: rough.RoughSVG<SVGSVGElement>;
+	let debugGUI: gui;
+	const debugSettings = {
+		fill: '#FBDDA4',
+		fillStyle: 'hachure',
+		stroke: '#A49478',
+		strokeWidth: 1,
+		roughness: 0.5
+	};
 
 	// Panning and zooming functionality
 	const zoom = d3
@@ -113,24 +124,76 @@
 		resetCountryStyles(false);
 	}
 
+	function roughDrawCountry() {
+		// Clear the existing rough paths
+		d3.selectAll('.rough-country').remove();
+
+		// Draw rough versions for each country
+		paths.each(function (this: SVGPathElement, d: any) {
+			const pathData = d3.select(this).attr('d');
+			if (pathData) {
+				const roughPath = roughSVG.path(pathData, {
+					fill: debugSettings.fill,
+					fillStyle: debugSettings.fillStyle,
+					stroke: debugSettings.stroke,
+					strokeWidth: debugSettings.strokeWidth,
+					roughness: debugSettings.roughness
+				});
+				roughPath.setAttribute('class', 'rough-country');
+				roughPath.style.pointerEvents = 'none';
+				g.node()?.appendChild(roughPath);
+			}
+		});
+	}
+
+	function createDebugGUI() {
+		debugGUI = new gui();
+		const mapFolder = debugGUI.addFolder('Map Settings');
+		mapFolder.addColor(debugSettings, 'fill').onChange(() => roughDrawCountry());
+		mapFolder
+			.add(debugSettings, 'fillStyle', [
+				'hachure',
+				'solid',
+				'zigzag',
+				'cross-hatch',
+				'dots',
+				'sunburst'
+			])
+			.onChange(() => roughDrawCountry());
+		mapFolder.addColor(debugSettings, 'stroke').onChange(() => roughDrawCountry());
+		mapFolder.add(debugSettings, 'strokeWidth', 0.1, 5).onChange(() => roughDrawCountry());
+		mapFolder.add(debugSettings, 'roughness', 0, 5).onChange(() => roughDrawCountry());
+		mapFolder.open();
+
+		return debugGUI;
+	}
+
 	onMount(() => {
 		const chart = d3.select('#map').append('svg').attr('width', '100%').attr('height', '100%');
-
 		g = chart.append('g');
 		svg = d3.select('svg').on('click', resetZoom);
+		roughSVG = rough.svg(svg.node());
+		const pathGenerator = d3.geoPath().projection(projection);
 
-		g.selectAll('path')
+		debugGUI = createDebugGUI();
+
+		// Create invisible paths for interaction
+		paths = g
+			.selectAll('path')
 			.data(countries.features)
 			.enter()
 			.append('path')
 			.style('cursor', 'pointer')
-			.attr('d', d3.geoPath().projection(projection) as any)
+			.style('opacity', 0)
+			.style('pointer-events', 'all')
+			.attr('d', pathGenerator as any)
 			.attr('class', 'country')
 			.on('click', mouseClick)
 			.on('mouseover', mouseOver)
 			.on('mouseout', mouseOut);
 
-		resetCountryStyles();
+		// Draw rough countries
+		roughDrawCountry();
 
 		const initialTransform = d3.zoomIdentity.translate(0, 90);
 		svg.call(zoom).call(zoom.transform, initialTransform);
