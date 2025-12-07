@@ -30,7 +30,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -131,7 +131,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -201,7 +201,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -867,7 +867,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -877,7 +877,7 @@
       {
         "name": "Fufu",
         "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews. A Congolese variant uses half cassava and half corn",
-        "img": " ",
+        "img": "fufu.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -892,7 +892,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -1142,7 +1142,7 @@
       {
        "name": "Fufu",
        "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews.",
-       "img": " ",
+       "img": "fufu.png",
        "tags": [
           "Boiled",
           "Vegetarian",
@@ -1220,7 +1220,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -1230,7 +1230,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -1315,7 +1315,7 @@
       {
        "name": "Fufu",
        "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews.",
-       "img": " ",
+       "img": "fufu.png",
        "tags": [
           "Boiled",
           "Vegetarian",
@@ -1330,7 +1330,7 @@
       {
         "name": "Fufu",
         "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews.",
-        "img": " ",
+        "img": "fufu.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -1375,7 +1375,7 @@
     "dumplings": [
       {
         "name": "Kenkey",
-        "desc": "A swallow food similar to sourdough dumplings usually served with soup or stew",
+        "desc": "A swallow food steamed in white corn and usually served with soup or stew",
         "img": " ",
         "tags": [
           "Steamed",
@@ -1416,7 +1416,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -1442,7 +1442,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -1465,14 +1465,9 @@
     "country": "Guernsey",
     "dumplings": [
       {
-        "name": "Guernsey Gâche",
-        "desc": "A yeast bread studded with candied orange peel and sultanas",
-        "img": " ",
-        "tags": [
-          "Baked",
-          "Vegetarian",
-          "Sweet"
-        ]
+        "name": "We could not find a dumpling for this country :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": "sad.png"
       }
     ]
   },
@@ -1497,7 +1492,7 @@
       {
        "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -1537,7 +1532,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -1732,7 +1727,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -2204,7 +2199,7 @@
       {
        "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " "
+        "img": "sad.png"
       }
     ]
   },
@@ -2739,11 +2734,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
@@ -3013,11 +3004,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
@@ -3055,11 +3042,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
@@ -3214,11 +3197,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
@@ -3228,11 +3207,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
@@ -3242,11 +3217,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
@@ -3256,11 +3227,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
@@ -3720,11 +3687,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
@@ -3774,11 +3737,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
@@ -3788,11 +3747,7 @@
       {
         "name": "We could not find a dumpling for this country :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "img": "sad.png"
       }
     ]
   },
