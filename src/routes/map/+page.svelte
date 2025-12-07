@@ -27,7 +27,7 @@
 
 	:global(h1){
 		font-family:'Reenie Beanie';
-		font-size:40px;
+		font-size:2.2vw;
 	}
 
 	:global(h3,p,ul,button){

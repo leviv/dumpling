@@ -28,7 +28,7 @@
     "country": "Åland",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -129,7 +129,7 @@
     "country": "Antarctica",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -199,7 +199,7 @@
     "country": "Ashmore and Cartier Is.",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -865,7 +865,7 @@
     "country": "Comoros",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -890,7 +890,7 @@
     "country": "Cook Is.",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -1218,7 +1218,7 @@
     "country": "Faeroe Is.",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -1228,7 +1228,7 @@
     "country": "Falkland Is.",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -1414,7 +1414,7 @@
     "country": "Greenland",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -1440,7 +1440,7 @@
     "country": "Guam",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -1465,7 +1465,7 @@
     "country": "Guernsey",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -1477,7 +1477,7 @@
       {
         "name": "Fou Fou",
         "desc": "A pounded dough made with cassava and eaten with sauces, soups, and stews",
-        "img": " ",
+        "img": "fufu.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -1490,7 +1490,7 @@
     "country": "Guinea-Bissau",
     "dumplings": [
       {
-       "name": "We could not find a dumpling for this country :(",
+       "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -1502,7 +1502,7 @@
       {
         "name": "Pholourie",
         "desc": "A fried, spliced split pea and flour dough balls served with a chutney",
-        "img": " ",
+        "img": "roundbunuelo.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -1530,7 +1530,7 @@
     "country": "Heard I. and McDonald Is.",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -1725,7 +1725,7 @@
     "country": "Isle of Man",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -2197,7 +2197,7 @@
     "country": "Marshall Is.",
     "dumplings": [
       {
-       "name": "We could not find a dumpling for this country :(",
+       "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -2732,7 +2732,7 @@
     "country": "Pitcairn Is.",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -3002,7 +3002,7 @@
     "country": "Siachen Glacier",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -3040,7 +3040,7 @@
     "country": "Sint Maarten",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -3195,7 +3195,7 @@
     "country": "St-Barthélemy",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -3205,7 +3205,7 @@
     "country": "St-Martin",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -3215,7 +3215,7 @@
     "country": "St. Kitts and Nevis",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -3225,7 +3225,7 @@
     "country": "St. Pierre and Miquelon",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -3237,7 +3237,7 @@
       {
         "name": "Ducana",
         "desc": "Duncanas are made with sweet potato, coconut, spices and tannia, wrapped and boiled in banana leaves",
-        "img": " ",
+        "img": "antigua0.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -3685,7 +3685,7 @@
     "country": "Vatican",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -3735,7 +3735,7 @@
     "country": "W. Sahara",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
@@ -3745,7 +3745,7 @@
     "country": "Wallis and Futuna Is.",
     "dumplings": [
       {
-        "name": "We could not find a dumpling for this country :(",
+        "name": "No dumpling info yet :(",
         "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
         "img": "sad.png"
       }
