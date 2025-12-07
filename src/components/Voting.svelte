@@ -2,7 +2,6 @@
     import dumplings from '$lib/dumplings.json';
 </script>
 
-<!-- put somewhere around sidebar dumpling cards -->
 <div class="container">
     <div class="votecard">
         <p>Is this a dumpling?</p>
@@ -37,5 +36,11 @@
         border:none;
         margin:auto;
         text-align:center;
+    }
+    button:hover :global{
+        background-color:#f29f7b95;
+    }
+    button:active :global{
+        background-color:#f29f7B;
     }
 </style>

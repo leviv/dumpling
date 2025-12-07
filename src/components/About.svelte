@@ -35,6 +35,10 @@
 		border-color:transparent;
 	}
 
+    #aboutBtn:hover {
+        background-color:#fbdda4;
+    }
+
 	#popup {
         width:40%;
         position:absolute;
