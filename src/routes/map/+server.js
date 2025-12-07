@@ -19,3 +19,7 @@ function testData(){
     // Initialize Realtime Database and get a reference to the service
     const database = getDatabase(app);
 }
+
+export const GET = () => {
+    return new Response("map endpoint ok", { status: 200 });
+};
