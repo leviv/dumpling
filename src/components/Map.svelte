@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import worlddata from '$lib/assets/countries-50m.json';
+	import worlddata from '$lib/countries-50m.json';
 	import * as d3 from 'd3';
 	import * as t from 'topojson-client';
 

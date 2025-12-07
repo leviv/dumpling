@@ -3,6 +3,7 @@
 		name: string;
 		desc: string;
 		tags: string[];
+		img: string;
 	};
 </script>
 
@@ -15,7 +16,9 @@
 			{#each dumpling.tags as tag}
 				<li>{tag}</li>
 			{/each}
+			<img src="assets/dumplings/{dumpling.img}">
 		</ul>
+		
 	</div>
 </div>
 
