@@ -4,7 +4,7 @@
     }
 </script>
 
-<!-- <button id="aboutBtn">?</button> -->
+<button id="aboutBtn">?</button>
 
 <!-- how we define dumpling -->
 <div class="popup">

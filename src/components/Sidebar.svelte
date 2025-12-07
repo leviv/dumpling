@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Card from './Card.svelte';
 	import dumplings from '$lib/dumplings.json';
+	import Voting from './Voting.svelte';
 
 	export let selectedCountry: string;
 
@@ -15,6 +16,7 @@
 
 	{#each dumplingInfo?.dumplings as dumpling}
 		<Card {dumpling} />
+		<Voting/>
 	{/each}
 </div>
 

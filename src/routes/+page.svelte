@@ -22,13 +22,13 @@
 <style>
 
 	#box {
-		width: 100%;
+		width: 60%;
 		margin-bottom: 20px;
 	}
 	#landingstuff {
 		margin: auto;
 		width: 50%;
-		padding-top: 30%;
+		padding-top: 10%;
 		text-align: center;
 	}
 </style>

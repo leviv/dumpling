@@ -10,7 +10,7 @@
 	<img src="./index_card.jpg" alt="Index card" />
 	<div class="content">
 		<ul>
-			<h3>{dumpling.name}</h3>
+			<b>{dumpling.name}</b>
 			<p>{dumpling.desc}</p>
 			{#each dumpling.tags as tag}
 				<li>{tag}</li>
@@ -28,11 +28,14 @@
 		position: relative;
 		width: calc(497px * 0.6);
 		height: calc(300px * 0.6);
+		font-size:0.8rem;
+		line-height:0.8rem;
 	}
 
 	.content {
 		position: absolute;
-		top: 0;
+		top: 7%;
+		left:-1.2rem;
 	}
 
 	.container img {
