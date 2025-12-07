@@ -25,6 +25,15 @@
 		color:#76664A;
 	}
 
+	:global(h1){
+		font-family:'Reenie Beanie';
+		font-size:40px;
+	}
+
+	:global(h3,p,ul,button){
+		font-family:'Stylish';
+	}
+
 	.container {
 		display: flex;
 		flex-direction: row;

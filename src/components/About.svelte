@@ -36,7 +36,7 @@
 	}
 
     #aboutBtn:hover {
-        background-color:#fbdda4;
+        background-color:#f29f7b92;
     }
 
 	#popup {
@@ -57,5 +57,8 @@
         top:0;
         right:0;
         padding:25px;
+    }
+    :global(.close:hover){
+        color:#f29f7B;
     }
 </style>

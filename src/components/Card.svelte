@@ -8,7 +8,7 @@
 </script>
 
 <div class="container">
-	<img src="./index_card.jpg" alt="Index card" />
+	<img class="indexcard" src="./index_card.jpg" alt="Index card" />
 	<div class="content">
 		<ul>
 			<b>{dumpling.name}</b>
@@ -16,7 +16,7 @@
 			{#each dumpling.tags as tag}
 				<li>{tag}</li>
 			{/each}
-			<img src="assets/dumplings/{dumpling.img}">
+			<img class="dumplingart" src="assets/dumplings/{dumpling.img}">
 		</ul>
 		
 	</div>
@@ -42,12 +42,20 @@
 		width:99%;
 	}
 
-	.container img {
+	.indexcard {
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		pointer-events: none;
+	}
+
+	.dumplingart {
+		width:60px;
+		height:auto;
+		position:absolute;
+		top:-10px;
+		right:-10px;
 	}
 </style>

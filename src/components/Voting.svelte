@@ -5,8 +5,8 @@
 <div class="container">
     <div class="votecard">
         <p>Is this a dumpling?</p>
-        <button>yes!</button>
-        <button>no!</button>
+        <button><img src="./assets/yes.png"></button>
+        <button><img src="./assets/no.png"></button>
     </div>
 </div>
 
@@ -17,7 +17,7 @@
     }
     .votecard {
         width:35%;
-        padding:8px;
+        padding:2px 4px 2px 4px;
         background-color:#FBFCFB;
         border: 1px #f29f7B solid;
         position:absolute;
@@ -37,10 +37,13 @@
         margin:auto;
         text-align:center;
     }
+    button img {
+        max-height:18px;
+    }
     button:hover :global{
-        background-color:#f29f7b95;
+        filter:drop-shadow(5px 5px 10px #f29f7B);
     }
     button:active :global{
-        background-color:#f29f7B;
+        filter:contrast(80%);
     }
 </style>

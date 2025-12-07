@@ -29,6 +29,6 @@
 		padding: 50px;
 		height: 100%;
 		overflow: scroll;
-		gap: 5px;
+		gap: 1rem;
 	}
 </style>
