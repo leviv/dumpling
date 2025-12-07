@@ -2,12 +2,17 @@
     function closeButton(){
         this.parentElement.style.visibility = "hidden";
     }
+
+    function openAbout(){
+        let aboutbox = document.getElementById("popup") as any;
+        aboutbox.style.visibility = "visible";
+    }
 </script>
 
-<button id="aboutBtn">?</button>
+<button id="aboutBtn" onclick={openAbout}>?</button>
 
 <!-- how we define dumpling -->
-<div class="popup">
+<div id="popup">
     <span class="close" onclick={closeButton}>&#x2715;</span>
     <h3>How do we define dumpling?</h3>
     <p>Since the definition of dumplings have expanded and changed over time, we wanted to see how far we could push the definition. So, we are defining dumplings in the broadest way possible.</p>
@@ -30,13 +35,13 @@
 		border-color:transparent;
 	}
 
-	:global(.popup) {
-        width:50%;
+	#popup {
+        width:40%;
         position:absolute;
         top:25%;
-        left:25%;
+        left:30%;
         z-index:10;
-        background-color:white;
+        background-color:rgba(255, 255, 255, 0.751);
         padding:40px;
         border-radius:25px;
         visibility:hidden;
