@@ -12,7 +12,7 @@
 <div class="container">
 	<h1>World Dumpling Index</h1>
 
-	<p>Selected Country: {selectedCountry}</p>
+	<h3><b>{selectedCountry}</b></h3>
 
 	{#each dumplingInfo?.dumplings as dumpling}
 		<Card {dumpling} />

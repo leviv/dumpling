@@ -5,11 +5,14 @@
 
 <style>
     #disclaimer{
-        width:30%;
+        width:20%;
         position:absolute;
         bottom:0;
         right:0;
         background-color:white;
         opacity:65%;
+        margin:10px;
+        padding:10px;
+        font-size:0.9em;
     }
 </style>

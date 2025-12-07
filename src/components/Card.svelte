@@ -36,6 +36,7 @@
 		position: absolute;
 		top: 7%;
 		left:-1.2rem;
+		width:99%;
 	}
 
 	.container img {
