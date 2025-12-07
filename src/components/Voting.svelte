@@ -5,8 +5,8 @@
 <div class="container">
     <div class="votecard">
         <p>Is this a dumpling?</p>
-        <button><img src="./assets/yes.png"></button>
-        <button><img src="./assets/no.png"></button>
+        <button><img src="./assets/yes.png" alt="yes!" title="yes!"></button>
+        <button><img src="./assets/no.png" alt="no!" title="no!"></button>
     </div>
 </div>
 
@@ -38,7 +38,7 @@
         text-align:center;
     }
     button img {
-        max-height:18px;
+        max-height:22px;
     }
     button:hover :global{
         filter:drop-shadow(5px 5px 10px #f29f7B);
