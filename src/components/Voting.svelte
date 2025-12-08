@@ -31,6 +31,7 @@
 		border: none;
 		margin: auto;
 		text-align: center;
+		pointer-events:auto;
 	}
 
 	button img {

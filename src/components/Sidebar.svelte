@@ -31,7 +31,7 @@
 		box-shadow:
 			0px 0px 0.5px rgba(0, 0, 0, 0.3),
 			0px 1px 3px rgba(0, 0, 0, 0.15);
-		color: rgba(0, 0, 0, 0.9);
+		color: #76664A;
 		background-color: #fff;
 		margin: 0;
 		height: 48px;
