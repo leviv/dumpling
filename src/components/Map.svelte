@@ -23,30 +23,30 @@
 	let roughSVG: rough.RoughSVG<SVGSVGElement>;
 	let debugGUI: gui;
 	const debugSettings = {
-		bowing: 1,
+		bowing: 3,
 		curveStepCount: 9,
-		curveFitting: 0.95,
+		curveFitting: 0.2,
 		fill: '#FBDDA4',
-		fillStyle: 'hachure',
+		fillStyle: 'cross-hatch',
 		fillWeight: 0.5,
-		hachureAngle: -41,
-		hachureGap: 8,
-		roughness: 0.5,
+		hachureAngle: 77,
+		hachureGap: 3,
+		roughness: 0.4,
 		simplification: 0,
 		outlineStroke: '#A49478',
-		outlineStrokeWidth: 1,
+		outlineStrokeWidth: 0.66,
 		highlightStroke: 'red'
 	};
 	const backgroundSettings = {
-		bowing: 1,
-		curveStepCount: 9,
-		curveFitting: 0.95,
+		bowing: 2.75,
+		curveStepCount: 5,
+		curveFitting: 0.73,
 		fill: '#E8F4F8',
 		fillStyle: 'cross-hatch',
 		fillWeight: 0.5,
-		hachureAngle: 45,
-		hachureGap: 10,
-		roughness: 1,
+		hachureAngle: -118,
+		hachureGap: 5,
+		roughness: 2.2,
 		simplification: 0
 	};
 
