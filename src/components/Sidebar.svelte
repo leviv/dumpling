@@ -21,6 +21,19 @@
 </div>
 
 <style>
+	.container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		padding: 12px;
+		height: 100%;
+		overflow: scroll;
+		gap: 20px;
+		pointer-events: none;
+	}
+
 	.title {
 		width: fit-content;
 		padding: 0 20px;
@@ -35,22 +48,10 @@
 		background-color: #fff;
 		margin: 0;
 		height: 48px;
+		pointer-events: auto;
 	}
 
 	.title h1 {
 		font-size: 25px;
-	}
-
-	.container {
-		position: absolute;
-		top: 0;
-		left: 0;
-		display: flex;
-		flex-direction: column;
-		padding: 12px;
-		height: 100%;
-		overflow: scroll;
-		gap: 20px;
-		pointer-events: none;
 	}
 </style>

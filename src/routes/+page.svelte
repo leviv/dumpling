@@ -21,13 +21,13 @@
 
 <style>
 	h1 {
-		font-family:"Reenie Beanie";
-		font-size:3rem;
+		font-family: 'Reenie Beanie';
+		font-size: 3rem;
 	}
 
 	p {
-		font-family:"Stylish";
-		font-size:1rem;
+		font-family: 'Stylish';
+		font-size: 1rem;
 	}
 
 	#box {

@@ -145,7 +145,10 @@
 	// Highlight country on mouseover
 	function mouseOver(event: any, d: any) {
 		const element = d3.select(event.currentTarget);
-		if (element.classed('selected')) return; // Don't hover over selected
+		// Don't hover over selected
+		if (element.classed('selected')) {
+			return;
+		}
 
 		const pathData = element.attr('d');
 		g.append('path')
@@ -166,6 +169,7 @@
 	// Update country labels based on zoom level
 	function updateLabels() {
 		labelsG.selectAll('.country-label').remove();
+		labelsG.selectAll('.country-label-bg').remove();
 
 		if (zoomLevel > 5) {
 			paths.each(function (this: SVGPathElement, d: any) {
@@ -174,17 +178,17 @@
 					const centroid = d3.geoPath().projection(projection).centroid(d);
 
 					if (centroid && centroid[0] && centroid[1]) {
-						labelsG
+						// Create text element first to measure it
+						const text = labelsG
 							.append('text')
 							.attr('class', 'country-label')
 							.attr('x', centroid[0])
 							.attr('y', centroid[1])
 							.attr('text-anchor', 'middle')
 							.attr('dominant-baseline', 'middle')
-							.style('font-size', `${12 / zoomLevel}px`)
-							.style('font-family', 'Arial, sans-serif')
-							.style('fill', '#333')
-							.style('stroke', 'white')
+							.style('font-size', `${18 / zoomLevel}px`)
+							.style('font-family', 'Stylish, sans-serif')
+							.style('fill', '#000')
 							.style('stroke-width', `${3 / zoomLevel}px`)
 							.style('paint-order', 'stroke')
 							.style('pointer-events', 'all')
@@ -193,6 +197,20 @@
 							.on('click', mouseClick)
 							.on('mouseenter', mouseOver)
 							.on('mouseleave', mouseOut);
+
+						// Get bounding box and insert rect behind text
+						const bbox = (text.node() as SVGTextElement).getBBox();
+						const padding = 2 / zoomLevel;
+
+						labelsG
+							.insert('rect', '.country-label')
+							.attr('class', 'country-label-bg')
+							.attr('x', bbox.x - padding)
+							.attr('y', bbox.y - padding)
+							.attr('width', bbox.width + padding * 2)
+							.attr('height', bbox.height + padding * 2)
+							.style('fill', '#B7D3C9')
+							.style('pointer-events', 'none');
 					}
 				}
 			});

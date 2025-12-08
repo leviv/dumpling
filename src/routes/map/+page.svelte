@@ -15,23 +15,23 @@
 	<Sidebar {selectedCountry} />
 	<Map bind:selectedCountry />
 </div>
-<Disclaimer/>
-<About/>
+<Disclaimer />
+<About />
 
 <style>
 	:global(body) {
 		margin: 0;
 		padding: 0;
-		color:#76664A;
+		color: #76664a;
 	}
 
-	:global(h1){
-		font-family:'Reenie Beanie';
-		font-size:2.2vw;
+	:global(h1) {
+		font-family: 'Reenie Beanie';
+		font-size: 2.2vw;
 	}
 
-	:global(h3,p,ul,button){
-		font-family:'Stylish';
+	:global(h3, p, ul, button) {
+		font-family: 'Stylish';
 	}
 
 	.container {
