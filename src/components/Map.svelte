@@ -29,12 +29,13 @@
 		fill: '#FBDDA4',
 		fillStyle: 'hachure',
 		fillWeight: 0.5,
-		stroke: '#A49478',
-		strokeWidth: 1,
 		hachureAngle: -41,
 		hachureGap: 8,
 		roughness: 0.5,
-		simplification: 0
+		simplification: 0,
+		outlineStroke: '#A49478',
+		outlineStrokeWidth: 1,
+		highlightStroke: 'red'
 	};
 	const backgroundSettings = {
 		bowing: 1,
@@ -43,8 +44,6 @@
 		fill: '#E8F4F8',
 		fillStyle: 'cross-hatch',
 		fillWeight: 0.5,
-		stroke: '#B0C4DE',
-		strokeWidth: 1,
 		hachureAngle: 45,
 		hachureGap: 10,
 		roughness: 1,
@@ -90,7 +89,7 @@
 			.attr('d', pathData)
 			.attr('class', 'country-highlight')
 			.style('fill', '#DCD485')
-			.style('stroke', 'red')
+			.style('stroke', debugSettings.highlightStroke)
 			.style('stroke-width', 2)
 			.style('fill-opacity', 0.6)
 			.style('pointer-events', 'none');
@@ -146,7 +145,7 @@
 			.attr('d', pathData)
 			.attr('class', 'country-hover')
 			.style('fill', '#F29F7B')
-			.style('stroke', 'red')
+			.style('stroke', debugSettings.highlightStroke)
 			.style('stroke-width', 1.5)
 			.style('fill-opacity', 0.4)
 			.style('pointer-events', 'none');
@@ -197,6 +196,7 @@
 		// Clear the existing rough paths
 		d3.selectAll('.rough-country').remove();
 		d3.selectAll('.country-bg').remove();
+		d3.selectAll('.country-outline').remove();
 
 		// Draw rough versions for each country
 		paths.each(function (this: SVGPathElement, d: any) {
@@ -220,8 +220,7 @@
 					fill: debugSettings.fill,
 					fillStyle: debugSettings.fillStyle,
 					fillWeight: debugSettings.fillWeight,
-					stroke: debugSettings.stroke,
-					strokeWidth: debugSettings.strokeWidth,
+					stroke: 'none',
 					hachureAngle: debugSettings.hachureAngle,
 					hachureGap: debugSettings.hachureGap,
 					roughness: debugSettings.roughness,
@@ -230,6 +229,15 @@
 				roughPath.setAttribute('class', 'rough-country');
 				roughPath.style.pointerEvents = 'none';
 				g.node()?.appendChild(roughPath);
+
+				// Add regular d3 stroke outline without using roughjs
+				g.append('path')
+					.attr('d', pathData)
+					.attr('class', 'country-outline')
+					.style('fill', 'none')
+					.style('stroke', debugSettings.outlineStroke)
+					.style('stroke-width', debugSettings.outlineStrokeWidth)
+					.style('pointer-events', 'none');
 			}
 		});
 	}
@@ -250,8 +258,7 @@
 				fill: backgroundSettings.fill,
 				fillStyle: backgroundSettings.fillStyle,
 				fillWeight: backgroundSettings.fillWeight,
-				stroke: backgroundSettings.stroke,
-				strokeWidth: backgroundSettings.strokeWidth,
+				stroke: 'none',
 				hachureAngle: backgroundSettings.hachureAngle,
 				hachureGap: backgroundSettings.hachureGap,
 				roughness: backgroundSettings.roughness,
@@ -287,12 +294,13 @@
 			])
 			.onChange(() => roughDrawCountry());
 		mapFolder.add(debugSettings, 'fillWeight', 0, 5).onChange(() => roughDrawCountry());
-		mapFolder.addColor(debugSettings, 'stroke').onChange(() => roughDrawCountry());
-		mapFolder.add(debugSettings, 'strokeWidth', 0.1, 5).onChange(() => roughDrawCountry());
 		mapFolder.add(debugSettings, 'hachureAngle', -360, 360).onChange(() => roughDrawCountry());
 		mapFolder.add(debugSettings, 'hachureGap', 0, 20).onChange(() => roughDrawCountry());
 		mapFolder.add(debugSettings, 'roughness', 0, 5).onChange(() => roughDrawCountry());
 		mapFolder.add(debugSettings, 'simplification', 0, 1).onChange(() => roughDrawCountry());
+		mapFolder.addColor(debugSettings, 'outlineStroke').onChange(() => roughDrawCountry());
+		mapFolder.add(debugSettings, 'outlineStrokeWidth', 0, 5).onChange(() => roughDrawCountry());
+		mapFolder.addColor(debugSettings, 'highlightStroke');
 		mapFolder.open();
 
 		// Background folder
@@ -315,8 +323,6 @@
 			])
 			.onChange(() => roughDrawBackground());
 		bgFolder.add(backgroundSettings, 'fillWeight', 0, 5).onChange(() => roughDrawBackground());
-		bgFolder.addColor(backgroundSettings, 'stroke').onChange(() => roughDrawBackground());
-		bgFolder.add(backgroundSettings, 'strokeWidth', 0.1, 5).onChange(() => roughDrawBackground());
 		bgFolder
 			.add(backgroundSettings, 'hachureAngle', -360, 360)
 			.onChange(() => roughDrawBackground());
