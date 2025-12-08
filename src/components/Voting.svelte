@@ -15,7 +15,6 @@
 		width: 100px;
 		position: absolute;
 		right: -25px;
-		top:-10px;
 		padding: 2px 4px 2px 4px;
 		background-color: #fbfcfb;
 		border: 1px #f29f7b solid;
