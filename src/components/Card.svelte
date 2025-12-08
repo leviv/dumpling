@@ -25,7 +25,9 @@
 		</ul>
 	</div>
 
-	<Voting />
+	<div class="vote">
+		<Voting />
+	</div>
 </div>
 
 <style>
@@ -57,6 +59,14 @@
 
 	.card:hover {
 		z-index: 3;
+	}
+
+	.card:hover .vote {
+		visibility: visible;
+	}
+
+	.vote {
+		visibility:hidden;
 	}
 
 	.title {

@@ -14,7 +14,8 @@
 	.votecard {
 		width: 100px;
 		position: absolute;
-		right: 0;
+		right: -25px;
+		top:-10px;
 		padding: 2px 4px 2px 4px;
 		background-color: #fbfcfb;
 		border: 1px #f29f7b solid;
@@ -31,7 +32,6 @@
 		border: none;
 		margin: auto;
 		text-align: center;
-		pointer-events:auto;
 	}
 
 	button img {
