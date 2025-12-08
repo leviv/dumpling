@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { fly } from 'svelte/transition';
+
 	export let dumpling: {
 		name: string;
 		desc: string;
@@ -8,13 +10,13 @@
 </script>
 
 <!-- Implementation based on https://codepen.io/leviv/pen/ByKvNPP?editors=1100 -->
-<div class="card">
+<div class="card" in:fly={{ x: -400, duration: 500 }} out:fly={{ x: -400, duration: 500 }}>
 	<div class="title">
 		<b>{dumpling.name}</b>
 		<img class="dumplingart" src="assets/dumplings/{dumpling.img}" alt="Dumpling art" />
 	</div>
 	<div class="description">
-		<p>{dumpling.desc} {dumpling.desc} {dumpling.desc}</p>
+		<p>{dumpling.desc}</p>
 		<ul>
 			{#each dumpling.tags as tag}
 				<li>{tag}</li>
