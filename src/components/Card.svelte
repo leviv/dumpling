@@ -7,54 +7,83 @@
 	};
 </script>
 
-<div class="container">
-	<img class="indexcard" src="./index_card.jpg" alt="Index card" />
-	<div class="content">
+<!-- Implementation based on https://codepen.io/leviv/pen/ByKvNPP?editors=1100 -->
+<div class="card">
+	<div class="title">
+		<b>{dumpling.name}</b>
+		<img class="dumplingart" src="assets/dumplings/{dumpling.img}" alt="Dumpling art" />
+	</div>
+	<div class="description">
+		<p>{dumpling.desc} {dumpling.desc} {dumpling.desc}</p>
 		<ul>
-			<b>{dumpling.name}</b>
-			<p>{dumpling.desc}</p>
 			{#each dumpling.tags as tag}
 				<li>{tag}</li>
 			{/each}
-			<img class="dumplingart" src="assets/dumplings/{dumpling.img}" alt="Dumpling art" />
 		</ul>
 	</div>
 </div>
 
 <style>
-	li {
-		margin-left: 20px;
+	.card {
+		background-color: white;
+		background-image:
+			linear-gradient(
+				180deg,
+				white 3rem,
+				#f0a4a4 calc(3rem),
+				#f0a4a4 calc(3rem + 2px),
+				transparent 1px
+			),
+			repeating-linear-gradient(
+				0deg,
+				transparent,
+				transparent 1.5rem,
+				#ddd 1px,
+				#ddd calc(1.5rem + 1px)
+			);
+		box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+		min-height: 14rem;
+		width: 400px;
+		padding: 0 1rem 1rem 1rem;
+		box-sizing: border-box;
 	}
 
-	.container {
+	.title {
+		height: 3rem;
+		display: flex;
+		align-items: flex-end;
 		position: relative;
-		width: calc(497px * 0.6);
-		height: calc(300px * 0.6);
-		font-size: 0.8rem;
-		line-height: 0.8rem;
+		padding-bottom: 0;
 	}
 
-	.content {
-		position: absolute;
-		top: 7%;
-		left: -1.2rem;
-		width: 99%;
+	.title b {
+		flex: 1;
 	}
 
-	.indexcard {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		pointer-events: none;
+	.description {
+		margin: 8px 0 0 0;
+	}
+
+	.description p {
+		line-height: 23px;
+		margin: 0;
+	}
+
+	.description ul {
+		margin: 0;
+		padding-left: 23px;
+		line-height: 23px;
+	}
+
+	li {
+		margin: 0;
 	}
 
 	.dumplingart {
 		width: 60px;
 		height: auto;
 		position: absolute;
-		top: -10px;
-		right: -10px;
+		right: 0;
+		bottom: 0.5rem;
 	}
 </style>
