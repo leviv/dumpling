@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
+	import Voting from './Voting.svelte';
 
 	export let dumpling: {
 		name: string;
@@ -23,6 +24,8 @@
 			{/each}
 		</ul>
 	</div>
+
+	<Voting />
 </div>
 
 <style>
@@ -49,6 +52,11 @@
 		width: 400px;
 		padding: 0 1rem 1rem 1rem;
 		box-sizing: border-box;
+		z-index: 2;
+	}
+
+	.card:hover {
+		z-index: 3;
 	}
 
 	.title {

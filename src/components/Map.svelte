@@ -6,8 +6,8 @@
 	import gui from 'lil-gui';
 	import rough from 'roughjs';
 
-	const width = 900;
-	const height = 600;
+	let width = 900;
+	let height = 600;
 
 	const projection = d3.geoMercator().translate([width / 2, height / 1.4]);
 	const countries = t.feature(worlddata as any, (worlddata as any).objects.countries) as any;
@@ -35,7 +35,8 @@
 		simplification: 0,
 		outlineStroke: '#A49478',
 		outlineStrokeWidth: 0.66,
-		highlightStroke: 'red'
+		highlightStroke: '#F29F7B',
+		highlightFill: '#F29F7B'
 	};
 	const backgroundSettings = {
 		bowing: 2.75,
@@ -88,7 +89,7 @@
 		g.append('path')
 			.attr('d', pathData)
 			.attr('class', 'country-highlight')
-			.style('fill', '#DCD485')
+			.style('fill', debugSettings.highlightFill)
 			.style('stroke', debugSettings.highlightStroke)
 			.style('stroke-width', 2)
 			.style('fill-opacity', 0.6)
@@ -110,21 +111,27 @@
 		if (event) {
 			event.stopPropagation();
 		}
+		const sidebarWidth = 250;
+		const availableWidth = width - sidebarWidth;
+		const centerX = sidebarWidth + availableWidth / 2;
+
 		svg
 			.transition()
 			.duration(750)
 			.call(
 				zoom.transform,
 				d3.zoomIdentity
-					.translate(width / 2, height / 2)
-					.scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
+					.translate(centerX, height / 2)
+					.scale(Math.min(8, 0.9 / Math.max((x1 - x0) / availableWidth, (y1 - y0) / height)))
 					.translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
-				event ? d3.pointer(event, svg.node()) : [width / 2, height / 2]
+				event ? d3.pointer(event, svg.node()) : [centerX, height / 2]
 			);
 	}
 
 	// Reset the map zoom when we click on the map background
 	function resetZoom() {
+		selectedCountry = '';
+
 		svg
 			.transition()
 			.duration(750)
@@ -301,6 +308,7 @@
 		mapFolder.addColor(debugSettings, 'outlineStroke').onChange(() => roughDrawCountry());
 		mapFolder.add(debugSettings, 'outlineStrokeWidth', 0, 5).onChange(() => roughDrawCountry());
 		mapFolder.addColor(debugSettings, 'highlightStroke');
+		mapFolder.addColor(debugSettings, 'highlightFill');
 		mapFolder.open();
 
 		// Background folder
@@ -335,6 +343,8 @@
 	}
 
 	onMount(() => {
+		width = window.innerWidth;
+		height = window.innerHeight;
 		const chart = d3.select('#map').append('svg').attr('width', '100%').attr('height', '100%');
 
 		// Create background group (bottom layer)

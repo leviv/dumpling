@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Card from './Card.svelte';
 	import dumplings from '$lib/dumplings.json';
-	import Voting from './Voting.svelte';
 	import { getCountryFlag } from '../helpers/flagMap';
 
 	export let selectedCountry: string;
@@ -18,7 +17,6 @@
 
 	{#each dumplingInfo?.dumplings as dumpling}
 		<Card {dumpling} />
-		<Voting />
 	{/each}
 </div>
 
@@ -52,7 +50,7 @@
 		padding: 12px;
 		height: 100%;
 		overflow: scroll;
-		gap: 1vh;
+		gap: 20px;
 		pointer-events: none;
 	}
 </style>

@@ -10,21 +10,21 @@
 	.container {
 		position: relative;
 	}
+
 	.votecard {
-		width: 35%;
+		width: 100px;
+		position: absolute;
+		right: 0;
 		padding: 2px 4px 2px 4px;
 		background-color: #fbfcfb;
 		border: 1px #f29f7b solid;
-		position: absolute;
 		display: block;
-		left: 75%;
-		top: -65px;
 		z-index: 3;
 		font-size: 0.7rem;
 		text-align: center;
 	}
 
-	button :global {
+	button {
 		font-size: 0.6rem;
 		color: #76664a;
 		background-color: transparent;
@@ -32,13 +32,16 @@
 		margin: auto;
 		text-align: center;
 	}
+
 	button img {
 		max-height: 22px;
 	}
-	button:hover :global {
+
+	button:hover {
 		filter: drop-shadow(5px 5px 10px #f29f7b);
 	}
-	button:active :global {
+
+	button:active {
 		filter: contrast(80%);
 	}
 </style>
