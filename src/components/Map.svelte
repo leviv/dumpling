@@ -131,6 +131,7 @@
 	// Reset the map zoom when we click on the map background
 	function resetZoom() {
 		selectedCountry = '';
+		resetCountryStyles();
 
 		svg
 			.transition()

@@ -44,7 +44,7 @@
 		box-shadow:
 			0px 0px 0.5px rgba(0, 0, 0, 0.3),
 			0px 1px 3px rgba(0, 0, 0, 0.15);
-		color: #76664A;
+		color: #76664a;
 		background-color: #fff;
 		margin: 0;
 		height: 48px;
