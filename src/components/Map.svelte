@@ -17,6 +17,7 @@
 	let zoomLevel = 1;
 	let g: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
 	let backgroundG: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
+	let labelsG: d3.Selection<SVGGElement, unknown, HTMLElement, any>;
 	let svg: d3.Selection<SVGSVGElement, unknown, HTMLElement, any>;
 	let paths: d3.Selection<SVGPathElement, unknown, HTMLElement, any>;
 	let roughSVG: rough.RoughSVG<SVGSVGElement>;
@@ -55,6 +56,7 @@
 		.zoom()
 		.on('zoom', function (event: any) {
 			g.attr('transform', event.transform);
+			labelsG.attr('transform', event.transform);
 			zoomLevel = event.transform.k;
 		})
 		.on('start', function (this: SVGSVGElement) {
@@ -62,6 +64,7 @@
 		})
 		.on('end', function (this: SVGSVGElement) {
 			d3.select(this).classed('dragging', false);
+			updateLabels();
 		});
 
 	// Reset all country styles to default
@@ -105,7 +108,9 @@
 	function zoomToCountry(event: any, d: any) {
 		const pathGenerator = d3.geoPath().projection(projection);
 		const [[x0, y0], [x1, y1]] = pathGenerator.bounds(d);
-		event.stopPropagation();
+		if (event) {
+			event.stopPropagation();
+		}
 		svg
 			.transition()
 			.duration(750)
@@ -115,7 +120,7 @@
 					.translate(width / 2, height / 2)
 					.scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
 					.translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
-				d3.pointer(event, svg.node())
+				event ? d3.pointer(event, svg.node()) : [width / 2, height / 2]
 			);
 	}
 
@@ -150,6 +155,42 @@
 	// Reset country styles on mouseout
 	function mouseOut(event: any, d: any) {
 		d3.selectAll('.country-hover').remove();
+	}
+
+	// Update country labels based on zoom level
+	function updateLabels() {
+		labelsG.selectAll('.country-label').remove();
+
+		if (zoomLevel > 5) {
+			paths.each(function (this: SVGPathElement, d: any) {
+				const countryName = d.properties?.name;
+				if (countryName) {
+					const centroid = d3.geoPath().projection(projection).centroid(d);
+
+					if (centroid && centroid[0] && centroid[1]) {
+						labelsG
+							.append('text')
+							.attr('class', 'country-label')
+							.attr('x', centroid[0])
+							.attr('y', centroid[1])
+							.attr('text-anchor', 'middle')
+							.attr('dominant-baseline', 'middle')
+							.style('font-size', `${12 / zoomLevel}px`)
+							.style('font-family', 'Arial, sans-serif')
+							.style('fill', '#333')
+							.style('stroke', 'white')
+							.style('stroke-width', `${3 / zoomLevel}px`)
+							.style('paint-order', 'stroke')
+							.style('pointer-events', 'all')
+							.style('cursor', 'pointer')
+							.text(countryName)
+							.on('click', mouseClick)
+							.on('mouseenter', mouseOver)
+							.on('mouseleave', mouseOut);
+					}
+				}
+			});
+		}
 	}
 
 	function roughDrawCountry() {
@@ -293,8 +334,11 @@
 		// Create background group (bottom layer)
 		backgroundG = chart.append('g').attr('class', 'background-layer');
 
-		// Create countries group (top layer)
+		// Create countries group
 		g = chart.append('g');
+
+		// Create labels group (top layer)
+		labelsG = chart.append('g').attr('class', 'labels-layer');
 
 		svg = d3.select('svg').on('click', resetZoom);
 		roughSVG = rough.svg(svg.node());
