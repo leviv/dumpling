@@ -12,9 +12,9 @@
 </script>
 
 <div class="container">
-	<h1>World Dumpling Index</h1>
-
-	<h3><b>{countryFlag} {selectedCountry}</b></h3>
+	<div class="title">
+		<h1>World Dumpling Index - {selectedCountry} {countryFlag}</h1>
+	</div>
 
 	{#each dumplingInfo?.dumplings as dumpling}
 		<Card {dumpling} />
@@ -23,16 +23,36 @@
 </div>
 
 <style>
+	.title {
+		width: fit-content;
+		padding: 0 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 13px;
+		box-shadow:
+			0px 0px 0.5px rgba(0, 0, 0, 0.3),
+			0px 1px 3px rgba(0, 0, 0, 0.15);
+		color: rgba(0, 0, 0, 0.9);
+		background-color: #fff;
+		margin: 0;
+		height: 48px;
+	}
+
+	.title h1 {
+		font-size: 25px;
+	}
+
 	.container {
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 350px;
 		display: flex;
 		flex-direction: column;
-		padding: 50px;
+		padding: 12px;
 		height: 100%;
 		overflow: scroll;
 		gap: 1vh;
+		pointer-events: none;
 	}
 </style>

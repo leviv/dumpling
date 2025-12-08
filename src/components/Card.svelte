@@ -27,6 +27,7 @@
 
 <style>
 	.card {
+		pointer-events: auto;
 		background-color: white;
 		background-image:
 			linear-gradient(
