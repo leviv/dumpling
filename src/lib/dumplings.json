@@ -3618,7 +3618,7 @@
       {
         "name": "Apple Dumpling",
         "desc": "A baked or boiled pastry-wrapped apple",
-        "img": " ",
+        "img": "usa0.png",
         "tags": [
           "Baked",
           "Vegetarian",
@@ -3628,7 +3628,7 @@
       {
         "name": "Chicken and Dumplings",
         "desc": "A popular comfort food dish consisting of chicken and dumped dough cooked in the chicken broth",
-        "img": " ",
+        "img": "usa1.png",
         "tags": [
           "Boiled",
           "Soup",
@@ -3639,7 +3639,7 @@
       {
         "name": "Runza",
         "desc": "A yeast dough bread pocket with a filling consisting of ground beef, cabbage or sauerkraut, onions, and seasonings",
-        "img": " ",
+        "img": "usa2.png",
         "tags": [
           "Baked",
           "Traditionally Non-Vegetarian",
@@ -3669,7 +3669,7 @@
       {
         "name": "Manti",
         "desc": "Steamed dumplings filled with ground meat.",
-        "img": " ",
+        "img": "uzbekmanti.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -3684,7 +3684,7 @@
       {
         "name": "Lap Lap",
         "desc": "The national dish of Vanuatu. Grated veggies wrapped in banana leaves and baked in an underground oven.",
-        "img": " ",
+        "img": "vanuatu.png",
         "tags": [
           "Baked",
           "Savory",
@@ -3724,7 +3724,7 @@
       {
         "name": "Bánh Chưng",
         "desc": "A dish made from glutinous rice, mung beans, pork, and other ingredients",
-        "img": " ",
+        "img": "vietnam0.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -3734,7 +3734,7 @@
       {
         "name": "Bánh Tẻ",
         "desc": "A variety of small steamed rice cakes made of rice flour and wrapped with lá dong leaves into long, thin cylindrical shapes",
-        "img": " ",
+        "img": "vietnam1.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
