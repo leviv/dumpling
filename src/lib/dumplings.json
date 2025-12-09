@@ -2635,7 +2635,7 @@
       {
         "name": "Ukaeb",
         "desc": "Crab shell filled with minced crab meat, crowned with rich coconut cream",
-        "img": " ",
+        "img": "ukaeb.png",
         "tags": [
           "Baked",
           "Traditionally Non-Vegetarian",
@@ -2650,7 +2650,7 @@
       {
         "name": "Shish Barak",
         "desc": "Meat-filled small dumplings cooked with a yogurt sauce",
-        "img": " ",
+        "img": "shish-barak.png",
         "tags": [
           "Baked",
           "Boiled",
