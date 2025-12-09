@@ -2390,7 +2390,7 @@
       {
         "name": "Dolma",
         "desc": "Grape leaves stuffed with a mixture of rice, herbs and spices. Served with lemon and yogurt sauce.",
-        "img": " ",
+        "img": "dolma.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -2905,8 +2905,8 @@
     "dumplings": [
       {
         "name": "Paifala",
-        "desc": "This half-moon pie is a sweet dumpling filled with coconut and sugar wrapped in pastry dough and baked until golden brown",
-        "img": " ",
+        "desc": "This half-moon pie is filled with coconut, sugar, and pineapple and wrapped in pastry dough and baked until golden brown",
+        "img": "samoa.png",
         "tags": [
           "Baked",
           "Sweet",
