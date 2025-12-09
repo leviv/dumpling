@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set } from "firebase/database";
+import { getDatabase, ref, set, onValue } from "firebase/database";
 
 const firebaseConfig = {
     apiKey: "AIzaSyBcgXB-iOzJ_yfF46Eln-BBiznRC61Nfgc",
@@ -14,10 +14,15 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
+function writeData(country,dumpling,vote){
+    const db = getDatabase();
+    const reference = ref(db, 'countries/' + country + '/dumpling' + 'vote');
 
-function testData(){
-    // Initialize Realtime Database and get a reference to the service
-    const database = getDatabase(app);
+    set(reference, {
+        dumpling: dumpling,
+        vote: vote
+    });
+
 }
 
 export const GET = () => {
