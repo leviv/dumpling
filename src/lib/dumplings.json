@@ -3082,9 +3082,9 @@
     "country": "Solomon Is.",
     "dumplings": [
       {
-        "name": "Solomon Islands dumpling",
-        "desc": "Cassava Pudding",
-        "img": "A sweet cake made with grated cassava, sweet potato, and coconut milk, steamed in banana leaves.",
+        "name": "Cassava Pudding",
+        "desc": "A sweet cake made with grated cassava, sweet potato, and coconut milk, steamed in banana leaves.",
+        "img": " ",
         "tags": [
           "Steamed",
           "Sweet",
@@ -3099,7 +3099,7 @@
       {
         "name": "Sambuus",
         "desc": "A fried or baked pastry filled with spiced meat or vegetables, similar to a samosa",
-        "img": " ",
+        "img": "sambusa.png",
         "tags": [
           " ",
           " "
@@ -3113,7 +3113,7 @@
       {
         "name": "Sambuus",
         "desc": "A fried or baked pastry filled with spiced meat or vegetables, similar to a samosa",
-        "img": " ",
+        "img": "sambusa.png",
         "tags": [
           " ",
           " "
@@ -3127,7 +3127,7 @@
       {
         "name": "Dombolo",
         "desc": "A traditional South African steamed bread dumpling, often served with stews or braais (barbecues).",
-        "img": " ",
+        "img": "breaddumpling.png",
         "tags": [
           " ",
           " "
@@ -3141,7 +3141,7 @@
       {
         "name": "Mandu",
         "desc": "The general term for dumplings in Korea with many varieties. Its name changes with cooking method",
-        "img": " ",
+        "img": "boiled",
         "tags": [
           "Varied Cooking Methods",
           "Savory",
@@ -3283,7 +3283,7 @@
       {
         "name": "Kroppkaka",
         "desc": "A boiled potato dumpling most commonly filled with onions and meat",
-        "img": " ",
+        "img": "canada0.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -3439,7 +3439,7 @@
       {
         "name": "Faikakai Topai",
         "desc": "A sweet dumpling served with sweet coconut sauce",
-        "img": " ",
+        "img": "micronesia.png",
         "tags": [
           "Fried",
           "Sweet",
@@ -3454,7 +3454,7 @@
       {
         "name": "Pastelles",
         "desc": "A Christmas dish made with cornmeal dough stuffed with a savory filling, wrapped in banana leaves, and steamed",
-        "img": " ",
+        "img": "aruba0.png",
         "tags": [
           "Steamed",
           "Savory",
@@ -3514,7 +3514,7 @@
       {
         "name": "Conch Fritters",
         "desc": "Fried dumplings made with shellfish meat, flour, and seasonings",
-        "img": " ",
+        "img": "fritter.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -3529,7 +3529,7 @@
       {
         "name": "Conch Fritters",
         "desc": "Fried dumplings made with shellfish meat, flour, and seasonings",
-        "img": " ",
+        "img": "fritter.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -3591,7 +3591,7 @@
       {
         "name": "Suet Dumplings",
         "desc": "Dumplings made from animal fat, flour, and water, typically served in stews and casseroles",
-        "img": " ",
+        "img": "ireland0.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -3642,7 +3642,7 @@
       {
         "name": "Niños envueltos",
         "desc": "Rice and meat wrapped in cabbage leaves or beef and cooked in a tomato-based sauce.",
-        "img": " ",
+        "img": "cabbagewrap.png",
         "tags": [
           "Boiled",
           "Savory",
@@ -3772,7 +3772,7 @@
       {
         "name": "Goulabjamoun",
         "desc": "Deep-fried sweet potato balls covered in flour and cinammon. Likely introduced to Zambia via India railway workers during British colonial rule.",
-        "img": " ",
+        "img": "glazeddoughnut.png",
         "tags": [
           "Fried",
           "Vegetarian",
@@ -3787,7 +3787,7 @@
       {
         "name": "Sadza",
         "desc": "One of the most common dishes in Zimbabwe. Made from cornmeal and usually served as an accompaniment to meat and vegetable dishes.",
-        "img": " ",
+        "img": "malawi.png",
         "tags": [
           "Steamed",
           "Vegetarian",
