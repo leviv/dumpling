@@ -328,7 +328,6 @@
 		mapFolder.add(debugSettings, 'outlineStrokeWidth', 0, 5).onChange(() => roughDrawCountry());
 		mapFolder.addColor(debugSettings, 'highlightStroke');
 		mapFolder.addColor(debugSettings, 'highlightFill');
-		mapFolder.open();
 
 		// Background folder
 		const bgFolder = debugGUI.addFolder('Map Background');
@@ -356,7 +355,6 @@
 		bgFolder.add(backgroundSettings, 'hachureGap', 0, 20).onChange(() => roughDrawBackground());
 		bgFolder.add(backgroundSettings, 'roughness', 0, 5).onChange(() => roughDrawBackground());
 		bgFolder.add(backgroundSettings, 'simplification', 0, 1).onChange(() => roughDrawBackground());
-		bgFolder.open();
 
 		return debugGUI;
 	}
