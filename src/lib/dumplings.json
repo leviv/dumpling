@@ -3059,7 +3059,7 @@
       {
         "name": "Bryndzové Halušky:",
         "desc": "Potato dumplings smothered with sheep cheese and topped with fried bacon bits",
-        "img": " ",
+        "img": "slovakia.png",
         "tags": [
           "Boiled",
           "Savory",
@@ -3074,7 +3074,7 @@
       {
         "name": "Štruklji",
         "desc": "A rolled dumpling that can be sweet or savory, typically filled with cottage cheese, walnuts, or tarragon and boiled or baked",
-        "img": " ",
+        "img": "slovenia.png",
         "tags": [
           "Boiled",
           "Baked",
@@ -3091,7 +3091,7 @@
       {
         "name": "Cassava Pudding",
         "desc": "A sweet cake made with grated cassava, sweet potato, and coconut milk, steamed in banana leaves.",
-        "img": " ",
+        "img": "solomonisland.png",
         "tags": [
           "Steamed",
           "Sweet",
@@ -3153,7 +3153,7 @@
       {
         "name": "Mandu",
         "desc": "The general term for dumplings in Korea with many varieties. Its name changes with cooking method",
-        "img": "boiled",
+        "img": "boileddumpling.png",
         "tags": [
           "Varied Cooking Methods",
           "Savory",
@@ -3163,7 +3163,7 @@
       {
         "name": "Sujebi",
         "desc": "A soup consisting of dough flakes roughly torn by hand with various vegetables",
-        "img": " ",
+        "img": "korea.png",
         "tags": [
           "Boiled",
           "Soup",
@@ -3179,7 +3179,7 @@
       {
         "name": "Croquetas",
         "desc": "Fried balls typically filled with ham and cheese.",
-        "img": " ",
+        "img": "spain.png",
         "tags": [
           "Fried",
           "Savory",
@@ -3194,7 +3194,7 @@
       {
         "name": "Lavariya",
         "desc": "Caramelized coconut encased in delicate string hoppers, known locally as Idiyappam",
-        "img": " ",
+        "img": "srilanka.png",
         "tags": [
           "Steamed",
           "Vegetarian",
@@ -3264,7 +3264,7 @@
       {
         "name": "Asida",
         "desc": "A sorghum dumpling with a jelly-like consistency, typically served with a meat or vegetable stew",
-        "img": " ",
+        "img": "sudan.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -3279,7 +3279,7 @@
       {
         "name": "Bapao",
         "desc": "Suriname food is a fusion of west African, Indian, Javanese, Chinese, Dutch, and Amerindian cuisines. Bapao is a steamed bun with fillings such as chicken, beef, or vegetables",
-        "img": " ",
+        "img": "suriname.png",
         "tags": [
           "Steamed",
           "Savory",
@@ -3305,7 +3305,7 @@
       {
         "name": "Palt",
         "desc": "A meat-filled potato dumpling traditionally served with butter and lingonberry preserves",
-        "img": " ",
+        "img": "sweden1.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -3320,7 +3320,7 @@
       {
         "name": "Capuns",
         "desc": "Primarily found in east Switzerland, Capuns are bundles of Swiss chard leaves filled with a mixture of spiced meat and dough, then boiled and served with grated cheese",
-        "img": " ",
+        "img": "switzerland.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -3335,7 +3335,7 @@
       {
         "name": "Kibbeh",
         "desc": "The national dish of Syria. This dish consists of well-spiced meat and veggies inside of a bulgur wheat and meat shell, which is then fried or baked",
-        "img": " ",
+        "img": "syria.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -3350,7 +3350,7 @@
       {
         "name": "Ba-Wan",
         "desc": "A gelatinous and translucent dumpling made of starch and rice flour filled with meat and vegetables",
-        "img": " ",
+        "img": "taiwan.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -3365,7 +3365,7 @@
       {
         "name": "Sambusa",
         "desc": "A breaded street food filled with meat (usually lamb) or vegetables and deep-fried",
-        "img": " ",
+        "img": "tajikistan.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -3375,7 +3375,7 @@
       {
         "name": "Manti",
         "desc": "Steamed dumplings filled with ground meat.",
-        "img": " ",
+        "img": "uzbekmanti.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -3390,7 +3390,7 @@
       {
         "name": "Zanzibar Pizza",
         "desc": "A crispy, fried dough pocket made with a thin dough filled with spiced meat and cheese, and cooked on a griddle",
-        "img": " ",
+        "img": "tanzania.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -3405,7 +3405,7 @@
       {
         "name": "Cho Muang",
         "desc": "A snack shaped like a flower and indigo coloring from the butterfly pea flower filled with either a salty or sweet filling",
-        "img": " ",
+        "img": "thailand.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -3421,7 +3421,7 @@
       {
         "name": "Katupa",
         "desc": "Compressed rice cakes wrapped in woven palm leaves, flavored with coconut milk and tumeric",
-        "img": " ",
+        "img": "timorleste.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -3436,7 +3436,7 @@
       {
         "name": "Djenkoume",
         "desc": "Cornmeal fritters served with stew or sauce.",
-        "img": " ",
+        "img": "togo.png",
         "tags": [
           "Fried",
           "Savory",
@@ -3481,7 +3481,7 @@
       {
         "name": "Brick à l'Oeuf",
         "desc": "Thin pastry sheets filled with egg and other ingredients such as tuna, capers, or cheese, then folded and fried until crispy",
-        "img": " ",
+        "img": "tunisia.png",
         "tags": [
           "Pan-Fried",
           "Traditionally Non-Vegetarian",
@@ -3496,7 +3496,7 @@
       {
         "name": "Kayseri Manti",
         "desc": "Tiny ground meat dumplings served with yoghurt, melted butter (typically flavored with spearmint or Aleppo pepper) and topped with dry mint and Aleppo pepper flakes",
-        "img": " ",
+        "img": "turkey.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -3511,7 +3511,7 @@
       {
         "name": "Gutap",
         "desc": "A traditional Turkmen pastry filled with squash or pumpkin and cooked on a griddle",
-        "img": " ",
+        "img": "turkmenistan.png",
         "tags": [
           "Pan-Fried",
           "Vegetarian",
@@ -3556,7 +3556,7 @@
       {
         "name": "Rolex",
         "desc": "A popular street food made with an vegetable omelette rolled inside a chapati. The name comes from the term 'rolled eggs'",
-        "img": " ",
+        "img": "uganda.png",
         "tags": [
           "Pan-Fried",
           "Vegetarian",
@@ -3571,7 +3571,7 @@
       {
         "name": "Varenyky",
         "desc": "Dumplings made from an unleavened dough and filled with sweet or savory ingredients and served with sour cream and onions",
-        "img": " ",
+        "img": "ukraine.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -3588,7 +3588,7 @@
       {
         "name": "Ma'amoul",
         "desc": "Shortbread cookies filled with dates, nuts such as pistachios or walnuts, or figs",
-        "img": " ",
+        "img": "maamoul.png",
         "tags": [
           "Baked",
           "Sweet",
