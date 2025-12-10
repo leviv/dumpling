@@ -16,7 +16,7 @@ const app = initializeApp(firebaseConfig);
 
 function writeData(country,dumpling,vote){
     const db = getDatabase();
-    const reference = ref(db, 'countries/' + country + '/dumpling' + 'vote');
+    const reference = ref(db, 'countries/' + country);
 
     set(reference, {
         dumpling: dumpling,
@@ -24,6 +24,8 @@ function writeData(country,dumpling,vote){
     });
 
 }
+
+writeData('TestCountry','YummyDumpling', '1');
 
 export const GET = () => {
     return new Response("map endpoint ok", { status: 200 });
