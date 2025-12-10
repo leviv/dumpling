@@ -1,8 +1,8 @@
 <div class="container">
 	<div class="votecard">
 		<p>Is this a dumpling?</p>
-		<button><img src="/assets/yes.png" alt="yes!" title="yes!" /></button>
-		<button><img src="/assets/no.png" alt="no!" title="no!" /></button>
+		<button><img src="assets/yes.png" alt="yes!" title="yes!" /></button>
+		<button><img src="assets/no.png" alt="no!" title="no!" /></button>
 	</div>
 </div>
 
