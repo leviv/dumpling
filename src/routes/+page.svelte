@@ -2,42 +2,62 @@
 	import { goto } from '$app/navigation';
 	import { base } from '$app/paths';
 
-	let myimg = `${base}/tempbox.png`;
+	let myimg = `${base}/box.png`;
 
 	function changeImg() {
-		myimg = `${base}/boxopening.gif`;
+		myimg = `${base}/boxopen.gif`;
 		setTimeout(() => {
 			goto(`${base}/map`);
-		}, 2000);
+		}, 1500);
 	}
 </script>
-
+<img  id="bg" src="/bg.png">
 <!-- landing page -->
 <div id="landingstuff">
-	<h1>World Dumpling Index</h1>
+	<!-- <h1>World Dumpling Index</h1> -->
+	<img id="title" src="/title.png"/>
 	<img id="box" alt="box with world dumpling index on it" src={myimg} on:click={changeImg} />
 	<p>Click the box to enter</p>
 </div>
 
 <style>
-	h1 {
-		font-family: 'Reenie Beanie';
-		font-size: 3rem;
-	}
+	/* :global(body){
+		background-image:url('/bg.png');
+		background-size:cover;
+	} */
 
 	p {
 		font-family: 'Stylish';
 		font-size: 1rem;
+		color:#73664E;
 	}
 
 	#box {
-		width: 60%;
+		width: 100%;
 		margin-bottom: 20px;
+
 	}
+
+	#bg {
+		max-width:100vw;
+		position:fixed;
+		z-index:-1;
+		top:0;
+	}
+
 	#landingstuff {
 		margin: auto;
 		width: 50%;
 		padding-top: 10%;
 		text-align: center;
+	}
+	#title {
+		width:600px;
+		left:0;
+		right:0;
+		margin:auto;
+		position:absolute;
+		z-index:2;
+		top:10%;
 	}
 </style>
