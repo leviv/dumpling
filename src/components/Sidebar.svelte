@@ -16,7 +16,7 @@
 	</div>
 
 	{#each dumplingInfo?.dumplings as dumpling}
-		<Card {dumpling} />
+		<Card {dumpling} country={selectedCountry} />
 	{/each}
 </div>
 
@@ -32,6 +32,12 @@
 		overflow: scroll;
 		gap: 20px;
 		pointer-events: none;
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+
+	.container::-webkit-scrollbar {
+		display: none; /* Chrome, Safari, Opera*/
 	}
 
 	.title {

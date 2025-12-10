@@ -8,6 +8,7 @@
 		tags: string[];
 		img: string;
 	};
+	export let country: string;
 </script>
 
 <!-- Implementation based on https://codepen.io/leviv/pen/ByKvNPP?editors=1100 -->
@@ -26,7 +27,7 @@
 	</div>
 
 	<div class="vote">
-		<Voting />
+		<Voting {country} dumplingName={dumpling.name} />
 	</div>
 </div>
 
@@ -66,7 +67,7 @@
 	}
 
 	.vote {
-		visibility:hidden;
+		visibility: hidden;
 	}
 
 	.title {

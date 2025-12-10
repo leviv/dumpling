@@ -328,6 +328,7 @@
 		mapFolder.add(debugSettings, 'outlineStrokeWidth', 0, 5).onChange(() => roughDrawCountry());
 		mapFolder.addColor(debugSettings, 'highlightStroke');
 		mapFolder.addColor(debugSettings, 'highlightFill');
+		mapFolder.open();
 
 		// Background folder
 		const bgFolder = debugGUI.addFolder('Map Background');
@@ -355,6 +356,7 @@
 		bgFolder.add(backgroundSettings, 'hachureGap', 0, 20).onChange(() => roughDrawBackground());
 		bgFolder.add(backgroundSettings, 'roughness', 0, 5).onChange(() => roughDrawBackground());
 		bgFolder.add(backgroundSettings, 'simplification', 0, 1).onChange(() => roughDrawBackground());
+		bgFolder.open();
 
 		return debugGUI;
 	}
@@ -377,6 +379,18 @@
 		roughSVG = rough.svg(svg.node());
 		const pathGenerator = d3.geoPath().projection(projection);
 		debugGUI = createDebugGUI();
+		debugGUI.hide();
+
+		// Listen for 'd' key press to toggle debug GUI
+		window.addEventListener('keydown', (e) => {
+			if (e.key === 'd' || e.key === 'D') {
+				if (debugGUI._hidden) {
+					debugGUI.show();
+				} else {
+					debugGUI.hide();
+				}
+			}
+		});
 
 		// Draw background first
 		roughDrawBackground();
