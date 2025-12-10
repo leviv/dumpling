@@ -11,12 +11,13 @@
 		}, 1500);
 	}
 </script>
-<img  id="bg" src="/bg.png">
+
+<img id="bg" src="bg.png" alt="background texture" />
 <!-- landing page -->
 <div id="landingstuff">
 	<!-- <h1>World Dumpling Index</h1> -->
-	<img id="title" src="/title.png"/>
-	<img id="box" alt="box with world dumpling index on it" src={myimg} on:click={changeImg} />
+	<img id="title" src="title.png" alt="World Dumpling Index title" />
+	<img id="box" alt="box with world dumpling index on it" src="box.png" on:click={changeImg} />
 	<p>Click the box to enter</p>
 </div>
 
@@ -29,20 +30,19 @@
 	p {
 		font-family: 'Stylish';
 		font-size: 1rem;
-		color:#73664E;
+		color: #73664e;
 	}
 
 	#box {
 		width: 100%;
 		margin-bottom: 20px;
-
 	}
 
 	#bg {
-		max-width:100vw;
-		position:fixed;
-		z-index:-1;
-		top:0;
+		max-width: 100vw;
+		position: fixed;
+		z-index: -1;
+		top: 0;
 	}
 
 	#landingstuff {
@@ -52,12 +52,12 @@
 		text-align: center;
 	}
 	#title {
-		width:600px;
-		left:0;
-		right:0;
-		margin:auto;
-		position:absolute;
-		z-index:2;
-		top:10%;
+		width: 600px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		position: absolute;
+		z-index: 2;
+		top: 10%;
 	}
 </style>
