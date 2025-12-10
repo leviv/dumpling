@@ -1,31 +1,100 @@
-<script>
+<script lang="ts">
 	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 
-	let myimg = `${base}/box.png`;
+	let gifElement: HTMLImageElement;
+	let isPlaying = false;
+
+	onMount(() => {
+		// Pause the gif on load
+		pauseGif();
+	});
+
+	// Use this play/pause gif implementation https://gist.github.com/donatj/8ec12c55f256c09fdfd2ecd153404c06
+
+	function pauseGif() {
+		if (!gifElement) {
+			return;
+		}
+
+		const canvas = document.createElement('canvas');
+		const ctx = canvas.getContext('2d');
+		if (!ctx) {
+			return;
+		}
+
+		const img = document.createElement('img');
+		img.onload = function () {
+			canvas.width = img.width;
+			canvas.height = img.height;
+			ctx.drawImage(img, 0, 0);
+			gifElement.src = canvas.toDataURL();
+		};
+		const dataSrc = gifElement.getAttribute('data-src');
+		if (dataSrc) {
+			img.src = dataSrc;
+		}
+	}
 
 	function changeImg() {
-		myimg = `${base}/boxopen.gif`;
+		if (isPlaying) {
+			return;
+		}
+		isPlaying = true;
+
+		// Play the gif
+		const dataSrc = gifElement.getAttribute('data-src');
+		if (dataSrc) {
+			gifElement.src = dataSrc;
+		}
+
+		// Navigate to /map after gif ends
 		setTimeout(() => {
+			pauseGif();
 			goto(`${base}/map`);
-		}, 1500);
+		}, 1000);
+	}
+
+	function handleKeyPress(event: KeyboardEvent) {
+		if (event.key === 'Enter' || event.key === ' ') {
+			changeImg();
+		}
 	}
 </script>
 
-<img id="bg" src="bg.png" alt="background texture" />
 <!-- landing page -->
-<div id="landingstuff">
-	<!-- <h1>World Dumpling Index</h1> -->
-	<img id="title" src="title.png" alt="World Dumpling Index title" />
-	<img id="box" alt="box with world dumpling index on it" src="box.png" on:click={changeImg} />
-	<p>Click the box to enter</p>
+<div class="container">
+	<div id="landingstuff">
+		<img id="title" src="title.png" alt="World Dumpling Index title" />
+		<!-- svelte-ignore a11y_no_noninteractive_element_to_interactive_role -->
+		<img
+			id="box"
+			bind:this={gifElement}
+			data-src="boxopen.gif"
+			alt="box with world dumpling index on it"
+			src="boxopen.gif"
+			on:click={changeImg}
+			on:keypress={handleKeyPress}
+			tabindex="0"
+			role="button"
+		/>
+		<p>Click the box to enter</p>
+	</div>
 </div>
 
 <style>
-	/* :global(body){
-		background-image:url('/bg.png');
-		background-size:cover;
-	} */
+	:global(body) {
+		margin: 0;
+		padding: 0;
+	}
+	.container {
+		width: 100%;
+		height: 100vh;
+		background-image: url('bg.png');
+		background-size: cover;
+		background-position: center;
+	}
 
 	p {
 		font-family: 'Stylish';
@@ -34,30 +103,18 @@
 	}
 
 	#box {
-		width: 100%;
+		max-width: 1200px;
 		margin-bottom: 20px;
 	}
 
-	#bg {
-		max-width: 100vw;
-		position: fixed;
-		z-index: -1;
-		top: 0;
+	#landingstuff {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 40px;
 	}
 
-	#landingstuff {
-		margin: auto;
-		width: 50%;
-		padding-top: 10%;
-		text-align: center;
-	}
 	#title {
 		width: 600px;
-		left: 0;
-		right: 0;
-		margin: auto;
-		position: absolute;
-		z-index: 2;
-		top: 10%;
 	}
 </style>
