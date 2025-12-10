@@ -2415,7 +2415,7 @@
       {
         "name": "Vetkoek",
         "desc": "Deep fried dough balls that can be stuffed with curried mince meat or sweet jams",
-        "img": " ",
+        "img": "fritter.png",
         "tags": [
           "Fried",
           "Savory",
@@ -2441,7 +2441,7 @@
       {
         "name": "Momo",
         "desc": "Round dumplings that are typically filled with meat or vegetables and steamed or pan-fried",
-        "img": " ",
+        "img": "momo.png",
         "tags": [
           "Steamed",
           "Pan-Fried",
@@ -2487,7 +2487,7 @@
       {
         "name": "Meat pie",
         "desc": "Meat and spice filled pastry derived from British cuisine",
-        "img": " ",
+        "img": "meatpie.png",
         "tags": [
           "Baked",
           "Savory",
@@ -2515,13 +2515,9 @@
     "country": "Niger",
     "dumplings": [
       {
-        "name": "Niger (the) dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "No dumpling info yet :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": "sad.png"
       }
     ]
   },
@@ -2576,7 +2572,7 @@
       {
         "name": "Mandu",
         "desc": "The general term for dumplings in Korea with many varieties. Its name changes with cooking method",
-        "img": " ",
+        "img": "boileddumpling.png",
         "tags": [
           "Varied Cooking Methods",
           "Savory",
@@ -2591,7 +2587,7 @@
       {
         "name": "Raspeballer",
         "desc": "Potato dumplings made with a combination of cooked and raw potatoes. Sometimes with bits of bacon inside",
-        "img": " ",
+        "img": "potatodumpling.png",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -2604,13 +2600,9 @@
     "country": "Oman",
     "dumplings": [
       {
-        "name": "Oman dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+         "name": "No dumpling info yet :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": "sad.png"
       }
     ]
   },
@@ -2620,7 +2612,7 @@
       {
         "name": "Mantu",
         "desc": "Thin dough filled with beef or lamb and onions, steamed, and topped with yogurt and a tomato-based sauce",
-        "img": " ",
+        "img": "afghanistan1.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -2682,7 +2674,7 @@
       {
         "name": "Saksak",
         "desc": "Steamed sago pearls and bananas wrapped and steamed in banana leaves",
-        "img": " ",
+        "img": "uburobe.png",
         "tags": [
           "Steamed",
           "Sweet",
@@ -2697,7 +2689,7 @@
       {
         "name": "Pastel mandi'o",
         "desc": "Fried cassava/cornflour dumplings usually filled with beef",
-        "img": " ",
+        "img": "pastels.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -2712,7 +2704,7 @@
       {
         "name": "Papa rellena",
         "desc": "Mashed potato dumplings stuffed with a savory filling of ground meat, onions, olives, and hard-boiled eggs, then deep-fried",
-        "img": " ",
+        "img": "ecuador0.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -2727,7 +2719,7 @@
       {
         "name": "Siopao",
         "desc": "A steamed bun made with yeast-leavened dough and a meat filling similar to Chinese bao",
-        "img": " ",
+        "img": "meatbao.png",
         "tags": [
           "Steamed",
           "Traditionally Non-Vegetarian",
@@ -2752,7 +2744,7 @@
       {
         "name": "Pierogi",
         "desc": "Unleavened dough dumplings filled with various savory or sweet ingredients and cooked in boiling water",
-        "img": " ",
+        "img": "ukraine.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -2783,7 +2775,7 @@
       {
         "name": "Domplines",
         "desc": "Also known as Arepas, this dish consists of fried dough usually served stuffed with or alongside beans",
-        "img": " ",
+        "img": "frieddough.png",
         "tags": [
           "Fried",
           "Savory",
@@ -2813,7 +2805,7 @@
       {
         "name": "Sarmale",
         "desc": "Romania's national dish consisting of cabbage rolls stuffed with pork, beef and rice.",
-        "img": " ",
+        "img": "cabbagewrap.png",
         "tags": [
           "Baked",
           "Traditionally Non-Vegetarian",
@@ -2828,7 +2820,7 @@
       {
         "name": "Pelmeni",
         "desc": "Dumplings made of thin, unleavened dough filled with minced meat and spices, typically boiled and served with sour cream or butter",
-        "img": " ",
+        "img": " azerbaijan0",
         "tags": [
           "Boiled",
           "Traditionally Non-Vegetarian",
@@ -2841,13 +2833,9 @@
     "country": "Rwanda",
     "dumplings": [
       {
-        "name": "Rwanda dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+       "name": "No dumpling info yet :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": "sad.png"
       }
     ]
   },
@@ -2865,13 +2853,9 @@
     "country": "S. Sudan",
     "dumplings": [
       {
-        "name": "South Sudan dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+       "name": "No dumpling info yet :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": "sad.png"
       }
     ]
   },
@@ -2891,7 +2875,7 @@
       {
         "name": "Paime",
         "desc": "banana leaves fiiled with cornmeal, raisins, coconut, sugar, and spices. Often served during Christmas",
-        "img": " ",
+        "img": "antigua0.png",
         "tags": [
           "Steamed",
           "Sweet",
@@ -2934,13 +2918,9 @@
     "country": "São Tomé and Principe",
     "dumplings": [
       {
-        "name": "Sao Tome and Principe dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "No dumpling info yet :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": "sad.png"
       }
     ]
   },
@@ -2993,13 +2973,9 @@
     "country": "Seychelles",
     "dumplings": [
       {
-        "name": "Seychelles dumpling",
-        "desc": " ",
-        "img": " ",
-        "tags": [
-          " ",
-          " "
-        ]
+        "name": "No dumpling info yet :(",
+        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
+        "img": "sad.png"
       }
     ]
   },
@@ -3034,7 +3010,7 @@
       {
         "name": "Epok-epok",
         "desc": "Fried dough often filled with curried chicken or potatoes. The snack is thought to originate due to the various influences of the British Cornish pasty, the Portuguese empanada and the South Asian samosa",
-        "img": " ",
+        "img": "empanada.png",
         "tags": [
           "Fried",
           "Savory",
