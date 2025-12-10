@@ -2457,7 +2457,7 @@
       {
         "name": "Vlammetjes",
         "desc": "One of The Netherlands only spicy foods, consisting of deep fried beef ragout wrapped in a thin dough",
-        "img": " ",
+        "img": "netherlands.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -2472,7 +2472,7 @@
       {
         "name": "Bougna",
         "desc": "The traditional feast dish of the Kanak people of New Caledonia. It consists of meat and vegetables wrapped in banana leaves and cooked in an earth oven",
-        "img": " ",
+        "img": "newcaledonia.png",
         "tags": [
           "Baked",
           "Savory",
@@ -2502,7 +2502,7 @@
       {
         "name": "Tamales Pisques",
         "desc": "A simpler version of a tamale wrapped in a banana leaf, and eaten with cheese and cooked red beans",
-        "img": " ",
+        "img": "nicaragua.png",
         "tags": [
           "Steamed",
           "Savory",
@@ -2527,7 +2527,7 @@
       {
         "name": "Moi Moi",
         "desc": "Firm black-eyed pea pudding filled with veggies, spices, and sometimes hard-boiled eggs",
-        "img": " ",
+        "img": "nigeria.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -2562,7 +2562,7 @@
       {
         "name": "Songpyeon",
         "desc": "Traditionally made in the shape of a seashell in Pyeongan Province its filling consists of sesame seeds, sugar, and soy sauce",
-        "img": " ",
+        "img": "songpyeon.png",
         "tags": [
           "Steamed",
           "Sweet",
@@ -2659,7 +2659,7 @@
       {
         "name": "Carimañola",
         "desc": "Fried yuca dough stuffed with beef, chicken, or cheese. Often eat at breakfast or as a snack",
-        "img": " ",
+        "img": "panama.png",
         "tags": [
           "Fried",
           "Savory",
@@ -2760,7 +2760,7 @@
       {
         "name": "Rissóis de Camarão",
         "desc": "An appetizer of fried turnovers with a creamy shrimp filling in the center",
-        "img": " ",
+        "img": "portugal.png",
         "tags": [
           "Fried",
           "Traditionally Non-Vegetarian",
@@ -2790,7 +2790,7 @@
       {
         "name": "Kousa Mahshi",
         "desc": "Zucchini stuffed with spiced rice and meat mixture, cooked in a tomato sauce",
-        "img": " ",
+        "img": "qatar.png",
         "tags": [
           "Baked",
           "Traditionally Non-Vegetarian",
@@ -2905,7 +2905,7 @@
       {
         "name": "Nidi di Rondine",
         "desc": "A rolled pasta named for its resemblance to a swallows nest. Typically filled with a mixture of meat, cheese, and spinach, baked in a tomato sauce",
-        "img": " ",
+        "img": "sanmarino.png",
         "tags": [
           "Baked",
           "Savory",
@@ -2945,7 +2945,7 @@
       {
         "name": "Nem",
         "desc": "During the French-Indochina war, France sent more than 50,000 West African soldiers to Asia. This cultural exchange resulted in crispy fried spring rolls being adopted into Senegalese cuisine.",
-        "img": " ",
+        "img": "eggroll.png",
         "tags": [
           "Fried",
           "Savory",
@@ -2960,7 +2960,7 @@
       {
         "name": "Gomboce",
         "desc": "Plum filled boiled dumpling with the dough consisting of potatos, eggs and flour",
-        "img": " ",
+        "img": "serbia.png",
         "tags": [
           "Boiled",
           "Sweet",
@@ -2995,7 +2995,7 @@
       {
         "name": "Agidi",
         "desc": "A corn-based dumpling with a gelatinous texture that can be served by itself as a snack from street vendors or used as a side for stews",
-        "img": " ",
+        "img": "sierraleone.png",
         "tags": [
           "Boiled",
           "Vegetarian",
@@ -3134,6 +3134,16 @@
           "Varied Cooking Methods",
           "Savory",
           "Traditionally Non-Vegetarian"
+        ]
+      },
+      {
+        "name": "Songpyeon",
+        "desc": "A half-moon shaped rice cake made for the holidays usually containing sweet fillings and steamed over a layer of pine needles",
+        "img": "songpyeon.png",
+        "tags": [
+          "Steamed",
+          "Sweet",
+          "Vegetarian"
         ]
       },
       {
