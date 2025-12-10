@@ -34,6 +34,10 @@
 		font-family: 'Stylish';
 	}
 
+	:global(a) {
+		color: #438970;
+	}
+
 	.container {
 		display: flex;
 		flex-direction: row;

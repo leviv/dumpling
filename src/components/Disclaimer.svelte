@@ -1,8 +1,11 @@
 <div id="disclaimer">
 	<h3>This site is a WIP</h3>
 	<p>
-		If we are missing anything or you would like to correct something, feel free to submit [insert
-		link here eventually] :D
+		If we are missing anything or you would like to correct something, feel free to submit <a
+			href="https://forms.gle/1JUj3DmQSH5dTKRQ6"
+			target="_blank"
+			rel="noopener noreferrer">feedback</a
+		>!! :D
 	</p>
 </div>
 

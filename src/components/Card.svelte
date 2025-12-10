@@ -15,10 +15,21 @@
 <div class="card" in:fly={{ x: -400, duration: 500 }} out:fly={{ x: -400, duration: 500 }}>
 	<div class="title">
 		<b>{dumpling.name}</b>
-		<img class="dumplingart" src="assets/dumplings/{dumpling.img}" alt="Dumpling art" />
+		{#if dumpling.img}
+			<img class="dumplingart" src="assets/dumplings/{dumpling.img}" alt="Dumpling art" />
+		{/if}
 	</div>
 	<div class="description">
-		<p>{dumpling.desc}</p>
+		{#if dumpling.img === 'sad.png'}
+			<p>
+				If you happen to know a dumpling from this country, please submit it for us <a
+					href="https://forms.gle/1JUj3DmQSH5dTKRQ6"
+					target="_blank">here</a
+				>
+			</p>
+		{:else}
+			<p>{dumpling.desc}</p>
+		{/if}
 		<ul>
 			{#each dumpling.tags as tag}
 				<li>{tag}</li>
@@ -26,9 +37,11 @@
 		</ul>
 	</div>
 
-	<div class="vote">
-		<Voting {country} dumplingName={dumpling.name} />
-	</div>
+	{#if dumpling.img !== 'sad.png'}
+		<div class="vote">
+			<Voting {country} dumplingName={dumpling.name} />
+		</div>
+	{/if}
 </div>
 
 <style>

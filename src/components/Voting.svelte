@@ -61,7 +61,7 @@
 				<img src="no.png" alt="no!" title="no!" />
 			</button>
 		{:else}
-			<p>Votes:</p>
+			<p>Is a dumpling votes:</p>
 			<div class="results">
 				<div class="vote-count">
 					<img src="yes.png" alt="yes" />
@@ -101,6 +101,7 @@
 		border: none;
 		margin: auto;
 		text-align: center;
+		cursor: pointer;
 	}
 
 	button img {

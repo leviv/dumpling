@@ -13,7 +13,9 @@
 
 <!-- how we define dumpling -->
 <div id="popup">
-	<span class="close" onclick={closeButton}>&#x2715;</span>
+	<button class="close" onclick={closeButton}>
+		<span>&#x2715;</span>
+	</button>
 	<h3>How do we define dumpling?</h3>
 	<p>
 		Since the definition of dumplings have expanded and changed over time, we wanted to see how far
@@ -28,6 +30,11 @@
 		other specific foods, we decided to open up our definition to all cooking methods.
 	</p>
 	<p>If you think: NO! Egregious! [insert food here] isn't a dumpling! Let us know :D</p>
+
+	<p>
+		This site was lovingly created by Dae and Levi in fall 2025 for Connections Lab @ NYU
+		IMA-Low-Res
+	</p>
 </div>
 
 <style>
@@ -65,14 +72,16 @@
 		visibility: hidden;
 	}
 
-	:global(.close) {
+	.close {
 		cursor: pointer;
 		position: absolute;
 		top: 0;
 		right: 0;
 		padding: 25px;
+		background-color: transparent;
+		border: none;
 	}
-	:global(.close:hover) {
+	.close:hover {
 		color: #f29f7b;
 	}
 </style>
