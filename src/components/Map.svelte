@@ -86,16 +86,18 @@
 
 		// Add highlight overlay
 		const pathData = element.attr('d');
-		g.append('path')
+		const highlightPath = g
+			.append('path')
 			.attr('d', pathData)
 			.attr('class', 'country-highlight')
 			.style('fill', debugSettings.highlightFill)
 			.style('stroke', debugSettings.highlightStroke)
-			.style('stroke-width', 2)
 			.style('fill-opacity', 0.6)
 			.style('pointer-events', 'none');
 
-		zoomToCountry(event, d);
+		zoomToCountry(event, d, () => {
+			highlightPath.style('stroke-width', 2 / zoomLevel);
+		});
 
 		// Get the country name
 		const countryName = d.properties?.name;
@@ -105,7 +107,7 @@
 	}
 
 	// Zoom into the selected country based on the country bounding box
-	function zoomToCountry(event: any, d: any) {
+	function zoomToCountry(event: any, d: any, callback?: () => void) {
 		const pathGenerator = d3.geoPath().projection(projection);
 		const [[x0, y0], [x1, y1]] = pathGenerator.bounds(d);
 		if (event) {
@@ -115,6 +117,12 @@
 		const availableWidth = width - sidebarWidth;
 		const centerX = sidebarWidth + availableWidth / 2;
 
+		// Add adaptive padding - more padding for smaller countries
+		const countryWidth = x1 - x0;
+		const countryHeight = y1 - y0;
+		const countrySize = Math.max(countryWidth, countryHeight);
+		const paddingFactor = Math.max(0.5, 0.9 - (1 / countrySize) * 50);
+
 		svg
 			.transition()
 			.duration(750)
@@ -122,10 +130,13 @@
 				zoom.transform,
 				d3.zoomIdentity
 					.translate(centerX, height / 2)
-					.scale(Math.min(8, 0.9 / Math.max((x1 - x0) / availableWidth, (y1 - y0) / height)))
+					.scale(paddingFactor / Math.max(countryWidth / availableWidth, countryHeight / height))
 					.translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
 				event ? d3.pointer(event, svg.node()) : [centerX, height / 2]
-			);
+			)
+			.on('end', () => {
+				if (callback) callback();
+			});
 	}
 
 	// Reset the map zoom when we click on the map background
@@ -157,7 +168,7 @@
 			.attr('class', 'country-hover')
 			.style('fill', '#F29F7B')
 			.style('stroke', debugSettings.highlightStroke)
-			.style('stroke-width', 1.5)
+			.style('stroke-width', 1.5 / zoomLevel)
 			.style('fill-opacity', 0.4)
 			.style('pointer-events', 'none');
 	}
@@ -192,7 +203,7 @@
 							.style('fill', '#000')
 							.style('stroke-width', `${3 / zoomLevel}px`)
 							.style('paint-order', 'stroke')
-							.style('pointer-events', 'all')
+							.style('pointer-events', 'none')
 							.style('cursor', 'pointer')
 							.text(countryName)
 							.on('click', mouseClick)
@@ -413,7 +424,7 @@
 		// Draw rough countries
 		roughDrawCountry();
 
-		const initialTransform = d3.zoomIdentity.translate(0, 90);
+		const initialTransform = d3.zoomIdentity.scale(1.5);
 		svg.call(zoom).call(zoom.transform, initialTransform);
 	});
 </script>
