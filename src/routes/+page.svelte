@@ -91,7 +91,7 @@
 	.container {
 		width: 100%;
 		height: 100vh;
-		background-image: url('{base}/bg.png');
+		background-image: url('$lib/bg.png');
 		background-size: cover;
 		background-position: center;
 	}
