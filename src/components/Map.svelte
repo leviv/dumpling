@@ -92,6 +92,7 @@
 			.attr('class', 'country-highlight')
 			.style('fill', debugSettings.highlightFill)
 			.style('stroke', debugSettings.highlightStroke)
+			.style('stroke-width', 2 / zoomLevel)
 			.style('fill-opacity', 0.6)
 			.style('pointer-events', 'none');
 
