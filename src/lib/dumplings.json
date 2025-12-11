@@ -129,9 +129,14 @@
     "country": "Antarctica",
     "dumplings": [
       {
-        "name": "No dumpling info yet :(",
-        "desc": "If you happen to know a dumpling from this country, please submit it for us [insert link to submission here]!",
-        "img": "sad.png"
+        "name": "Tinned Meat",
+        "desc": "Early explorers and researchers in Antartica often brough canned meat, with the wrapper being the tin, and the filling being the meat or soup inside. Not exactly a dumpling, but the closest we could find!",
+        "img": "tinned_meat.png",
+        "tags": [
+          "Canned",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
       }
     ]
   },
