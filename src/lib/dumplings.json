@@ -2730,6 +2730,16 @@
           "Traditionally Non-Vegetarian",
           "Savory"
         ]
+      },
+      {
+        "name": "Lumpia",
+        "desc": "Lumpia was introduced to the Philippines by early Hokkien immigrants from Fujian. It uses a flour-based wrapper and are typically dipped in sweet and sour sauce",
+        "img": "lumpia.png",
+        "tags": [
+          "Fried",
+          "Traditionally Non-Vegetarian",
+          "Savory"
+        ]
       }
     ]
   },
