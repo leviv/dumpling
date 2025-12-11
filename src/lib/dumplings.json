@@ -3646,6 +3646,16 @@
           "Traditionally Non-Vegetarian",
           "Savory"
         ]
+      },
+      {
+        "name": "Uncrustables",
+        "desc": "A pre-made, sealed penut butter and jelly sandwich with the crusts removed, invented in North Dakota in 1995 and a staple of packed school lunches",
+        "img": "uncrustables.png",
+        "tags": [
+          "Pre-made",
+          "Vegetarian",
+          "Sweet"
+        ]
       }
     ]
   },
