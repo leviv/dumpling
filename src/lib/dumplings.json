@@ -1763,6 +1763,16 @@
           "Vegetarian",
           "Savory"
         ]
+      },
+      {
+        "name": "Ravioli",
+        "desc": "A traditionally square-shaped pasta made with a variety of fillings and enveloped in thin pasta dough",
+        "img": "ravioli.png",
+        "tags": [
+          "Boiled",
+          "Vegetarian",
+          "Savory"
+        ]
       }
     ]
   },
@@ -2235,6 +2245,16 @@
           "Fried",
           "Vegetarian",
           "Sweet"
+        ]
+      },
+      {
+        "name": "Boulette",
+        "desc": "A popular street food made with Chayote (squash) and filled with veggies, shrimp and vermicilli. It is also known as niouk yen or chow mai",
+        "img": "boulette.png",
+        "tags": [
+          "Steamed",
+          "Traditionally Non-Vegetarian",
+          "Savory"
         ]
       }
     ]
